@@ -1,0 +1,2266 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   '--save',
+1 verbose cli   'react-router@1.0.3',
+1 verbose cli   'history' ]
+2 info using npm@2.7.4
+3 info using node@v0.12.2
+4 warn package.json react-starter@1.0.0 No repository field.
+5 silly cache add args [ 'react-router@1.0.3', null ]
+6 verbose cache add spec react-router@1.0.3
+7 silly cache add args [ 'history', null ]
+8 verbose cache add spec history
+9 silly cache add parsed spec { raw: 'react-router@1.0.3',
+9 silly cache add   scope: null,
+9 silly cache add   name: 'react-router',
+9 silly cache add   rawSpec: '1.0.3',
+9 silly cache add   spec: '1.0.3',
+9 silly cache add   type: 'version' }
+10 verbose addNamed react-router@1.0.3
+11 silly addNamed semver.valid 1.0.3
+12 silly addNamed semver.validRange 1.0.3
+13 silly mapToRegistry name react-router
+14 silly mapToRegistry using default registry
+15 silly mapToRegistry registry https://registry.npmjs.org/
+16 silly mapToRegistry uri https://registry.npmjs.org/react-router
+17 verbose addNameVersion registry:https://registry.npmjs.org/react-router not in flight; fetching
+18 silly cache add parsed spec { raw: 'history',
+18 silly cache add   scope: null,
+18 silly cache add   name: 'history',
+18 silly cache add   rawSpec: '',
+18 silly cache add   spec: '*',
+18 silly cache add   type: 'range' }
+19 verbose addNamed history@*
+20 silly addNamed semver.valid null
+21 silly addNamed semver.validRange *
+22 silly addNameRange { name: 'history', range: '*', hasData: false }
+23 silly mapToRegistry name history
+24 silly mapToRegistry using default registry
+25 silly mapToRegistry registry https://registry.npmjs.org/
+26 silly mapToRegistry uri https://registry.npmjs.org/history
+27 verbose addNameRange registry:https://registry.npmjs.org/history not in flight; fetching
+28 verbose request uri https://registry.npmjs.org/react-router
+29 verbose request no auth needed
+30 info attempt registry request try #1 at 2:17:58 PM
+31 verbose request id 7ac8edf8540d0029
+32 http request GET https://registry.npmjs.org/react-router
+33 verbose request uri https://registry.npmjs.org/history
+34 verbose request no auth needed
+35 info attempt registry request try #1 at 2:17:58 PM
+36 http request GET https://registry.npmjs.org/history
+37 http 200 https://registry.npmjs.org/history
+38 silly get cb [ 200,
+38 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+38 silly get     etag: '"5O0T3UH9H17FIQ2FBYTPI8J7W"',
+38 silly get     'content-type': 'application/json',
+38 silly get     'cache-control': 'max-age=300',
+38 silly get     'content-length': '90112',
+38 silly get     'accept-ranges': 'bytes',
+38 silly get     date: 'Sat, 30 Jan 2016 21:17:55 GMT',
+38 silly get     via: '1.1 varnish',
+38 silly get     age: '94',
+38 silly get     connection: 'keep-alive',
+38 silly get     'x-served-by': 'cache-sjc3124-SJC',
+38 silly get     'x-cache': 'HIT',
+38 silly get     'x-cache-hits': '1',
+38 silly get     'x-timer': 'S1454188675.131037,VS0,VE0',
+38 silly get     vary: 'Accept' } ]
+39 verbose get saving history to /Users/ericnation/.npm/registry.npmjs.org/history/.cache.json
+40 silly addNameRange number 2 { name: 'history', range: '*', hasData: true }
+41 silly addNameRange versions [ 'history',
+41 silly addNameRange   [ '0.1.0',
+41 silly addNameRange     '1.0.0',
+41 silly addNameRange     '1.1.0',
+41 silly addNameRange     '1.2.0',
+41 silly addNameRange     '1.2.1',
+41 silly addNameRange     '1.2.2',
+41 silly addNameRange     '1.3.0',
+41 silly addNameRange     '1.3.1',
+41 silly addNameRange     '1.3.2',
+41 silly addNameRange     '1.3.3',
+41 silly addNameRange     '1.4.0',
+41 silly addNameRange     '1.4.1',
+41 silly addNameRange     '1.5.0',
+41 silly addNameRange     '1.6.0',
+41 silly addNameRange     '1.7.0',
+41 silly addNameRange     '1.8.0',
+41 silly addNameRange     '1.8.1',
+41 silly addNameRange     '1.8.2',
+41 silly addNameRange     '1.8.3',
+41 silly addNameRange     '1.8.4',
+41 silly addNameRange     '1.8.5',
+41 silly addNameRange     '1.9.0',
+41 silly addNameRange     '1.9.1',
+41 silly addNameRange     '1.10.0',
+41 silly addNameRange     '1.10.1',
+41 silly addNameRange     '1.10.2',
+41 silly addNameRange     '1.11.0',
+41 silly addNameRange     '1.11.1',
+41 silly addNameRange     '1.12.0',
+41 silly addNameRange     '1.12.1',
+41 silly addNameRange     '1.12.2',
+41 silly addNameRange     '1.12.3',
+41 silly addNameRange     '1.12.4',
+41 silly addNameRange     '1.12.5',
+41 silly addNameRange     '1.12.6',
+41 silly addNameRange     '1.13.0',
+41 silly addNameRange     '1.13.1',
+41 silly addNameRange     '1.14.0',
+41 silly addNameRange     '1.15.0',
+41 silly addNameRange     '1.16.0',
+41 silly addNameRange     '1.17.0',
+41 silly addNameRange     '2.0.0-rc1',
+41 silly addNameRange     '2.0.0-rc2' ] ]
+42 verbose addNamed history@2.0.0-rc2
+43 silly addNamed semver.valid 2.0.0-rc2
+44 silly addNamed semver.validRange 2.0.0-rc2
+45 silly mapToRegistry name history
+46 silly mapToRegistry using default registry
+47 silly mapToRegistry registry https://registry.npmjs.org/
+48 silly mapToRegistry uri https://registry.npmjs.org/history
+49 verbose addRemoteTarball https://registry.npmjs.org/history/-/history-2.0.0-rc2.tgz not in flight; adding
+50 verbose addRemoteTarball [ 'https://registry.npmjs.org/history/-/history-2.0.0-rc2.tgz',
+50 verbose addRemoteTarball   '71cc5575bf9afe3e8b06a21f5f8e013c6094325a' ]
+51 info retry fetch attempt 1 at 2:17:58 PM
+52 info attempt registry request try #1 at 2:17:58 PM
+53 http fetch GET https://registry.npmjs.org/history/-/history-2.0.0-rc2.tgz
+54 http 200 https://registry.npmjs.org/react-router
+55 silly get cb [ 200,
+55 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+55 silly get     etag: '"F3FITWH314T9Q6DC2WTSBEZB1"',
+55 silly get     'content-type': 'application/json',
+55 silly get     'cache-control': 'max-age=300',
+55 silly get     'content-length': '117952',
+55 silly get     'accept-ranges': 'bytes',
+55 silly get     date: 'Sat, 30 Jan 2016 21:17:55 GMT',
+55 silly get     via: '1.1 varnish',
+55 silly get     age: '143',
+55 silly get     connection: 'keep-alive',
+55 silly get     'x-served-by': 'cache-sjc3132-SJC',
+55 silly get     'x-cache': 'HIT',
+55 silly get     'x-cache-hits': '1',
+55 silly get     'x-timer': 'S1454188675.135456,VS0,VE0',
+55 silly get     vary: 'Accept' } ]
+56 verbose get saving react-router to /Users/ericnation/.npm/registry.npmjs.org/react-router/.cache.json
+57 silly mapToRegistry name react-router
+58 silly mapToRegistry using default registry
+59 silly mapToRegistry registry https://registry.npmjs.org/
+60 silly mapToRegistry uri https://registry.npmjs.org/react-router
+61 verbose addRemoteTarball https://registry.npmjs.org/react-router/-/react-router-1.0.3.tgz not in flight; adding
+62 verbose addRemoteTarball [ 'https://registry.npmjs.org/react-router/-/react-router-1.0.3.tgz',
+62 verbose addRemoteTarball   '980ecaa055b86e47c86548c232ae05a88a41f0b7' ]
+63 info retry fetch attempt 1 at 2:17:58 PM
+64 info attempt registry request try #1 at 2:17:58 PM
+65 http fetch GET https://registry.npmjs.org/react-router/-/react-router-1.0.3.tgz
+66 http fetch 200 https://registry.npmjs.org/react-router/-/react-router-1.0.3.tgz
+67 silly fetchAndShaCheck shasum 980ecaa055b86e47c86548c232ae05a88a41f0b7
+68 verbose addTmpTarball /var/folders/yq/zqhm_fyj3kdb30pp_csc5m1w0000gn/T/npm-7395-fe38fa96/registry.npmjs.org/react-router/-/react-router-1.0.3.tgz not in flight; adding
+69 verbose addTmpTarball already have metadata; skipping unpack for react-router@1.0.3
+70 silly cache afterAdd react-router@1.0.3
+71 verbose afterAdd /Users/ericnation/.npm/react-router/1.0.3/package/package.json not in flight; writing
+72 verbose afterAdd /Users/ericnation/.npm/react-router/1.0.3/package/package.json written
+73 http fetch 200 https://registry.npmjs.org/history/-/history-2.0.0-rc2.tgz
+74 silly fetchAndShaCheck shasum 71cc5575bf9afe3e8b06a21f5f8e013c6094325a
+75 verbose addTmpTarball /var/folders/yq/zqhm_fyj3kdb30pp_csc5m1w0000gn/T/npm-7395-fe38fa96/registry.npmjs.org/history/-/history-2.0.0-rc2.tgz not in flight; adding
+76 verbose addTmpTarball already have metadata; skipping unpack for history@2.0.0-rc2
+77 silly cache afterAdd history@2.0.0-rc2
+78 verbose afterAdd /Users/ericnation/.npm/history/2.0.0-rc2/package/package.json not in flight; writing
+79 verbose afterAdd /Users/ericnation/.npm/history/2.0.0-rc2/package/package.json written
+80 silly install resolved [ { name: 'react-router',
+80 silly install resolved     version: '1.0.3',
+80 silly install resolved     description: 'A complete routing library for React.js',
+80 silly install resolved     files: [ '*.md', 'docs', 'es6', 'lib', 'npm-scripts', 'umd' ],
+80 silly install resolved     main: 'lib/index',
+80 silly install resolved     'jsnext:main': 'es6/index',
+80 silly install resolved     repository:
+80 silly install resolved      { type: 'git',
+80 silly install resolved        url: 'git+https://github.com/rackt/react-router.git' },
+80 silly install resolved     homepage: 'https://rackt.github.io/react-router/',
+80 silly install resolved     bugs: { url: 'https://github.com/rackt/react-router/issues' },
+80 silly install resolved     scripts:
+80 silly install resolved      { build: 'npm run build-cjs && npm run build-es6',
+80 silly install resolved        'build-cjs': 'rimraf lib && babel ./modules -d lib --ignore \'__tests__\'',
+80 silly install resolved        'build-es6': 'rimraf es6 && babel ./modules -d es6 --blacklist=es6.modules --ignore \'__tests__\'',
+80 silly install resolved        'build-umd': 'NODE_ENV=production webpack modules/index.js umd/ReactRouter.js',
+80 silly install resolved        'build-min': 'NODE_ENV=production webpack -p modules/index.js umd/ReactRouter.min.js',
+80 silly install resolved        lint: 'eslint modules examples',
+80 silly install resolved        start: 'node examples/server.js',
+80 silly install resolved        test: 'npm run lint && npm run test-node && npm run test-browser',
+80 silly install resolved        'test-browser': 'karma start',
+80 silly install resolved        'test-node': 'mocha --compilers js:babel-core/register tests.node.js',
+80 silly install resolved        postinstall: 'node ./npm-scripts/postinstall.js' },
+80 silly install resolved     authors: [ 'Ryan Florence', 'Michael Jackson' ],
+80 silly install resolved     license: 'MIT',
+80 silly install resolved     dependencies: { invariant: '^2.0.0', warning: '^2.0.0' },
+80 silly install resolved     peerDependencies: { history: '^1.17.0' },
+80 silly install resolved     devDependencies:
+80 silly install resolved      { babel: '^5.4.7',
+80 silly install resolved        'babel-core': '^5.4.7',
+80 silly install resolved        'babel-eslint': '^4.1.6',
+80 silly install resolved        'babel-loader': '^5.0.0',
+80 silly install resolved        'babel-plugin-dev-expression': '^0.1.0',
+80 silly install resolved        'bundle-loader': '^0.5.2',
+80 silly install resolved        'codecov.io': '^0.1.6',
+80 silly install resolved        coveralls: '^2.11.4',
+80 silly install resolved        'css-loader': '^0.19.0',
+80 silly install resolved        eslint: '^1.7.3',
+80 silly install resolved        'eslint-config-rackt': '^1.1.0',
+80 silly install resolved        'eslint-plugin-react': '^3.6.3',
+80 silly install resolved        expect: '^1.12.0',
+80 silly install resolved        express: '^4.13.3',
+80 silly install resolved        'express-urlrewrite': '^1.2.0',
+80 silly install resolved        'gzip-size': '^3.0.0',
+80 silly install resolved        history: '^1.17.0',
+80 silly install resolved        'isparta-loader': '^1.0.0',
+80 silly install resolved        karma: '^0.13.13',
+80 silly install resolved        'karma-browserstack-launcher': '^0.1.4',
+80 silly install resolved        'karma-chrome-launcher': '^0.2.0',
+80 silly install resolved        'karma-coverage': '^0.5.3',
+80 silly install resolved        'karma-mocha': '^0.2.0',
+80 silly install resolved        'karma-mocha-reporter': '^1.1.1',
+80 silly install resolved        'karma-sourcemap-loader': '^0.3.5',
+80 silly install resolved        'karma-webpack': '^1.7.0',
+80 silly install resolved        mocha: '^2.0.1',
+80 silly install resolved        'pretty-bytes': '^2.0.1',
+80 silly install resolved        qs: '^4.0.0',
+80 silly install resolved        react: '^0.14.0',
+80 silly install resolved        'react-addons-css-transition-group': '^0.14.0',
+80 silly install resolved        'react-addons-test-utils': '0.14.0',
+80 silly install resolved        'react-dom': '^0.14.0',
+80 silly install resolved        'react-static-container': '^1.0.0',
+80 silly install resolved        rimraf: '^2.4.3',
+80 silly install resolved        'style-loader': '^0.12.4',
+80 silly install resolved        webpack: '^1.4.13',
+80 silly install resolved        'webpack-dev-middleware': '^1.2.0' },
+80 silly install resolved     tags: [ 'react', 'router' ],
+80 silly install resolved     keywords:
+80 silly install resolved      [ 'react',
+80 silly install resolved        'react-component',
+80 silly install resolved        'routing',
+80 silly install resolved        'route',
+80 silly install resolved        'routes',
+80 silly install resolved        'router' ],
+80 silly install resolved     gitHead: 'f0456b75eee362a179e6b49bbe5add95fb734f80',
+80 silly install resolved     _id: 'react-router@1.0.3',
+80 silly install resolved     _shasum: '980ecaa055b86e47c86548c232ae05a88a41f0b7',
+80 silly install resolved     _from: 'react-router@1.0.3',
+80 silly install resolved     _npmVersion: '3.5.2',
+80 silly install resolved     _nodeVersion: '4.2.1',
+80 silly install resolved     _npmUser: { name: 'ryanflorence', email: 'rpflorence@gmail.com' },
+80 silly install resolved     maintainers: [ [Object], [Object] ],
+80 silly install resolved     dist:
+80 silly install resolved      { shasum: '980ecaa055b86e47c86548c232ae05a88a41f0b7',
+80 silly install resolved        tarball: 'http://registry.npmjs.org/react-router/-/react-router-1.0.3.tgz' },
+80 silly install resolved     directories: {},
+80 silly install resolved     _resolved: 'https://registry.npmjs.org/react-router/-/react-router-1.0.3.tgz' },
+80 silly install resolved   { name: 'history',
+80 silly install resolved     version: '2.0.0-rc2',
+80 silly install resolved     description: 'A minimal, functional history implementation for JavaScript',
+80 silly install resolved     files: [ '*.md', 'docs', 'es6', 'lib', 'npm-scripts', 'umd' ],
+80 silly install resolved     main: 'lib/index',
+80 silly install resolved     repository: { type: 'git', url: 'git+https://github.com/rackt/history.git' },
+80 silly install resolved     bugs: { url: 'https://github.com/rackt/history/issues' },
+80 silly install resolved     scripts:
+80 silly install resolved      { build: 'npm run build-cjs && npm run build-es6',
+80 silly install resolved        'build-cjs': 'rimraf lib && babel ./modules --stage 0 --loose all --plugins dev-expression -d lib --ignore \'__tests__\'',
+80 silly install resolved        'build-es6': 'rimraf es6 && babel ./modules --stage 0 --loose all --plugins dev-expression -d es6 --blacklist=es6.modules --ignore \'__tests__\'',
+80 silly install resolved        'build-umd': 'NODE_ENV=production webpack modules/index.js umd/History.js',
+80 silly install resolved        'build-min': 'NODE_ENV=production webpack -p modules/index.js umd/History.min.js',
+80 silly install resolved        lint: 'eslint modules',
+80 silly install resolved        start: 'webpack-dev-server -d --content-base ./ --history-api-fallback --inline modules/index.js',
+80 silly install resolved        test: 'npm run lint && karma start',
+80 silly install resolved        postinstall: 'node ./npm-scripts/postinstall.js' },
+80 silly install resolved     authors: [ 'Michael Jackson' ],
+80 silly install resolved     license: 'MIT',
+80 silly install resolved     dependencies:
+80 silly install resolved      { 'deep-equal': '^1.0.0',
+80 silly install resolved        invariant: '^2.0.0',
+80 silly install resolved        'query-string': '^3.0.0',
+80 silly install resolved        warning: '^2.0.0' },
+80 silly install resolved     devDependencies:
+80 silly install resolved      { assert: '1.3.0',
+80 silly install resolved        babel: '^5.4.7',
+80 silly install resolved        'babel-core': '^5.4.7',
+80 silly install resolved        'babel-eslint': '^3.1.23',
+80 silly install resolved        'babel-loader': '^5.0.0',
+80 silly install resolved        'babel-plugin-dev-expression': '^0.1.0',
+80 silly install resolved        eslint: '1.4.1',
+80 silly install resolved        'eslint-config-rackt': '1.0.0',
+80 silly install resolved        'eslint-plugin-react': '3.3.2',
+80 silly install resolved        expect: '^1.12.0',
+80 silly install resolved        'gzip-size': '^3.0.0',
+80 silly install resolved        'isparta-loader': '^1.0.0',
+80 silly install resolved        karma: '^0.13.3',
+80 silly install resolved        'karma-browserstack-launcher': '^0.1.3',
+80 silly install resolved        'karma-chrome-launcher': '^0.2.0',
+80 silly install resolved        'karma-coverage': '^0.5.3',
+80 silly install resolved        'karma-coveralls': '^1.1.2',
+80 silly install resolved        'karma-mocha': '^0.2.0',
+80 silly install resolved        'karma-mocha-reporter': '^1.0.4',
+80 silly install resolved        'karma-sourcemap-loader': '^0.3.5',
+80 silly install resolved        'karma-webpack': '^1.7.0',
+80 silly install resolved        mocha: '^2.0.1',
+80 silly install resolved        'pretty-bytes': '^2.0.1',
+80 silly install resolved        rimraf: '^2.4.2',
+80 silly install resolved        webpack: '^1.4.13',
+80 silly install resolved        'webpack-dev-server': '^1.10.1' },
+80 silly install resolved     tags: [ 'history', 'location' ],
+80 silly install resolved     keywords: [ 'history', 'location' ],
+80 silly install resolved     gitHead: 'fa638bc7e95d933430374de8c398243843312e6b',
+80 silly install resolved     homepage: 'https://github.com/rackt/history#readme',
+80 silly install resolved     _id: 'history@2.0.0-rc2',
+80 silly install resolved     _shasum: '71cc5575bf9afe3e8b06a21f5f8e013c6094325a',
+80 silly install resolved     _from: 'history@*',
+80 silly install resolved     _npmVersion: '3.3.12',
+80 silly install resolved     _nodeVersion: '5.3.0',
+80 silly install resolved     _npmUser: { name: 'mjackson', email: 'mjijackson@gmail.com' },
+80 silly install resolved     dist:
+80 silly install resolved      { shasum: '71cc5575bf9afe3e8b06a21f5f8e013c6094325a',
+80 silly install resolved        tarball: 'http://registry.npmjs.org/history/-/history-2.0.0-rc2.tgz' },
+80 silly install resolved     maintainers: [ [Object] ],
+80 silly install resolved     directories: {},
+80 silly install resolved     _resolved: 'https://registry.npmjs.org/history/-/history-2.0.0-rc2.tgz' } ]
+81 info install react-router@1.0.3 into /Users/ericnation/Google Drive/Web Courses/udemy-courses/reactjs/ReactCasts/imgur_reactjs
+82 info install history@2.0.0-rc2 into /Users/ericnation/Google Drive/Web Courses/udemy-courses/reactjs/ReactCasts/imgur_reactjs
+83 info installOne react-router@1.0.3
+84 verbose installOne of react-router to /Users/ericnation/Google Drive/Web Courses/udemy-courses/reactjs/ReactCasts/imgur_reactjs not in flight; installing
+85 info installOne history@2.0.0-rc2
+86 verbose installOne of history to /Users/ericnation/Google Drive/Web Courses/udemy-courses/reactjs/ReactCasts/imgur_reactjs not in flight; installing
+87 verbose lock using /Users/ericnation/.npm/_locks/react-router-08c833ade85e4f96.lock for /Users/ericnation/Google Drive/Web Courses/udemy-courses/reactjs/ReactCasts/imgur_reactjs/node_modules/react-router
+88 silly install write writing react-router 1.0.3 to /Users/ericnation/Google Drive/Web Courses/udemy-courses/reactjs/ReactCasts/imgur_reactjs/node_modules/react-router
+89 verbose lock using /Users/ericnation/.npm/_locks/history-45923dceb8d92945.lock for /Users/ericnation/Google Drive/Web Courses/udemy-courses/reactjs/ReactCasts/imgur_reactjs/node_modules/history
+90 silly install write writing history 2.0.0-rc2 to /Users/ericnation/Google Drive/Web Courses/udemy-courses/reactjs/ReactCasts/imgur_reactjs/node_modules/history
+91 silly cache addNamed cb react-router@1.0.3
+92 verbose unbuild node_modules/react-router
+93 silly cache addNamed cb history@2.0.0-rc2
+94 verbose unbuild node_modules/history
+95 silly gentlyRm /Users/ericnation/Google Drive/Web Courses/udemy-courses/reactjs/ReactCasts/imgur_reactjs/node_modules/react-router is being purged from base /Users/ericnation/Google Drive/Web Courses/udemy-courses/reactjs/ReactCasts/imgur_reactjs
+96 verbose gentlyRm don't care about contents; nuking /Users/ericnation/Google Drive/Web Courses/udemy-courses/reactjs/ReactCasts/imgur_reactjs/node_modules/react-router
+97 verbose tar unpack /Users/ericnation/.npm/react-router/1.0.3/package.tgz
+98 verbose tar unpacking to /Users/ericnation/Google Drive/Web Courses/udemy-courses/reactjs/ReactCasts/imgur_reactjs/node_modules/react-router
+99 silly gentlyRm /Users/ericnation/Google Drive/Web Courses/udemy-courses/reactjs/ReactCasts/imgur_reactjs/node_modules/react-router is being purged
+100 verbose gentlyRm don't care about contents; nuking /Users/ericnation/Google Drive/Web Courses/udemy-courses/reactjs/ReactCasts/imgur_reactjs/node_modules/react-router
+101 silly gentlyRm /Users/ericnation/Google Drive/Web Courses/udemy-courses/reactjs/ReactCasts/imgur_reactjs/node_modules/history is being purged from base /Users/ericnation/Google Drive/Web Courses/udemy-courses/reactjs/ReactCasts/imgur_reactjs
+102 verbose gentlyRm don't care about contents; nuking /Users/ericnation/Google Drive/Web Courses/udemy-courses/reactjs/ReactCasts/imgur_reactjs/node_modules/history
+103 silly gunzTarPerm modes [ '755', '644' ]
+104 verbose tar unpack /Users/ericnation/.npm/history/2.0.0-rc2/package.tgz
+105 verbose tar unpacking to /Users/ericnation/Google Drive/Web Courses/udemy-courses/reactjs/ReactCasts/imgur_reactjs/node_modules/history
+106 silly gentlyRm /Users/ericnation/Google Drive/Web Courses/udemy-courses/reactjs/ReactCasts/imgur_reactjs/node_modules/history is being purged
+107 verbose gentlyRm don't care about contents; nuking /Users/ericnation/Google Drive/Web Courses/udemy-courses/reactjs/ReactCasts/imgur_reactjs/node_modules/history
+108 silly gunzTarPerm modes [ '755', '644' ]
+109 silly gunzTarPerm extractEntry package.json
+110 silly gunzTarPerm extractEntry package.json
+111 silly gunzTarPerm extractEntry README.md
+112 silly gunzTarPerm extractEntry CONTRIBUTING.md
+113 silly gunzTarPerm extractEntry README.md
+114 silly gunzTarPerm extractEntry CONTRIBUTING.md
+115 silly gunzTarPerm extractEntry LICENSE.md
+116 silly gunzTarPerm extractEntry SPONSORS.md
+117 silly gunzTarPerm extractEntry LICENSE.md
+118 silly gunzTarPerm extractEntry docs/README.md
+119 silly gunzTarPerm extractEntry docs/BasenameSupport.md
+120 silly gunzTarPerm extractEntry docs/ConfirmingNavigation.md
+121 silly gunzTarPerm extractEntry docs/README.md
+122 silly gunzTarPerm extractEntry docs/API.md
+123 silly gunzTarPerm extractEntry docs/GettingStarted.md
+124 silly gunzTarPerm extractEntry docs/Glossary.md
+125 silly gunzTarPerm extractEntry docs/Glossary.md
+126 silly gunzTarPerm extractEntry docs/HashHistoryCaveats.md
+127 silly gunzTarPerm extractEntry docs/Introduction.md
+128 silly gunzTarPerm extractEntry docs/Troubleshooting.md
+129 silly gunzTarPerm extractEntry docs/guides/advanced/README.md
+130 silly gunzTarPerm extractEntry docs/guides/advanced/ComponentLifecycle.md
+131 silly gunzTarPerm extractEntry docs/Location.md
+132 silly gunzTarPerm extractEntry docs/QuerySupport.md
+133 silly gunzTarPerm extractEntry docs/guides/advanced/ConfirmingNavigation.md
+134 silly gunzTarPerm extractEntry docs/guides/advanced/DynamicRouting.md
+135 silly gunzTarPerm extractEntry docs/guides/advanced/NavigatingOutsideOfComponents.md
+136 silly gunzTarPerm extractEntry es6/Actions.js
+137 silly gunzTarPerm extractEntry es6/createHashHistory.js
+138 silly gunzTarPerm extractEntry es6/createHistory.js
+139 silly gunzTarPerm extractEntry es6/createLocation.js
+140 silly gunzTarPerm extractEntry docs/guides/advanced/ServerRendering.md
+141 silly gunzTarPerm extractEntry es6/createDOMHistory.js
+142 silly gunzTarPerm extractEntry es6/deprecate.js
+143 silly gunzTarPerm extractEntry docs/guides/basics/README.md
+144 silly gunzTarPerm extractEntry docs/guides/basics/Histories.md
+145 silly gunzTarPerm extractEntry es6/enableBeforeUnload.js
+146 silly gunzTarPerm extractEntry es6/enableQueries.js
+147 silly gunzTarPerm extractEntry es6/extractPath.js
+148 silly gunzTarPerm extractEntry es6/index.js
+149 silly gunzTarPerm extractEntry docs/guides/basics/IndexRoutes.md
+150 silly gunzTarPerm extractEntry docs/guides/basics/RouteConfiguration.md
+151 silly gunzTarPerm extractEntry es6/createBrowserHistory.js
+152 silly gunzTarPerm extractEntry es6/parsePath.js
+153 silly gunzTarPerm extractEntry es6/ExecutionEnvironment.js
+154 silly gunzTarPerm extractEntry es6/runTransitionHook.js
+155 silly gunzTarPerm extractEntry docs/guides/basics/RouteMatching.md
+156 silly gunzTarPerm extractEntry docs/guides/testing.md
+157 silly gunzTarPerm extractEntry es6/DOMUtils.js
+158 silly gunzTarPerm extractEntry es6/useBasename.js
+159 silly gunzTarPerm extractEntry lib/AsyncUtils.js
+160 silly gunzTarPerm extractEntry lib/PropTypes.js
+161 silly gunzTarPerm extractEntry lib/Redirect.js
+162 silly gunzTarPerm extractEntry lib/Route.js
+163 silly gunzTarPerm extractEntry es6/DOMStateStorage.js
+164 silly gunzTarPerm extractEntry es6/useBeforeUnload.js
+165 silly gunzTarPerm extractEntry lib/RouteContext.js
+166 silly gunzTarPerm extractEntry lib/PatternUtils.js
+167 silly gunzTarPerm extractEntry es6/AsyncUtils.js
+168 silly gunzTarPerm extractEntry es6/useQueries.js
+169 silly gunzTarPerm extractEntry lib/Router.js
+170 silly gunzTarPerm extractEntry lib/RoutingContext.js
+171 silly gunzTarPerm extractEntry es6/createMemoryHistory.js
+172 silly gunzTarPerm extractEntry lib/Actions.js
+173 silly gunzTarPerm extractEntry lib/TransitionUtils.js
+174 silly gunzTarPerm extractEntry lib/computeChangedRoutes.js
+175 silly gunzTarPerm extractEntry lib/createHashHistory.js
+176 silly gunzTarPerm extractEntry lib/createHistory.js
+177 silly gunzTarPerm extractEntry lib/getComponents.js
+178 silly gunzTarPerm extractEntry lib/Link.js
+179 silly gunzTarPerm extractEntry lib/createLocation.js
+180 silly gunzTarPerm extractEntry lib/createDOMHistory.js
+181 silly gunzTarPerm extractEntry lib/getRouteParams.js
+182 silly gunzTarPerm extractEntry lib/Lifecycle.js
+183 silly gunzTarPerm extractEntry lib/deprecate.js
+184 silly gunzTarPerm extractEntry lib/enableBeforeUnload.js
+185 silly gunzTarPerm extractEntry lib/index.js
+186 silly gunzTarPerm extractEntry lib/IndexRoute.js
+187 silly gunzTarPerm extractEntry lib/enableQueries.js
+188 silly gunzTarPerm extractEntry lib/extractPath.js
+189 silly gunzTarPerm extractEntry lib/index.js
+190 silly gunzTarPerm extractEntry lib/createBrowserHistory.js
+191 silly gunzTarPerm extractEntry lib/isActive.js
+192 silly gunzTarPerm extractEntry lib/IndexRedirect.js
+193 silly gunzTarPerm extractEntry lib/match.js
+194 silly gunzTarPerm extractEntry lib/IndexLink.js
+195 silly gunzTarPerm extractEntry lib/parsePath.js
+196 silly gunzTarPerm extractEntry lib/ExecutionEnvironment.js
+197 silly gunzTarPerm extractEntry lib/runTransitionHook.js
+198 silly gunzTarPerm extractEntry lib/DOMUtils.js
+199 silly gunzTarPerm extractEntry lib/matchRoutes.js
+200 silly gunzTarPerm extractEntry lib/History.js
+201 silly gunzTarPerm extractEntry lib/useBasename.js
+202 silly gunzTarPerm extractEntry lib/DOMStateStorage.js
+203 silly gunzTarPerm extractEntry lib/useRoutes.js
+204 silly gunzTarPerm extractEntry lib/RouteUtils.js
+205 silly gunzTarPerm extractEntry lib/useBeforeUnload.js
+206 silly gunzTarPerm extractEntry lib/AsyncUtils.js
+207 silly gunzTarPerm extractEntry umd/ReactRouter.js
+208 silly gunzTarPerm extractEntry umd/ReactRouter.min.js
+209 silly gunzTarPerm extractEntry lib/useQueries.js
+210 silly gunzTarPerm extractEntry lib/createMemoryHistory.js
+211 silly gunzTarPerm extractEntry npm-scripts/postinstall.js
+212 silly gunzTarPerm extractEntry umd/History.js
+213 silly gunzTarPerm extractEntry umd/History.min.js
+214 silly gunzTarPerm extractEntry CHANGES.md
+215 silly gunzTarPerm extractEntry es6/AsyncUtils.js
+216 silly gunzTarPerm extractEntry npm-scripts/postinstall.js
+217 silly gunzTarPerm extractEntry CHANGES.md
+218 silly gunzTarPerm extractEntry es6/PropTypes.js
+219 silly gunzTarPerm extractEntry es6/Redirect.js
+220 silly gunzTarPerm extractEntry es6/Route.js
+221 silly gunzTarPerm extractEntry es6/RouteContext.js
+222 silly gunzTarPerm extractEntry es6/PatternUtils.js
+223 silly gunzTarPerm extractEntry es6/Router.js
+224 silly gunzTarPerm extractEntry es6/RoutingContext.js
+225 silly gunzTarPerm extractEntry es6/TransitionUtils.js
+226 silly gunzTarPerm extractEntry es6/computeChangedRoutes.js
+227 silly gunzTarPerm extractEntry es6/getComponents.js
+228 silly gunzTarPerm extractEntry es6/Link.js
+229 silly gunzTarPerm extractEntry es6/getRouteParams.js
+230 silly gunzTarPerm extractEntry es6/Lifecycle.js
+231 silly gunzTarPerm extractEntry es6/index.js
+232 silly gunzTarPerm extractEntry es6/IndexRoute.js
+233 silly gunzTarPerm extractEntry es6/isActive.js
+234 silly gunzTarPerm extractEntry es6/IndexRedirect.js
+235 silly gunzTarPerm extractEntry es6/match.js
+236 silly gunzTarPerm extractEntry es6/IndexLink.js
+237 silly gunzTarPerm extractEntry es6/matchRoutes.js
+238 silly gunzTarPerm extractEntry es6/History.js
+239 silly gunzTarPerm extractEntry es6/useRoutes.js
+240 silly gunzTarPerm extractEntry es6/RouteUtils.js
+241 info preinstall history@2.0.0-rc2
+242 silly prepareForInstallMany adding deep-equal@^1.0.0 from history dependencies
+243 silly prepareForInstallMany adding invariant@^2.0.0 from history dependencies
+244 silly prepareForInstallMany adding query-string@^3.0.0 from history dependencies
+245 silly prepareForInstallMany adding warning@^2.0.0 from history dependencies
+246 silly cache add args [ 'deep-equal@^1.0.0', null ]
+247 verbose cache add spec deep-equal@^1.0.0
+248 silly cache add args [ 'invariant@^2.0.0', null ]
+249 verbose cache add spec invariant@^2.0.0
+250 silly cache add parsed spec { raw: 'deep-equal@^1.0.0',
+250 silly cache add   scope: null,
+250 silly cache add   name: 'deep-equal',
+250 silly cache add   rawSpec: '^1.0.0',
+250 silly cache add   spec: '>=1.0.0 <2.0.0',
+250 silly cache add   type: 'range' }
+251 verbose addNamed deep-equal@>=1.0.0 <2.0.0
+252 silly addNamed semver.valid null
+253 silly addNamed semver.validRange >=1.0.0 <2.0.0
+254 silly addNameRange { name: 'deep-equal', range: '>=1.0.0 <2.0.0', hasData: false }
+255 silly mapToRegistry name deep-equal
+256 silly mapToRegistry using default registry
+257 silly mapToRegistry registry https://registry.npmjs.org/
+258 silly mapToRegistry uri https://registry.npmjs.org/deep-equal
+259 verbose addNameRange registry:https://registry.npmjs.org/deep-equal not in flight; fetching
+260 silly cache add parsed spec { raw: 'invariant@^2.0.0',
+260 silly cache add   scope: null,
+260 silly cache add   name: 'invariant',
+260 silly cache add   rawSpec: '^2.0.0',
+260 silly cache add   spec: '>=2.0.0 <3.0.0',
+260 silly cache add   type: 'range' }
+261 verbose addNamed invariant@>=2.0.0 <3.0.0
+262 silly addNamed semver.valid null
+263 silly addNamed semver.validRange >=2.0.0 <3.0.0
+264 silly addNameRange { name: 'invariant', range: '>=2.0.0 <3.0.0', hasData: false }
+265 silly mapToRegistry name invariant
+266 silly mapToRegistry using default registry
+267 silly mapToRegistry registry https://registry.npmjs.org/
+268 silly mapToRegistry uri https://registry.npmjs.org/invariant
+269 verbose addNameRange registry:https://registry.npmjs.org/invariant not in flight; fetching
+270 silly cache add args [ 'query-string@^3.0.0', null ]
+271 verbose cache add spec query-string@^3.0.0
+272 silly cache add parsed spec { raw: 'query-string@^3.0.0',
+272 silly cache add   scope: null,
+272 silly cache add   name: 'query-string',
+272 silly cache add   rawSpec: '^3.0.0',
+272 silly cache add   spec: '>=3.0.0 <4.0.0',
+272 silly cache add   type: 'range' }
+273 verbose addNamed query-string@>=3.0.0 <4.0.0
+274 silly addNamed semver.valid null
+275 silly addNamed semver.validRange >=3.0.0 <4.0.0
+276 silly addNameRange { name: 'query-string', range: '>=3.0.0 <4.0.0', hasData: false }
+277 silly mapToRegistry name query-string
+278 silly mapToRegistry using default registry
+279 silly mapToRegistry registry https://registry.npmjs.org/
+280 silly mapToRegistry uri https://registry.npmjs.org/query-string
+281 verbose addNameRange registry:https://registry.npmjs.org/query-string not in flight; fetching
+282 silly cache add args [ 'warning@^2.0.0', null ]
+283 verbose cache add spec warning@^2.0.0
+284 silly cache add parsed spec { raw: 'warning@^2.0.0',
+284 silly cache add   scope: null,
+284 silly cache add   name: 'warning',
+284 silly cache add   rawSpec: '^2.0.0',
+284 silly cache add   spec: '>=2.0.0 <3.0.0',
+284 silly cache add   type: 'range' }
+285 verbose addNamed warning@>=2.0.0 <3.0.0
+286 silly addNamed semver.valid null
+287 silly addNamed semver.validRange >=2.0.0 <3.0.0
+288 silly addNameRange { name: 'warning', range: '>=2.0.0 <3.0.0', hasData: false }
+289 silly mapToRegistry name warning
+290 silly mapToRegistry using default registry
+291 silly mapToRegistry registry https://registry.npmjs.org/
+292 silly mapToRegistry uri https://registry.npmjs.org/warning
+293 verbose addNameRange registry:https://registry.npmjs.org/warning not in flight; fetching
+294 verbose request uri https://registry.npmjs.org/warning
+295 verbose request no auth needed
+296 info attempt registry request try #1 at 2:17:59 PM
+297 http request GET https://registry.npmjs.org/warning
+298 verbose request uri https://registry.npmjs.org/deep-equal
+299 verbose request no auth needed
+300 info attempt registry request try #1 at 2:17:59 PM
+301 verbose etag "EJP4KA86SP8AGUJW4KS6CPU24"
+302 http request GET https://registry.npmjs.org/deep-equal
+303 verbose request uri https://registry.npmjs.org/invariant
+304 verbose request no auth needed
+305 info attempt registry request try #1 at 2:17:59 PM
+306 verbose etag "EAEV491AYUM88PAMO3LNXG2J7"
+307 http request GET https://registry.npmjs.org/invariant
+308 verbose request uri https://registry.npmjs.org/query-string
+309 verbose request no auth needed
+310 info attempt registry request try #1 at 2:17:59 PM
+311 verbose etag "8ZE4GAWAOPTSGRQ7GNAS3LKOH"
+312 http request GET https://registry.npmjs.org/query-string
+313 info preinstall react-router@1.0.3
+314 silly prepareForInstallMany adding invariant@^2.0.0 from react-router dependencies
+315 silly prepareForInstallMany adding warning@^2.0.0 from react-router dependencies
+316 silly prepareForInstallMany adding history@^1.17.0 from react-router peerDependencies
+317 warn peerDependencies The peer dependency history@^1.17.0 included from react-router will no
+318 warn peerDependencies longer be automatically installed to fulfill the peerDependency
+319 warn peerDependencies in npm 3+. Your application will need to depend on it explicitly.
+320 silly cache add args [ 'invariant@^2.0.0', null ]
+321 verbose cache add spec invariant@^2.0.0
+322 silly cache add args [ 'warning@^2.0.0', null ]
+323 verbose cache add spec warning@^2.0.0
+324 silly cache add parsed spec { raw: 'invariant@^2.0.0',
+324 silly cache add   scope: null,
+324 silly cache add   name: 'invariant',
+324 silly cache add   rawSpec: '^2.0.0',
+324 silly cache add   spec: '>=2.0.0 <3.0.0',
+324 silly cache add   type: 'range' }
+325 verbose addNamed invariant@>=2.0.0 <3.0.0
+326 silly addNamed semver.valid null
+327 silly addNamed semver.validRange >=2.0.0 <3.0.0
+328 silly addNameRange { name: 'invariant', range: '>=2.0.0 <3.0.0', hasData: false }
+329 silly mapToRegistry name invariant
+330 silly mapToRegistry using default registry
+331 silly mapToRegistry registry https://registry.npmjs.org/
+332 silly mapToRegistry uri https://registry.npmjs.org/invariant
+333 verbose addNameRange registry:https://registry.npmjs.org/invariant already in flight; waiting
+334 silly cache add parsed spec { raw: 'warning@^2.0.0',
+334 silly cache add   scope: null,
+334 silly cache add   name: 'warning',
+334 silly cache add   rawSpec: '^2.0.0',
+334 silly cache add   spec: '>=2.0.0 <3.0.0',
+334 silly cache add   type: 'range' }
+335 verbose addNamed warning@>=2.0.0 <3.0.0
+336 silly addNamed semver.valid null
+337 silly addNamed semver.validRange >=2.0.0 <3.0.0
+338 silly addNameRange { name: 'warning', range: '>=2.0.0 <3.0.0', hasData: false }
+339 silly mapToRegistry name warning
+340 silly mapToRegistry using default registry
+341 silly mapToRegistry registry https://registry.npmjs.org/
+342 silly mapToRegistry uri https://registry.npmjs.org/warning
+343 verbose addNameRange registry:https://registry.npmjs.org/warning already in flight; waiting
+344 http 200 https://registry.npmjs.org/warning
+345 silly get cb [ 200,
+345 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+345 silly get     etag: '"6LBZAA09CQL8K6SUYVYKDTGNB"',
+345 silly get     'content-type': 'application/json',
+345 silly get     'cache-control': 'max-age=300',
+345 silly get     'content-length': '7509',
+345 silly get     'accept-ranges': 'bytes',
+345 silly get     date: 'Sat, 30 Jan 2016 21:17:56 GMT',
+345 silly get     via: '1.1 varnish',
+345 silly get     age: '187',
+345 silly get     connection: 'keep-alive',
+345 silly get     'x-served-by': 'cache-sjc3125-SJC',
+345 silly get     'x-cache': 'HIT',
+345 silly get     'x-cache-hits': '1',
+345 silly get     'x-timer': 'S1454188676.061127,VS0,VE0',
+345 silly get     vary: 'Accept' } ]
+346 verbose get saving warning to /Users/ericnation/.npm/registry.npmjs.org/warning/.cache.json
+347 silly addNameRange number 2 { name: 'warning', range: '>=2.0.0 <3.0.0', hasData: true }
+348 silly addNameRange versions [ 'warning', [ '1.0.0', '1.0.1', '1.0.2', '2.0.0', '2.1.0' ] ]
+349 verbose addNamed warning@2.1.0
+350 silly addNamed semver.valid 2.1.0
+351 silly addNamed semver.validRange 2.1.0
+352 silly addNameRange number 2 { name: 'warning', range: '>=2.0.0 <3.0.0', hasData: true }
+353 silly addNameRange versions [ 'warning', [ '1.0.0', '1.0.1', '1.0.2', '2.0.0', '2.1.0' ] ]
+354 verbose addNamed warning@2.1.0
+355 silly addNamed semver.valid 2.1.0
+356 silly addNamed semver.validRange 2.1.0
+357 silly mapToRegistry name warning
+358 silly mapToRegistry using default registry
+359 silly mapToRegistry registry https://registry.npmjs.org/
+360 silly mapToRegistry uri https://registry.npmjs.org/warning
+361 verbose addRemoteTarball https://registry.npmjs.org/warning/-/warning-2.1.0.tgz not in flight; adding
+362 verbose addRemoteTarball [ 'https://registry.npmjs.org/warning/-/warning-2.1.0.tgz',
+362 verbose addRemoteTarball   '21220d9c63afc77a8c92111e011af705ce0c6901' ]
+363 silly mapToRegistry name warning
+364 silly mapToRegistry using default registry
+365 silly mapToRegistry registry https://registry.npmjs.org/
+366 silly mapToRegistry uri https://registry.npmjs.org/warning
+367 verbose addRemoteTarball https://registry.npmjs.org/warning/-/warning-2.1.0.tgz already in flight; waiting
+368 info retry fetch attempt 1 at 2:17:59 PM
+369 info attempt registry request try #1 at 2:17:59 PM
+370 http fetch GET https://registry.npmjs.org/warning/-/warning-2.1.0.tgz
+371 http 304 https://registry.npmjs.org/deep-equal
+372 silly get cb [ 304,
+372 silly get   { date: 'Sat, 30 Jan 2016 21:17:56 GMT',
+372 silly get     via: '1.1 varnish',
+372 silly get     'cache-control': 'max-age=300',
+372 silly get     etag: '"EJP4KA86SP8AGUJW4KS6CPU24"',
+372 silly get     age: '61',
+372 silly get     connection: 'keep-alive',
+372 silly get     'x-served-by': 'cache-sjc3123-SJC',
+372 silly get     'x-cache': 'HIT',
+372 silly get     'x-cache-hits': '4',
+372 silly get     'x-timer': 'S1454188676.072970,VS0,VE0',
+372 silly get     vary: 'Accept' } ]
+373 verbose etag https://registry.npmjs.org/deep-equal from cache
+374 verbose get saving deep-equal to /Users/ericnation/.npm/registry.npmjs.org/deep-equal/.cache.json
+375 silly addNameRange number 2 { name: 'deep-equal', range: '>=1.0.0 <2.0.0', hasData: true }
+376 silly addNameRange versions [ 'deep-equal',
+376 silly addNameRange   [ '0.0.0',
+376 silly addNameRange     '0.1.0',
+376 silly addNameRange     '0.1.1',
+376 silly addNameRange     '0.1.2',
+376 silly addNameRange     '0.2.0',
+376 silly addNameRange     '0.2.1',
+376 silly addNameRange     '0.2.2',
+376 silly addNameRange     '1.0.0',
+376 silly addNameRange     '1.0.1' ] ]
+377 verbose addNamed deep-equal@1.0.1
+378 silly addNamed semver.valid 1.0.1
+379 silly addNamed semver.validRange 1.0.1
+380 http 304 https://registry.npmjs.org/query-string
+381 silly get cb [ 304,
+381 silly get   { date: 'Sat, 30 Jan 2016 21:17:56 GMT',
+381 silly get     via: '1.1 varnish',
+381 silly get     'cache-control': 'max-age=300',
+381 silly get     etag: '"8ZE4GAWAOPTSGRQ7GNAS3LKOH"',
+381 silly get     age: '92',
+381 silly get     connection: 'keep-alive',
+381 silly get     'x-served-by': 'cache-sjc3134-SJC',
+381 silly get     'x-cache': 'HIT',
+381 silly get     'x-cache-hits': '1',
+381 silly get     'x-timer': 'S1454188676.076931,VS0,VE0',
+381 silly get     vary: 'Accept' } ]
+382 verbose etag https://registry.npmjs.org/query-string from cache
+383 verbose get saving query-string to /Users/ericnation/.npm/registry.npmjs.org/query-string/.cache.json
+384 http 304 https://registry.npmjs.org/invariant
+385 silly get cb [ 304,
+385 silly get   { date: 'Sat, 30 Jan 2016 21:17:56 GMT',
+385 silly get     via: '1.1 varnish',
+385 silly get     'cache-control': 'max-age=300',
+385 silly get     etag: '"EAEV491AYUM88PAMO3LNXG2J7"',
+385 silly get     age: '114',
+385 silly get     connection: 'keep-alive',
+385 silly get     'x-served-by': 'cache-sjc3129-SJC',
+385 silly get     'x-cache': 'HIT',
+385 silly get     'x-cache-hits': '3',
+385 silly get     'x-timer': 'S1454188676.076801,VS0,VE0',
+385 silly get     vary: 'Accept' } ]
+386 verbose etag https://registry.npmjs.org/invariant from cache
+387 verbose get saving invariant to /Users/ericnation/.npm/registry.npmjs.org/invariant/.cache.json
+388 silly cache afterAdd deep-equal@1.0.1
+389 verbose afterAdd /Users/ericnation/.npm/deep-equal/1.0.1/package/package.json not in flight; writing
+390 verbose afterAdd /Users/ericnation/.npm/deep-equal/1.0.1/package/package.json written
+391 silly addNameRange number 2 { name: 'invariant', range: '>=2.0.0 <3.0.0', hasData: true }
+392 silly addNameRange versions [ 'invariant',
+392 silly addNameRange   [ '1.0.0',
+392 silly addNameRange     '1.0.1',
+392 silly addNameRange     '1.0.2',
+392 silly addNameRange     '2.0.0',
+392 silly addNameRange     '2.1.0',
+392 silly addNameRange     '2.1.1',
+392 silly addNameRange     '2.1.2',
+392 silly addNameRange     '2.1.3',
+392 silly addNameRange     '2.2.0' ] ]
+393 verbose addNamed invariant@2.2.0
+394 silly addNamed semver.valid 2.2.0
+395 silly addNamed semver.validRange 2.2.0
+396 silly addNameRange number 2 { name: 'invariant', range: '>=2.0.0 <3.0.0', hasData: true }
+397 silly addNameRange versions [ 'invariant',
+397 silly addNameRange   [ '1.0.0',
+397 silly addNameRange     '1.0.1',
+397 silly addNameRange     '1.0.2',
+397 silly addNameRange     '2.0.0',
+397 silly addNameRange     '2.1.0',
+397 silly addNameRange     '2.1.1',
+397 silly addNameRange     '2.1.2',
+397 silly addNameRange     '2.1.3',
+397 silly addNameRange     '2.2.0' ] ]
+398 verbose addNamed invariant@2.2.0
+399 silly addNamed semver.valid 2.2.0
+400 silly addNamed semver.validRange 2.2.0
+401 silly addNameRange number 2 { name: 'query-string', range: '>=3.0.0 <4.0.0', hasData: true }
+402 silly addNameRange versions [ 'query-string',
+402 silly addNameRange   [ '0.1.0',
+402 silly addNameRange     '0.1.1',
+402 silly addNameRange     '0.2.0',
+402 silly addNameRange     '0.3.0',
+402 silly addNameRange     '0.3.1',
+402 silly addNameRange     '0.4.0',
+402 silly addNameRange     '0.4.1',
+402 silly addNameRange     '1.0.0',
+402 silly addNameRange     '1.0.1',
+402 silly addNameRange     '2.0.0',
+402 silly addNameRange     '2.1.0',
+402 silly addNameRange     '2.2.0',
+402 silly addNameRange     '2.3.0',
+402 silly addNameRange     '2.4.0',
+402 silly addNameRange     '2.4.1',
+402 silly addNameRange     '2.4.2',
+402 silly addNameRange     '3.0.0' ] ]
+403 verbose addNamed query-string@3.0.0
+404 silly addNamed semver.valid 3.0.0
+405 silly addNamed semver.validRange 3.0.0
+406 silly mapToRegistry name query-string
+407 silly mapToRegistry using default registry
+408 silly mapToRegistry registry https://registry.npmjs.org/
+409 silly mapToRegistry uri https://registry.npmjs.org/query-string
+410 verbose addRemoteTarball https://registry.npmjs.org/query-string/-/query-string-3.0.0.tgz not in flight; adding
+411 verbose addRemoteTarball [ 'https://registry.npmjs.org/query-string/-/query-string-3.0.0.tgz',
+411 verbose addRemoteTarball   '02fd306f0432040b91b11063f9404fe1bbd4ba7b' ]
+412 silly cache afterAdd invariant@2.2.0
+413 verbose afterAdd /Users/ericnation/.npm/invariant/2.2.0/package/package.json not in flight; writing
+414 info retry fetch attempt 1 at 2:17:59 PM
+415 info attempt registry request try #1 at 2:17:59 PM
+416 http fetch GET https://registry.npmjs.org/query-string/-/query-string-3.0.0.tgz
+417 silly cache afterAdd invariant@2.2.0
+418 verbose afterAdd /Users/ericnation/.npm/invariant/2.2.0/package/package.json already in flight; not writing
+419 verbose afterAdd /Users/ericnation/.npm/invariant/2.2.0/package/package.json written
+420 http fetch 200 https://registry.npmjs.org/warning/-/warning-2.1.0.tgz
+421 silly fetchAndShaCheck shasum 21220d9c63afc77a8c92111e011af705ce0c6901
+422 verbose addTmpTarball /var/folders/yq/zqhm_fyj3kdb30pp_csc5m1w0000gn/T/npm-7395-fe38fa96/registry.npmjs.org/warning/-/warning-2.1.0.tgz not in flight; adding
+423 verbose addTmpTarball already have metadata; skipping unpack for warning@2.1.0
+424 silly cache afterAdd warning@2.1.0
+425 verbose afterAdd /Users/ericnation/.npm/warning/2.1.0/package/package.json not in flight; writing
+426 silly cache afterAdd warning@2.1.0
+427 verbose afterAdd /Users/ericnation/.npm/warning/2.1.0/package/package.json already in flight; not writing
+428 verbose afterAdd /Users/ericnation/.npm/warning/2.1.0/package/package.json written
+429 silly install resolved [ { name: 'invariant',
+429 silly install resolved     version: '2.2.0',
+429 silly install resolved     description: 'invariant',
+429 silly install resolved     keywords: [ 'test' ],
+429 silly install resolved     license: 'BSD-3-Clause',
+429 silly install resolved     author: { name: 'Andres Suarez', email: 'zertosh@gmail.com' },
+429 silly install resolved     files: [ 'invariant.js', 'browser.js' ],
+429 silly install resolved     repository:
+429 silly install resolved      { type: 'git',
+429 silly install resolved        url: 'git+https://github.com/zertosh/invariant.git' },
+429 silly install resolved     scripts: { test: 'NODE_ENV=production tap test/*.js && NODE_ENV=development tap test/*.js' },
+429 silly install resolved     dependencies: { 'loose-envify': '^1.0.0' },
+429 silly install resolved     devDependencies: { browserify: '^11.0.1', tap: '^1.4.0' },
+429 silly install resolved     main: 'invariant.js',
+429 silly install resolved     browser: 'browser.js',
+429 silly install resolved     browserify: { transform: [Object] },
+429 silly install resolved     gitHead: '1660eab9f183183e71ef57a7765bb1121680fff9',
+429 silly install resolved     bugs: { url: 'https://github.com/zertosh/invariant/issues' },
+429 silly install resolved     homepage: 'https://github.com/zertosh/invariant#readme',
+429 silly install resolved     _id: 'invariant@2.2.0',
+429 silly install resolved     _shasum: 'c8d7e847366a49cc18b622f058a689d481e895f2',
+429 silly install resolved     _from: 'invariant@>=2.0.0 <3.0.0',
+429 silly install resolved     _npmVersion: '2.14.7',
+429 silly install resolved     _nodeVersion: '4.2.2',
+429 silly install resolved     _npmUser: { name: 'zertosh', email: 'zertosh@gmail.com' },
+429 silly install resolved     maintainers: [ [Object] ],
+429 silly install resolved     dist:
+429 silly install resolved      { shasum: 'c8d7e847366a49cc18b622f058a689d481e895f2',
+429 silly install resolved        tarball: 'http://registry.npmjs.org/invariant/-/invariant-2.2.0.tgz' },
+429 silly install resolved     directories: {},
+429 silly install resolved     _resolved: 'https://registry.npmjs.org/invariant/-/invariant-2.2.0.tgz',
+429 silly install resolved     readme: 'ERROR: No README data found!' },
+429 silly install resolved   { name: 'warning',
+429 silly install resolved     version: '2.1.0',
+429 silly install resolved     description: 'A mirror of Facebook\'s Warning',
+429 silly install resolved     main: 'warning.js',
+429 silly install resolved     browser: 'browser.js',
+429 silly install resolved     browserify: { transform: [Object] },
+429 silly install resolved     files: [ 'browser.js', 'warning.js' ],
+429 silly install resolved     scripts: { test: 'NODE_ENV=production tap test/*.js && NODE_ENV=development tap test/*.js' },
+429 silly install resolved     dependencies: { 'loose-envify': '^1.0.0' },
+429 silly install resolved     devDependencies: { browserify: '^11.0.1', tap: '^1.4.0' },
+429 silly install resolved     repository: { type: 'git', url: 'git+https://github.com/r3dm/warning.git' },
+429 silly install resolved     keywords: [ 'warning', 'facebook', 'react', 'invariant' ],
+429 silly install resolved     author:
+429 silly install resolved      { name: 'Berkeley Martinez',
+429 silly install resolved        email: 'berkeley@r3dm.com',
+429 silly install resolved        url: 'http://r3dm.com' },
+429 silly install resolved     license: 'BSD-2-Clause',
+429 silly install resolved     bugs: { url: 'https://github.com/r3dm/warning/issues' },
+429 silly install resolved     homepage: 'https://github.com/r3dm/warning',
+429 silly install resolved     gitHead: 'b7d56e3f6c21c3ee05af617222d16c7d80118443',
+429 silly install resolved     _id: 'warning@2.1.0',
+429 silly install resolved     _shasum: '21220d9c63afc77a8c92111e011af705ce0c6901',
+429 silly install resolved     _from: 'warning@>=2.0.0 <3.0.0',
+429 silly install resolved     _npmVersion: '2.11.1',
+429 silly install resolved     _nodeVersion: '1.6.4',
+429 silly install resolved     _npmUser: { name: 'berkeleytrue', email: 'berkeley@robotie.com' },
+429 silly install resolved     maintainers: [ [Object] ],
+429 silly install resolved     dist:
+429 silly install resolved      { shasum: '21220d9c63afc77a8c92111e011af705ce0c6901',
+429 silly install resolved        tarball: 'http://registry.npmjs.org/warning/-/warning-2.1.0.tgz' },
+429 silly install resolved     directories: {},
+429 silly install resolved     _resolved: 'https://registry.npmjs.org/warning/-/warning-2.1.0.tgz' } ]
+430 info install invariant@2.2.0 into /Users/ericnation/Google Drive/Web Courses/udemy-courses/reactjs/ReactCasts/imgur_reactjs/node_modules/react-router
+431 info install warning@2.1.0 into /Users/ericnation/Google Drive/Web Courses/udemy-courses/reactjs/ReactCasts/imgur_reactjs/node_modules/react-router
+432 info installOne invariant@2.2.0
+433 verbose installOne of invariant to /Users/ericnation/Google Drive/Web Courses/udemy-courses/reactjs/ReactCasts/imgur_reactjs/node_modules/react-router not in flight; installing
+434 info installOne warning@2.1.0
+435 verbose installOne of warning to /Users/ericnation/Google Drive/Web Courses/udemy-courses/reactjs/ReactCasts/imgur_reactjs/node_modules/react-router not in flight; installing
+436 verbose lock using /Users/ericnation/.npm/_locks/invariant-c67b861ba3bed412.lock for /Users/ericnation/Google Drive/Web Courses/udemy-courses/reactjs/ReactCasts/imgur_reactjs/node_modules/react-router/node_modules/invariant
+437 silly install write writing invariant 2.2.0 to /Users/ericnation/Google Drive/Web Courses/udemy-courses/reactjs/ReactCasts/imgur_reactjs/node_modules/react-router/node_modules/invariant
+438 silly cache addNamed cb invariant@2.2.0
+439 verbose unbuild node_modules/react-router/node_modules/invariant
+440 verbose lock using /Users/ericnation/.npm/_locks/warning-67192a35dce95790.lock for /Users/ericnation/Google Drive/Web Courses/udemy-courses/reactjs/ReactCasts/imgur_reactjs/node_modules/react-router/node_modules/warning
+441 silly install write writing warning 2.1.0 to /Users/ericnation/Google Drive/Web Courses/udemy-courses/reactjs/ReactCasts/imgur_reactjs/node_modules/react-router/node_modules/warning
+442 http fetch 200 https://registry.npmjs.org/query-string/-/query-string-3.0.0.tgz
+443 silly gentlyRm /Users/ericnation/Google Drive/Web Courses/udemy-courses/reactjs/ReactCasts/imgur_reactjs/node_modules/react-router/node_modules/invariant is being purged from base /Users/ericnation/Google Drive/Web Courses/udemy-courses/reactjs/ReactCasts/imgur_reactjs
+444 verbose gentlyRm don't care about contents; nuking /Users/ericnation/Google Drive/Web Courses/udemy-courses/reactjs/ReactCasts/imgur_reactjs/node_modules/react-router/node_modules/invariant
+445 verbose tar unpack /Users/ericnation/.npm/invariant/2.2.0/package.tgz
+446 verbose tar unpacking to /Users/ericnation/Google Drive/Web Courses/udemy-courses/reactjs/ReactCasts/imgur_reactjs/node_modules/react-router/node_modules/invariant
+447 silly gentlyRm /Users/ericnation/Google Drive/Web Courses/udemy-courses/reactjs/ReactCasts/imgur_reactjs/node_modules/react-router/node_modules/invariant is being purged
+448 verbose gentlyRm don't care about contents; nuking /Users/ericnation/Google Drive/Web Courses/udemy-courses/reactjs/ReactCasts/imgur_reactjs/node_modules/react-router/node_modules/invariant
+449 silly gunzTarPerm modes [ '755', '644' ]
+450 silly cache addNamed cb warning@2.1.0
+451 verbose unbuild node_modules/react-router/node_modules/warning
+452 silly fetchAndShaCheck shasum 02fd306f0432040b91b11063f9404fe1bbd4ba7b
+453 silly gentlyRm /Users/ericnation/Google Drive/Web Courses/udemy-courses/reactjs/ReactCasts/imgur_reactjs/node_modules/react-router/node_modules/warning is being purged from base /Users/ericnation/Google Drive/Web Courses/udemy-courses/reactjs/ReactCasts/imgur_reactjs
+454 verbose gentlyRm don't care about contents; nuking /Users/ericnation/Google Drive/Web Courses/udemy-courses/reactjs/ReactCasts/imgur_reactjs/node_modules/react-router/node_modules/warning
+455 silly gunzTarPerm extractEntry package.json
+456 verbose tar unpack /Users/ericnation/.npm/warning/2.1.0/package.tgz
+457 verbose tar unpacking to /Users/ericnation/Google Drive/Web Courses/udemy-courses/reactjs/ReactCasts/imgur_reactjs/node_modules/react-router/node_modules/warning
+458 silly gentlyRm /Users/ericnation/Google Drive/Web Courses/udemy-courses/reactjs/ReactCasts/imgur_reactjs/node_modules/react-router/node_modules/warning is being purged
+459 verbose gentlyRm don't care about contents; nuking /Users/ericnation/Google Drive/Web Courses/udemy-courses/reactjs/ReactCasts/imgur_reactjs/node_modules/react-router/node_modules/warning
+460 verbose addTmpTarball /var/folders/yq/zqhm_fyj3kdb30pp_csc5m1w0000gn/T/npm-7395-fe38fa96/registry.npmjs.org/query-string/-/query-string-3.0.0.tgz not in flight; adding
+461 verbose addTmpTarball already have metadata; skipping unpack for query-string@3.0.0
+462 silly gunzTarPerm modes [ '755', '644' ]
+463 silly gunzTarPerm extractEntry README.md
+464 silly gunzTarPerm extractEntry browser.js
+465 silly gunzTarPerm extractEntry package.json
+466 silly cache afterAdd query-string@3.0.0
+467 verbose afterAdd /Users/ericnation/.npm/query-string/3.0.0/package/package.json not in flight; writing
+468 silly gunzTarPerm extractEntry README.md
+469 silly gunzTarPerm extractEntry browser.js
+470 silly gunzTarPerm extractEntry invariant.js
+471 silly gunzTarPerm extractEntry CHANGELOG.md
+472 verbose afterAdd /Users/ericnation/.npm/query-string/3.0.0/package/package.json written
+473 silly install resolved [ { name: 'deep-equal',
+473 silly install resolved     version: '1.0.1',
+473 silly install resolved     description: 'node\'s assert.deepEqual algorithm',
+473 silly install resolved     main: 'index.js',
+473 silly install resolved     directories: { lib: '.', example: 'example', test: 'test' },
+473 silly install resolved     scripts: { test: 'tape test/*.js' },
+473 silly install resolved     devDependencies: { tape: '^3.5.0' },
+473 silly install resolved     repository:
+473 silly install resolved      { type: 'git',
+473 silly install resolved        url: 'git+ssh://git@github.com/substack/node-deep-equal.git' },
+473 silly install resolved     keywords: [ 'equality', 'equal', 'compare' ],
+473 silly install resolved     author:
+473 silly install resolved      { name: 'James Halliday',
+473 silly install resolved        email: 'mail@substack.net',
+473 silly install resolved        url: 'http://substack.net' },
+473 silly install resolved     license: 'MIT',
+473 silly install resolved     testling: { files: 'test/*.js', browsers: [Object] },
+473 silly install resolved     gitHead: '59c511f5aeae19e3dd1de054077a789d7302be34',
+473 silly install resolved     bugs: { url: 'https://github.com/substack/node-deep-equal/issues' },
+473 silly install resolved     homepage: 'https://github.com/substack/node-deep-equal#readme',
+473 silly install resolved     _id: 'deep-equal@1.0.1',
+473 silly install resolved     _shasum: 'f5d260292b660e084eff4cdbc9f08ad3247448b5',
+473 silly install resolved     _from: 'deep-equal@>=1.0.0 <2.0.0',
+473 silly install resolved     _npmVersion: '3.2.2',
+473 silly install resolved     _nodeVersion: '2.4.0',
+473 silly install resolved     _npmUser: { name: 'substack', email: 'substack@gmail.com' },
+473 silly install resolved     dist:
+473 silly install resolved      { shasum: 'f5d260292b660e084eff4cdbc9f08ad3247448b5',
+473 silly install resolved        tarball: 'http://registry.npmjs.org/deep-equal/-/deep-equal-1.0.1.tgz' },
+473 silly install resolved     maintainers: [ [Object] ],
+473 silly install resolved     _resolved: 'https://registry.npmjs.org/deep-equal/-/deep-equal-1.0.1.tgz',
+473 silly install resolved     readme: 'ERROR: No README data found!' },
+473 silly install resolved   { name: 'invariant',
+473 silly install resolved     version: '2.2.0',
+473 silly install resolved     description: 'invariant',
+473 silly install resolved     keywords: [ 'test' ],
+473 silly install resolved     license: 'BSD-3-Clause',
+473 silly install resolved     author: { name: 'Andres Suarez', email: 'zertosh@gmail.com' },
+473 silly install resolved     files: [ 'invariant.js', 'browser.js' ],
+473 silly install resolved     repository:
+473 silly install resolved      { type: 'git',
+473 silly install resolved        url: 'git+https://github.com/zertosh/invariant.git' },
+473 silly install resolved     scripts: { test: 'NODE_ENV=production tap test/*.js && NODE_ENV=development tap test/*.js' },
+473 silly install resolved     dependencies: { 'loose-envify': '^1.0.0' },
+473 silly install resolved     devDependencies: { browserify: '^11.0.1', tap: '^1.4.0' },
+473 silly install resolved     main: 'invariant.js',
+473 silly install resolved     browser: 'browser.js',
+473 silly install resolved     browserify: { transform: [Object] },
+473 silly install resolved     gitHead: '1660eab9f183183e71ef57a7765bb1121680fff9',
+473 silly install resolved     bugs: { url: 'https://github.com/zertosh/invariant/issues' },
+473 silly install resolved     homepage: 'https://github.com/zertosh/invariant#readme',
+473 silly install resolved     _id: 'invariant@2.2.0',
+473 silly install resolved     _shasum: 'c8d7e847366a49cc18b622f058a689d481e895f2',
+473 silly install resolved     _from: 'invariant@>=2.0.0 <3.0.0',
+473 silly install resolved     _npmVersion: '2.14.7',
+473 silly install resolved     _nodeVersion: '4.2.2',
+473 silly install resolved     _npmUser: { name: 'zertosh', email: 'zertosh@gmail.com' },
+473 silly install resolved     maintainers: [ [Object] ],
+473 silly install resolved     dist:
+473 silly install resolved      { shasum: 'c8d7e847366a49cc18b622f058a689d481e895f2',
+473 silly install resolved        tarball: 'http://registry.npmjs.org/invariant/-/invariant-2.2.0.tgz' },
+473 silly install resolved     directories: {},
+473 silly install resolved     _resolved: 'https://registry.npmjs.org/invariant/-/invariant-2.2.0.tgz',
+473 silly install resolved     readme: 'ERROR: No README data found!' },
+473 silly install resolved   { name: 'warning',
+473 silly install resolved     version: '2.1.0',
+473 silly install resolved     description: 'A mirror of Facebook\'s Warning',
+473 silly install resolved     main: 'warning.js',
+473 silly install resolved     browser: 'browser.js',
+473 silly install resolved     browserify: { transform: [Object] },
+473 silly install resolved     files: [ 'browser.js', 'warning.js' ],
+473 silly install resolved     scripts: { test: 'NODE_ENV=production tap test/*.js && NODE_ENV=development tap test/*.js' },
+473 silly install resolved     dependencies: { 'loose-envify': '^1.0.0' },
+473 silly install resolved     devDependencies: { browserify: '^11.0.1', tap: '^1.4.0' },
+473 silly install resolved     repository: { type: 'git', url: 'git+https://github.com/r3dm/warning.git' },
+473 silly install resolved     keywords: [ 'warning', 'facebook', 'react', 'invariant' ],
+473 silly install resolved     author:
+473 silly install resolved      { name: 'Berkeley Martinez',
+473 silly install resolved        email: 'berkeley@r3dm.com',
+473 silly install resolved        url: 'http://r3dm.com' },
+473 silly install resolved     license: 'BSD-2-Clause',
+473 silly install resolved     bugs: { url: 'https://github.com/r3dm/warning/issues' },
+473 silly install resolved     homepage: 'https://github.com/r3dm/warning',
+473 silly install resolved     gitHead: 'b7d56e3f6c21c3ee05af617222d16c7d80118443',
+473 silly install resolved     _id: 'warning@2.1.0',
+473 silly install resolved     _shasum: '21220d9c63afc77a8c92111e011af705ce0c6901',
+473 silly install resolved     _from: 'warning@>=2.0.0 <3.0.0',
+473 silly install resolved     _npmVersion: '2.11.1',
+473 silly install resolved     _nodeVersion: '1.6.4',
+473 silly install resolved     _npmUser: { name: 'berkeleytrue', email: 'berkeley@robotie.com' },
+473 silly install resolved     maintainers: [ [Object] ],
+473 silly install resolved     dist:
+473 silly install resolved      { shasum: '21220d9c63afc77a8c92111e011af705ce0c6901',
+473 silly install resolved        tarball: 'http://registry.npmjs.org/warning/-/warning-2.1.0.tgz' },
+473 silly install resolved     directories: {},
+473 silly install resolved     _resolved: 'https://registry.npmjs.org/warning/-/warning-2.1.0.tgz' },
+473 silly install resolved   { name: 'query-string',
+473 silly install resolved     version: '3.0.0',
+473 silly install resolved     description: 'Parse and stringify URL query strings',
+473 silly install resolved     license: 'MIT',
+473 silly install resolved     repository:
+473 silly install resolved      { type: 'git',
+473 silly install resolved        url: 'https://github.com/sindresorhus/query-string' },
+473 silly install resolved     author:
+473 silly install resolved      { name: 'Sindre Sorhus',
+473 silly install resolved        email: 'sindresorhus@gmail.com',
+473 silly install resolved        url: 'sindresorhus.com' },
+473 silly install resolved     engines: { node: '>=0.10.0' },
+473 silly install resolved     scripts: { test: 'xo && ava' },
+473 silly install resolved     files: [ 'index.js' ],
+473 silly install resolved     keywords:
+473 silly install resolved      [ 'browser',
+473 silly install resolved        'querystring',
+473 silly install resolved        'query',
+473 silly install resolved        'string',
+473 silly install resolved        'qs',
+473 silly install resolved        'param',
+473 silly install resolved        'parameter',
+473 silly install resolved        'url',
+473 silly install resolved        'uri',
+473 silly install resolved        'parse',
+473 silly install resolved        'stringify',
+473 silly install resolved        'encode',
+473 silly install resolved        'decode' ],
+473 silly install resolved     dependencies: { 'strict-uri-encode': '^1.0.0' },
+473 silly install resolved     devDependencies: { ava: '*', xo: '*' },
+473 silly install resolved     gitHead: '265aee0b8bf185be8cc33bb38393b1156081a0f1',
+473 silly install resolved     bugs: { url: 'https://github.com/sindresorhus/query-string/issues' },
+473 silly install resolved     homepage: 'https://github.com/sindresorhus/query-string',
+473 silly install resolved     _id: 'query-string@3.0.0',
+473 silly install resolved     _shasum: '02fd306f0432040b91b11063f9404fe1bbd4ba7b',
+473 silly install resolved     _from: 'query-string@>=3.0.0 <4.0.0',
+473 silly install resolved     _npmVersion: '2.14.4',
+473 silly install resolved     _nodeVersion: '4.1.1',
+473 silly install resolved     _npmUser: { name: 'sindresorhus', email: 'sindresorhus@gmail.com' },
+473 silly install resolved     dist:
+473 silly install resolved      { shasum: '02fd306f0432040b91b11063f9404fe1bbd4ba7b',
+473 silly install resolved        tarball: 'http://registry.npmjs.org/query-string/-/query-string-3.0.0.tgz' },
+473 silly install resolved     maintainers: [ [Object] ],
+473 silly install resolved     directories: {},
+473 silly install resolved     _resolved: 'https://registry.npmjs.org/query-string/-/query-string-3.0.0.tgz' } ]
+474 info install deep-equal@1.0.1 into /Users/ericnation/Google Drive/Web Courses/udemy-courses/reactjs/ReactCasts/imgur_reactjs/node_modules/history
+475 info install invariant@2.2.0 into /Users/ericnation/Google Drive/Web Courses/udemy-courses/reactjs/ReactCasts/imgur_reactjs/node_modules/history
+476 info install warning@2.1.0 into /Users/ericnation/Google Drive/Web Courses/udemy-courses/reactjs/ReactCasts/imgur_reactjs/node_modules/history
+477 info install query-string@3.0.0 into /Users/ericnation/Google Drive/Web Courses/udemy-courses/reactjs/ReactCasts/imgur_reactjs/node_modules/history
+478 info installOne deep-equal@1.0.1
+479 verbose installOne of deep-equal to /Users/ericnation/Google Drive/Web Courses/udemy-courses/reactjs/ReactCasts/imgur_reactjs/node_modules/history not in flight; installing
+480 info installOne invariant@2.2.0
+481 verbose installOne of invariant to /Users/ericnation/Google Drive/Web Courses/udemy-courses/reactjs/ReactCasts/imgur_reactjs/node_modules/history not in flight; installing
+482 info installOne warning@2.1.0
+483 verbose installOne of warning to /Users/ericnation/Google Drive/Web Courses/udemy-courses/reactjs/ReactCasts/imgur_reactjs/node_modules/history not in flight; installing
+484 info installOne query-string@3.0.0
+485 verbose installOne of query-string to /Users/ericnation/Google Drive/Web Courses/udemy-courses/reactjs/ReactCasts/imgur_reactjs/node_modules/history not in flight; installing
+486 verbose lock using /Users/ericnation/.npm/_locks/deep-equal-5c79c4a35e9faac4.lock for /Users/ericnation/Google Drive/Web Courses/udemy-courses/reactjs/ReactCasts/imgur_reactjs/node_modules/history/node_modules/deep-equal
+487 silly gunzTarPerm extractEntry warning.js
+488 silly gunzTarPerm extractEntry CHANGELOG.md
+489 verbose lock using /Users/ericnation/.npm/_locks/invariant-4af35b8ae22c4568.lock for /Users/ericnation/Google Drive/Web Courses/udemy-courses/reactjs/ReactCasts/imgur_reactjs/node_modules/history/node_modules/invariant
+490 verbose lock using /Users/ericnation/.npm/_locks/warning-eae02ed1ee3ea5a2.lock for /Users/ericnation/Google Drive/Web Courses/udemy-courses/reactjs/ReactCasts/imgur_reactjs/node_modules/history/node_modules/warning
+491 verbose lock using /Users/ericnation/.npm/_locks/query-string-9dd3af11f8db0618.lock for /Users/ericnation/Google Drive/Web Courses/udemy-courses/reactjs/ReactCasts/imgur_reactjs/node_modules/history/node_modules/query-string
+492 silly install write writing deep-equal 1.0.1 to /Users/ericnation/Google Drive/Web Courses/udemy-courses/reactjs/ReactCasts/imgur_reactjs/node_modules/history/node_modules/deep-equal
+493 silly cache addNamed cb deep-equal@1.0.1
+494 verbose unbuild node_modules/history/node_modules/deep-equal
+495 silly install write writing invariant 2.2.0 to /Users/ericnation/Google Drive/Web Courses/udemy-courses/reactjs/ReactCasts/imgur_reactjs/node_modules/history/node_modules/invariant
+496 silly cache addNamed cb invariant@2.2.0
+497 verbose unbuild node_modules/history/node_modules/invariant
+498 silly install write writing warning 2.1.0 to /Users/ericnation/Google Drive/Web Courses/udemy-courses/reactjs/ReactCasts/imgur_reactjs/node_modules/history/node_modules/warning
+499 silly cache addNamed cb warning@2.1.0
+500 verbose unbuild node_modules/history/node_modules/warning
+501 silly install write writing query-string 3.0.0 to /Users/ericnation/Google Drive/Web Courses/udemy-courses/reactjs/ReactCasts/imgur_reactjs/node_modules/history/node_modules/query-string
+502 silly gentlyRm /Users/ericnation/Google Drive/Web Courses/udemy-courses/reactjs/ReactCasts/imgur_reactjs/node_modules/history/node_modules/deep-equal is being purged from base /Users/ericnation/Google Drive/Web Courses/udemy-courses/reactjs/ReactCasts/imgur_reactjs
+503 verbose gentlyRm don't care about contents; nuking /Users/ericnation/Google Drive/Web Courses/udemy-courses/reactjs/ReactCasts/imgur_reactjs/node_modules/history/node_modules/deep-equal
+504 silly gentlyRm /Users/ericnation/Google Drive/Web Courses/udemy-courses/reactjs/ReactCasts/imgur_reactjs/node_modules/history/node_modules/invariant is being purged from base /Users/ericnation/Google Drive/Web Courses/udemy-courses/reactjs/ReactCasts/imgur_reactjs
+505 verbose gentlyRm don't care about contents; nuking /Users/ericnation/Google Drive/Web Courses/udemy-courses/reactjs/ReactCasts/imgur_reactjs/node_modules/history/node_modules/invariant
+506 silly gentlyRm /Users/ericnation/Google Drive/Web Courses/udemy-courses/reactjs/ReactCasts/imgur_reactjs/node_modules/history/node_modules/warning is being purged from base /Users/ericnation/Google Drive/Web Courses/udemy-courses/reactjs/ReactCasts/imgur_reactjs
+507 verbose gentlyRm don't care about contents; nuking /Users/ericnation/Google Drive/Web Courses/udemy-courses/reactjs/ReactCasts/imgur_reactjs/node_modules/history/node_modules/warning
+508 verbose tar unpack /Users/ericnation/.npm/deep-equal/1.0.1/package.tgz
+509 verbose tar unpacking to /Users/ericnation/Google Drive/Web Courses/udemy-courses/reactjs/ReactCasts/imgur_reactjs/node_modules/history/node_modules/deep-equal
+510 silly gentlyRm /Users/ericnation/Google Drive/Web Courses/udemy-courses/reactjs/ReactCasts/imgur_reactjs/node_modules/history/node_modules/deep-equal is being purged
+511 verbose gentlyRm don't care about contents; nuking /Users/ericnation/Google Drive/Web Courses/udemy-courses/reactjs/ReactCasts/imgur_reactjs/node_modules/history/node_modules/deep-equal
+512 verbose tar unpack /Users/ericnation/.npm/invariant/2.2.0/package.tgz
+513 verbose tar unpacking to /Users/ericnation/Google Drive/Web Courses/udemy-courses/reactjs/ReactCasts/imgur_reactjs/node_modules/history/node_modules/invariant
+514 silly gentlyRm /Users/ericnation/Google Drive/Web Courses/udemy-courses/reactjs/ReactCasts/imgur_reactjs/node_modules/history/node_modules/invariant is being purged
+515 verbose gentlyRm don't care about contents; nuking /Users/ericnation/Google Drive/Web Courses/udemy-courses/reactjs/ReactCasts/imgur_reactjs/node_modules/history/node_modules/invariant
+516 verbose tar unpack /Users/ericnation/.npm/warning/2.1.0/package.tgz
+517 verbose tar unpacking to /Users/ericnation/Google Drive/Web Courses/udemy-courses/reactjs/ReactCasts/imgur_reactjs/node_modules/history/node_modules/warning
+518 silly gentlyRm /Users/ericnation/Google Drive/Web Courses/udemy-courses/reactjs/ReactCasts/imgur_reactjs/node_modules/history/node_modules/warning is being purged
+519 verbose gentlyRm don't care about contents; nuking /Users/ericnation/Google Drive/Web Courses/udemy-courses/reactjs/ReactCasts/imgur_reactjs/node_modules/history/node_modules/warning
+520 silly gunzTarPerm modes [ '755', '644' ]
+521 silly gunzTarPerm modes [ '755', '644' ]
+522 silly gunzTarPerm modes [ '755', '644' ]
+523 silly cache addNamed cb query-string@3.0.0
+524 verbose unbuild node_modules/history/node_modules/query-string
+525 silly gentlyRm /Users/ericnation/Google Drive/Web Courses/udemy-courses/reactjs/ReactCasts/imgur_reactjs/node_modules/history/node_modules/query-string is being purged from base /Users/ericnation/Google Drive/Web Courses/udemy-courses/reactjs/ReactCasts/imgur_reactjs
+526 verbose gentlyRm don't care about contents; nuking /Users/ericnation/Google Drive/Web Courses/udemy-courses/reactjs/ReactCasts/imgur_reactjs/node_modules/history/node_modules/query-string
+527 verbose tar unpack /Users/ericnation/.npm/query-string/3.0.0/package.tgz
+528 verbose tar unpacking to /Users/ericnation/Google Drive/Web Courses/udemy-courses/reactjs/ReactCasts/imgur_reactjs/node_modules/history/node_modules/query-string
+529 silly gentlyRm /Users/ericnation/Google Drive/Web Courses/udemy-courses/reactjs/ReactCasts/imgur_reactjs/node_modules/history/node_modules/query-string is being purged
+530 verbose gentlyRm don't care about contents; nuking /Users/ericnation/Google Drive/Web Courses/udemy-courses/reactjs/ReactCasts/imgur_reactjs/node_modules/history/node_modules/query-string
+531 silly gunzTarPerm extractEntry LICENSE.md
+532 silly gunzTarPerm extractEntry package.json
+533 silly gunzTarPerm modes [ '755', '644' ]
+534 silly gunzTarPerm extractEntry package.json
+535 silly gunzTarPerm extractEntry package.json
+536 silly gunzTarPerm extractEntry LICENSE
+537 silly gunzTarPerm extractEntry index.js
+538 silly gunzTarPerm extractEntry README.md
+539 silly gunzTarPerm extractEntry browser.js
+540 silly gunzTarPerm extractEntry README.md
+541 silly gunzTarPerm extractEntry browser.js
+542 silly gunzTarPerm extractEntry package.json
+543 silly gunzTarPerm extractEntry index.js
+544 silly gunzTarPerm extractEntry license
+545 silly gunzTarPerm extractEntry .travis.yml
+546 silly gunzTarPerm extractEntry example/cmp.js
+547 silly gunzTarPerm extractEntry invariant.js
+548 silly gunzTarPerm extractEntry CHANGELOG.md
+549 silly gunzTarPerm extractEntry warning.js
+550 silly gunzTarPerm extractEntry CHANGELOG.md
+551 silly gunzTarPerm extractEntry readme.md
+552 silly gunzTarPerm extractEntry lib/is_arguments.js
+553 silly gunzTarPerm extractEntry lib/keys.js
+554 silly gunzTarPerm extractEntry LICENSE.md
+555 info preinstall invariant@2.2.0
+556 silly prepareForInstallMany adding loose-envify@^1.0.0 from invariant dependencies
+557 silly cache add args [ 'loose-envify@^1.0.0', null ]
+558 verbose cache add spec loose-envify@^1.0.0
+559 silly cache add parsed spec { raw: 'loose-envify@^1.0.0',
+559 silly cache add   scope: null,
+559 silly cache add   name: 'loose-envify',
+559 silly cache add   rawSpec: '^1.0.0',
+559 silly cache add   spec: '>=1.0.0 <2.0.0',
+559 silly cache add   type: 'range' }
+560 verbose addNamed loose-envify@>=1.0.0 <2.0.0
+561 silly addNamed semver.valid null
+562 silly addNamed semver.validRange >=1.0.0 <2.0.0
+563 silly addNameRange { name: 'loose-envify', range: '>=1.0.0 <2.0.0', hasData: false }
+564 silly mapToRegistry name loose-envify
+565 silly mapToRegistry using default registry
+566 silly mapToRegistry registry https://registry.npmjs.org/
+567 silly mapToRegistry uri https://registry.npmjs.org/loose-envify
+568 verbose addNameRange registry:https://registry.npmjs.org/loose-envify not in flight; fetching
+569 silly gunzTarPerm extractEntry readme.markdown
+570 silly gunzTarPerm extractEntry test/cmp.js
+571 verbose request uri https://registry.npmjs.org/loose-envify
+572 verbose request no auth needed
+573 info attempt registry request try #1 at 2:17:59 PM
+574 verbose etag "2L56VY41TJJXRF6O0PIETR3YS"
+575 http request GET https://registry.npmjs.org/loose-envify
+576 info preinstall warning@2.1.0
+577 silly prepareForInstallMany adding loose-envify@^1.0.0 from warning dependencies
+578 silly cache add args [ 'loose-envify@^1.0.0', null ]
+579 verbose cache add spec loose-envify@^1.0.0
+580 silly cache add parsed spec { raw: 'loose-envify@^1.0.0',
+580 silly cache add   scope: null,
+580 silly cache add   name: 'loose-envify',
+580 silly cache add   rawSpec: '^1.0.0',
+580 silly cache add   spec: '>=1.0.0 <2.0.0',
+580 silly cache add   type: 'range' }
+581 verbose addNamed loose-envify@>=1.0.0 <2.0.0
+582 silly addNamed semver.valid null
+583 silly addNamed semver.validRange >=1.0.0 <2.0.0
+584 silly addNameRange { name: 'loose-envify', range: '>=1.0.0 <2.0.0', hasData: false }
+585 silly mapToRegistry name loose-envify
+586 silly mapToRegistry using default registry
+587 silly mapToRegistry registry https://registry.npmjs.org/
+588 silly mapToRegistry uri https://registry.npmjs.org/loose-envify
+589 verbose addNameRange registry:https://registry.npmjs.org/loose-envify already in flight; waiting
+590 info preinstall query-string@3.0.0
+591 info preinstall invariant@2.2.0
+592 silly prepareForInstallMany adding strict-uri-encode@^1.0.0 from query-string dependencies
+593 silly prepareForInstallMany adding loose-envify@^1.0.0 from invariant dependencies
+594 silly cache add args [ 'strict-uri-encode@^1.0.0', null ]
+595 verbose cache add spec strict-uri-encode@^1.0.0
+596 silly cache add parsed spec { raw: 'strict-uri-encode@^1.0.0',
+596 silly cache add   scope: null,
+596 silly cache add   name: 'strict-uri-encode',
+596 silly cache add   rawSpec: '^1.0.0',
+596 silly cache add   spec: '>=1.0.0 <2.0.0',
+596 silly cache add   type: 'range' }
+597 verbose addNamed strict-uri-encode@>=1.0.0 <2.0.0
+598 silly addNamed semver.valid null
+599 silly addNamed semver.validRange >=1.0.0 <2.0.0
+600 silly addNameRange { name: 'strict-uri-encode',
+600 silly addNameRange   range: '>=1.0.0 <2.0.0',
+600 silly addNameRange   hasData: false }
+601 silly mapToRegistry name strict-uri-encode
+602 silly mapToRegistry using default registry
+603 silly mapToRegistry registry https://registry.npmjs.org/
+604 silly mapToRegistry uri https://registry.npmjs.org/strict-uri-encode
+605 verbose addNameRange registry:https://registry.npmjs.org/strict-uri-encode not in flight; fetching
+606 silly cache add args [ 'loose-envify@^1.0.0', null ]
+607 verbose cache add spec loose-envify@^1.0.0
+608 silly cache add parsed spec { raw: 'loose-envify@^1.0.0',
+608 silly cache add   scope: null,
+608 silly cache add   name: 'loose-envify',
+608 silly cache add   rawSpec: '^1.0.0',
+608 silly cache add   spec: '>=1.0.0 <2.0.0',
+608 silly cache add   type: 'range' }
+609 verbose addNamed loose-envify@>=1.0.0 <2.0.0
+610 silly addNamed semver.valid null
+611 silly addNamed semver.validRange >=1.0.0 <2.0.0
+612 silly addNameRange { name: 'loose-envify', range: '>=1.0.0 <2.0.0', hasData: false }
+613 silly mapToRegistry name loose-envify
+614 silly mapToRegistry using default registry
+615 silly mapToRegistry registry https://registry.npmjs.org/
+616 silly mapToRegistry uri https://registry.npmjs.org/loose-envify
+617 verbose addNameRange registry:https://registry.npmjs.org/loose-envify already in flight; waiting
+618 info preinstall warning@2.1.0
+619 verbose request uri https://registry.npmjs.org/strict-uri-encode
+620 verbose request no auth needed
+621 info attempt registry request try #1 at 2:17:59 PM
+622 verbose etag "4GBHCC3G11C9EY4XFYGUVGNCN"
+623 http request GET https://registry.npmjs.org/strict-uri-encode
+624 silly prepareForInstallMany adding loose-envify@^1.0.0 from warning dependencies
+625 silly cache add args [ 'loose-envify@^1.0.0', null ]
+626 verbose cache add spec loose-envify@^1.0.0
+627 silly cache add parsed spec { raw: 'loose-envify@^1.0.0',
+627 silly cache add   scope: null,
+627 silly cache add   name: 'loose-envify',
+627 silly cache add   rawSpec: '^1.0.0',
+627 silly cache add   spec: '>=1.0.0 <2.0.0',
+627 silly cache add   type: 'range' }
+628 verbose addNamed loose-envify@>=1.0.0 <2.0.0
+629 silly addNamed semver.valid null
+630 silly addNamed semver.validRange >=1.0.0 <2.0.0
+631 silly addNameRange { name: 'loose-envify', range: '>=1.0.0 <2.0.0', hasData: false }
+632 silly mapToRegistry name loose-envify
+633 silly mapToRegistry using default registry
+634 silly mapToRegistry registry https://registry.npmjs.org/
+635 silly mapToRegistry uri https://registry.npmjs.org/loose-envify
+636 verbose addNameRange registry:https://registry.npmjs.org/loose-envify already in flight; waiting
+637 info preinstall deep-equal@1.0.1
+638 silly install resolved []
+639 verbose about to build /Users/ericnation/Google Drive/Web Courses/udemy-courses/reactjs/ReactCasts/imgur_reactjs/node_modules/history/node_modules/deep-equal
+640 info build /Users/ericnation/Google Drive/Web Courses/udemy-courses/reactjs/ReactCasts/imgur_reactjs/node_modules/history/node_modules/deep-equal
+641 verbose linkStuff [ false,
+641 verbose linkStuff   false,
+641 verbose linkStuff   false,
+641 verbose linkStuff   '/Users/ericnation/Google Drive/Web Courses/udemy-courses/reactjs/ReactCasts/imgur_reactjs/node_modules/history/node_modules' ]
+642 info linkStuff deep-equal@1.0.1
+643 verbose linkBins deep-equal@1.0.1
+644 verbose linkMans deep-equal@1.0.1
+645 verbose rebuildBundles deep-equal@1.0.1
+646 info install deep-equal@1.0.1
+647 info postinstall deep-equal@1.0.1
+648 verbose unlock done using /Users/ericnation/.npm/_locks/deep-equal-5c79c4a35e9faac4.lock for /Users/ericnation/Google Drive/Web Courses/udemy-courses/reactjs/ReactCasts/imgur_reactjs/node_modules/history/node_modules/deep-equal
+649 http 304 https://registry.npmjs.org/loose-envify
+650 silly get cb [ 304,
+650 silly get   { date: 'Sat, 30 Jan 2016 21:17:56 GMT',
+650 silly get     via: '1.1 varnish',
+650 silly get     'cache-control': 'max-age=300',
+650 silly get     etag: '"2L56VY41TJJXRF6O0PIETR3YS"',
+650 silly get     age: '92',
+650 silly get     connection: 'keep-alive',
+650 silly get     'x-served-by': 'cache-sjc3126-SJC',
+650 silly get     'x-cache': 'HIT',
+650 silly get     'x-cache-hits': '1',
+650 silly get     'x-timer': 'S1454188676.502198,VS0,VE0',
+650 silly get     vary: 'Accept' } ]
+651 verbose etag https://registry.npmjs.org/loose-envify from cache
+652 verbose get saving loose-envify to /Users/ericnation/.npm/registry.npmjs.org/loose-envify/.cache.json
+653 silly addNameRange number 2 { name: 'loose-envify', range: '>=1.0.0 <2.0.0', hasData: true }
+654 silly addNameRange versions [ 'loose-envify', [ '1.0.0', '1.1.0' ] ]
+655 verbose addNamed loose-envify@1.1.0
+656 silly addNamed semver.valid 1.1.0
+657 silly addNamed semver.validRange 1.1.0
+658 silly addNameRange number 2 { name: 'loose-envify', range: '>=1.0.0 <2.0.0', hasData: true }
+659 silly addNameRange versions [ 'loose-envify', [ '1.0.0', '1.1.0' ] ]
+660 verbose addNamed loose-envify@1.1.0
+661 silly addNamed semver.valid 1.1.0
+662 silly addNamed semver.validRange 1.1.0
+663 silly addNameRange number 2 { name: 'loose-envify', range: '>=1.0.0 <2.0.0', hasData: true }
+664 silly addNameRange versions [ 'loose-envify', [ '1.0.0', '1.1.0' ] ]
+665 verbose addNamed loose-envify@1.1.0
+666 silly addNamed semver.valid 1.1.0
+667 silly addNamed semver.validRange 1.1.0
+668 silly addNameRange number 2 { name: 'loose-envify', range: '>=1.0.0 <2.0.0', hasData: true }
+669 silly addNameRange versions [ 'loose-envify', [ '1.0.0', '1.1.0' ] ]
+670 verbose addNamed loose-envify@1.1.0
+671 silly addNamed semver.valid 1.1.0
+672 silly addNamed semver.validRange 1.1.0
+673 silly cache afterAdd loose-envify@1.1.0
+674 verbose afterAdd /Users/ericnation/.npm/loose-envify/1.1.0/package/package.json not in flight; writing
+675 silly cache afterAdd loose-envify@1.1.0
+676 verbose afterAdd /Users/ericnation/.npm/loose-envify/1.1.0/package/package.json already in flight; not writing
+677 silly cache afterAdd loose-envify@1.1.0
+678 verbose afterAdd /Users/ericnation/.npm/loose-envify/1.1.0/package/package.json already in flight; not writing
+679 silly cache afterAdd loose-envify@1.1.0
+680 verbose afterAdd /Users/ericnation/.npm/loose-envify/1.1.0/package/package.json already in flight; not writing
+681 verbose afterAdd /Users/ericnation/.npm/loose-envify/1.1.0/package/package.json written
+682 silly install resolved [ { name: 'loose-envify',
+682 silly install resolved     version: '1.1.0',
+682 silly install resolved     description: 'Fast (and loose) selective `process.env` replacer using js-tokens instead of an AST',
+682 silly install resolved     keywords:
+682 silly install resolved      [ 'environment',
+682 silly install resolved        'variables',
+682 silly install resolved        'browserify',
+682 silly install resolved        'browserify-transform',
+682 silly install resolved        'transform',
+682 silly install resolved        'source',
+682 silly install resolved        'configuration' ],
+682 silly install resolved     homepage: 'https://github.com/zertosh/loose-envify',
+682 silly install resolved     license: 'MIT',
+682 silly install resolved     author: { name: 'Andres Suarez', email: 'zertosh@gmail.com' },
+682 silly install resolved     repository:
+682 silly install resolved      { type: 'git',
+682 silly install resolved        url: 'git://github.com/zertosh/loose-envify.git' },
+682 silly install resolved     scripts: { test: 'tap test/*.js' },
+682 silly install resolved     dependencies: { 'js-tokens': '^1.0.1' },
+682 silly install resolved     devDependencies: { browserify: '^11.0.1', envify: '^3.4.0', tap: '^1.4.0' },
+682 silly install resolved     gitHead: 'f536f4fdbde317d77827ac8655c6c8473928b9e1',
+682 silly install resolved     bugs: { url: 'https://github.com/zertosh/loose-envify/issues' },
+682 silly install resolved     _id: 'loose-envify@1.1.0',
+682 silly install resolved     _shasum: '527582d62cff4e04da3f9976c7110d3392ec7e0c',
+682 silly install resolved     _from: 'loose-envify@>=1.0.0 <2.0.0',
+682 silly install resolved     _npmVersion: '2.14.4',
+682 silly install resolved     _nodeVersion: '4.1.2',
+682 silly install resolved     _npmUser: { name: 'zertosh', email: 'zertosh@gmail.com' },
+682 silly install resolved     maintainers: [ [Object] ],
+682 silly install resolved     dist:
+682 silly install resolved      { shasum: '527582d62cff4e04da3f9976c7110d3392ec7e0c',
+682 silly install resolved        tarball: 'http://registry.npmjs.org/loose-envify/-/loose-envify-1.1.0.tgz' },
+682 silly install resolved     directories: {},
+682 silly install resolved     _resolved: 'https://registry.npmjs.org/loose-envify/-/loose-envify-1.1.0.tgz',
+682 silly install resolved     readme: 'ERROR: No README data found!' } ]
+683 info install loose-envify@1.1.0 into /Users/ericnation/Google Drive/Web Courses/udemy-courses/reactjs/ReactCasts/imgur_reactjs/node_modules/react-router/node_modules/warning
+684 info installOne loose-envify@1.1.0
+685 verbose installOne of loose-envify to /Users/ericnation/Google Drive/Web Courses/udemy-courses/reactjs/ReactCasts/imgur_reactjs/node_modules/react-router/node_modules/warning not in flight; installing
+686 silly install resolved [ { name: 'loose-envify',
+686 silly install resolved     version: '1.1.0',
+686 silly install resolved     description: 'Fast (and loose) selective `process.env` replacer using js-tokens instead of an AST',
+686 silly install resolved     keywords:
+686 silly install resolved      [ 'environment',
+686 silly install resolved        'variables',
+686 silly install resolved        'browserify',
+686 silly install resolved        'browserify-transform',
+686 silly install resolved        'transform',
+686 silly install resolved        'source',
+686 silly install resolved        'configuration' ],
+686 silly install resolved     homepage: 'https://github.com/zertosh/loose-envify',
+686 silly install resolved     license: 'MIT',
+686 silly install resolved     author: { name: 'Andres Suarez', email: 'zertosh@gmail.com' },
+686 silly install resolved     repository:
+686 silly install resolved      { type: 'git',
+686 silly install resolved        url: 'git://github.com/zertosh/loose-envify.git' },
+686 silly install resolved     scripts: { test: 'tap test/*.js' },
+686 silly install resolved     dependencies: { 'js-tokens': '^1.0.1' },
+686 silly install resolved     devDependencies: { browserify: '^11.0.1', envify: '^3.4.0', tap: '^1.4.0' },
+686 silly install resolved     gitHead: 'f536f4fdbde317d77827ac8655c6c8473928b9e1',
+686 silly install resolved     bugs: { url: 'https://github.com/zertosh/loose-envify/issues' },
+686 silly install resolved     _id: 'loose-envify@1.1.0',
+686 silly install resolved     _shasum: '527582d62cff4e04da3f9976c7110d3392ec7e0c',
+686 silly install resolved     _from: 'loose-envify@>=1.0.0 <2.0.0',
+686 silly install resolved     _npmVersion: '2.14.4',
+686 silly install resolved     _nodeVersion: '4.1.2',
+686 silly install resolved     _npmUser: { name: 'zertosh', email: 'zertosh@gmail.com' },
+686 silly install resolved     maintainers: [ [Object] ],
+686 silly install resolved     dist:
+686 silly install resolved      { shasum: '527582d62cff4e04da3f9976c7110d3392ec7e0c',
+686 silly install resolved        tarball: 'http://registry.npmjs.org/loose-envify/-/loose-envify-1.1.0.tgz' },
+686 silly install resolved     directories: {},
+686 silly install resolved     _resolved: 'https://registry.npmjs.org/loose-envify/-/loose-envify-1.1.0.tgz',
+686 silly install resolved     readme: 'ERROR: No README data found!' } ]
+687 info install loose-envify@1.1.0 into /Users/ericnation/Google Drive/Web Courses/udemy-courses/reactjs/ReactCasts/imgur_reactjs/node_modules/history/node_modules/invariant
+688 info installOne loose-envify@1.1.0
+689 verbose installOne of loose-envify to /Users/ericnation/Google Drive/Web Courses/udemy-courses/reactjs/ReactCasts/imgur_reactjs/node_modules/history/node_modules/invariant not in flight; installing
+690 silly install resolved [ { name: 'loose-envify',
+690 silly install resolved     version: '1.1.0',
+690 silly install resolved     description: 'Fast (and loose) selective `process.env` replacer using js-tokens instead of an AST',
+690 silly install resolved     keywords:
+690 silly install resolved      [ 'environment',
+690 silly install resolved        'variables',
+690 silly install resolved        'browserify',
+690 silly install resolved        'browserify-transform',
+690 silly install resolved        'transform',
+690 silly install resolved        'source',
+690 silly install resolved        'configuration' ],
+690 silly install resolved     homepage: 'https://github.com/zertosh/loose-envify',
+690 silly install resolved     license: 'MIT',
+690 silly install resolved     author: { name: 'Andres Suarez', email: 'zertosh@gmail.com' },
+690 silly install resolved     repository:
+690 silly install resolved      { type: 'git',
+690 silly install resolved        url: 'git://github.com/zertosh/loose-envify.git' },
+690 silly install resolved     scripts: { test: 'tap test/*.js' },
+690 silly install resolved     dependencies: { 'js-tokens': '^1.0.1' },
+690 silly install resolved     devDependencies: { browserify: '^11.0.1', envify: '^3.4.0', tap: '^1.4.0' },
+690 silly install resolved     gitHead: 'f536f4fdbde317d77827ac8655c6c8473928b9e1',
+690 silly install resolved     bugs: { url: 'https://github.com/zertosh/loose-envify/issues' },
+690 silly install resolved     _id: 'loose-envify@1.1.0',
+690 silly install resolved     _shasum: '527582d62cff4e04da3f9976c7110d3392ec7e0c',
+690 silly install resolved     _from: 'loose-envify@>=1.0.0 <2.0.0',
+690 silly install resolved     _npmVersion: '2.14.4',
+690 silly install resolved     _nodeVersion: '4.1.2',
+690 silly install resolved     _npmUser: { name: 'zertosh', email: 'zertosh@gmail.com' },
+690 silly install resolved     maintainers: [ [Object] ],
+690 silly install resolved     dist:
+690 silly install resolved      { shasum: '527582d62cff4e04da3f9976c7110d3392ec7e0c',
+690 silly install resolved        tarball: 'http://registry.npmjs.org/loose-envify/-/loose-envify-1.1.0.tgz' },
+690 silly install resolved     directories: {},
+690 silly install resolved     _resolved: 'https://registry.npmjs.org/loose-envify/-/loose-envify-1.1.0.tgz',
+690 silly install resolved     readme: 'ERROR: No README data found!' } ]
+691 info install loose-envify@1.1.0 into /Users/ericnation/Google Drive/Web Courses/udemy-courses/reactjs/ReactCasts/imgur_reactjs/node_modules/history/node_modules/warning
+692 info installOne loose-envify@1.1.0
+693 verbose installOne of loose-envify to /Users/ericnation/Google Drive/Web Courses/udemy-courses/reactjs/ReactCasts/imgur_reactjs/node_modules/history/node_modules/warning not in flight; installing
+694 silly install resolved [ { name: 'loose-envify',
+694 silly install resolved     version: '1.1.0',
+694 silly install resolved     description: 'Fast (and loose) selective `process.env` replacer using js-tokens instead of an AST',
+694 silly install resolved     keywords:
+694 silly install resolved      [ 'environment',
+694 silly install resolved        'variables',
+694 silly install resolved        'browserify',
+694 silly install resolved        'browserify-transform',
+694 silly install resolved        'transform',
+694 silly install resolved        'source',
+694 silly install resolved        'configuration' ],
+694 silly install resolved     homepage: 'https://github.com/zertosh/loose-envify',
+694 silly install resolved     license: 'MIT',
+694 silly install resolved     author: { name: 'Andres Suarez', email: 'zertosh@gmail.com' },
+694 silly install resolved     repository:
+694 silly install resolved      { type: 'git',
+694 silly install resolved        url: 'git://github.com/zertosh/loose-envify.git' },
+694 silly install resolved     scripts: { test: 'tap test/*.js' },
+694 silly install resolved     dependencies: { 'js-tokens': '^1.0.1' },
+694 silly install resolved     devDependencies: { browserify: '^11.0.1', envify: '^3.4.0', tap: '^1.4.0' },
+694 silly install resolved     gitHead: 'f536f4fdbde317d77827ac8655c6c8473928b9e1',
+694 silly install resolved     bugs: { url: 'https://github.com/zertosh/loose-envify/issues' },
+694 silly install resolved     _id: 'loose-envify@1.1.0',
+694 silly install resolved     _shasum: '527582d62cff4e04da3f9976c7110d3392ec7e0c',
+694 silly install resolved     _from: 'loose-envify@>=1.0.0 <2.0.0',
+694 silly install resolved     _npmVersion: '2.14.4',
+694 silly install resolved     _nodeVersion: '4.1.2',
+694 silly install resolved     _npmUser: { name: 'zertosh', email: 'zertosh@gmail.com' },
+694 silly install resolved     maintainers: [ [Object] ],
+694 silly install resolved     dist:
+694 silly install resolved      { shasum: '527582d62cff4e04da3f9976c7110d3392ec7e0c',
+694 silly install resolved        tarball: 'http://registry.npmjs.org/loose-envify/-/loose-envify-1.1.0.tgz' },
+694 silly install resolved     directories: {},
+694 silly install resolved     _resolved: 'https://registry.npmjs.org/loose-envify/-/loose-envify-1.1.0.tgz',
+694 silly install resolved     readme: 'ERROR: No README data found!' } ]
+695 info install loose-envify@1.1.0 into /Users/ericnation/Google Drive/Web Courses/udemy-courses/reactjs/ReactCasts/imgur_reactjs/node_modules/react-router/node_modules/invariant
+696 info installOne loose-envify@1.1.0
+697 verbose installOne of loose-envify to /Users/ericnation/Google Drive/Web Courses/udemy-courses/reactjs/ReactCasts/imgur_reactjs/node_modules/react-router/node_modules/invariant not in flight; installing
+698 verbose lock using /Users/ericnation/.npm/_locks/loose-envify-e5f65d8fe8171c18.lock for /Users/ericnation/Google Drive/Web Courses/udemy-courses/reactjs/ReactCasts/imgur_reactjs/node_modules/react-router/node_modules/warning/node_modules/loose-envify
+699 verbose lock using /Users/ericnation/.npm/_locks/loose-envify-85b9bbaafb19a4fd.lock for /Users/ericnation/Google Drive/Web Courses/udemy-courses/reactjs/ReactCasts/imgur_reactjs/node_modules/history/node_modules/invariant/node_modules/loose-envify
+700 silly install write writing loose-envify 1.1.0 to /Users/ericnation/Google Drive/Web Courses/udemy-courses/reactjs/ReactCasts/imgur_reactjs/node_modules/react-router/node_modules/warning/node_modules/loose-envify
+701 silly cache addNamed cb loose-envify@1.1.0
+702 verbose unbuild node_modules/react-router/node_modules/warning/node_modules/loose-envify
+703 verbose lock using /Users/ericnation/.npm/_locks/loose-envify-f25b45f0878e904b.lock for /Users/ericnation/Google Drive/Web Courses/udemy-courses/reactjs/ReactCasts/imgur_reactjs/node_modules/history/node_modules/warning/node_modules/loose-envify
+704 silly install write writing loose-envify 1.1.0 to /Users/ericnation/Google Drive/Web Courses/udemy-courses/reactjs/ReactCasts/imgur_reactjs/node_modules/history/node_modules/invariant/node_modules/loose-envify
+705 silly cache addNamed cb loose-envify@1.1.0
+706 verbose unbuild node_modules/history/node_modules/invariant/node_modules/loose-envify
+707 verbose lock using /Users/ericnation/.npm/_locks/loose-envify-efb9a48b4d88789a.lock for /Users/ericnation/Google Drive/Web Courses/udemy-courses/reactjs/ReactCasts/imgur_reactjs/node_modules/react-router/node_modules/invariant/node_modules/loose-envify
+708 silly install write writing loose-envify 1.1.0 to /Users/ericnation/Google Drive/Web Courses/udemy-courses/reactjs/ReactCasts/imgur_reactjs/node_modules/history/node_modules/warning/node_modules/loose-envify
+709 silly cache addNamed cb loose-envify@1.1.0
+710 verbose unbuild node_modules/history/node_modules/warning/node_modules/loose-envify
+711 silly install write writing loose-envify 1.1.0 to /Users/ericnation/Google Drive/Web Courses/udemy-courses/reactjs/ReactCasts/imgur_reactjs/node_modules/react-router/node_modules/invariant/node_modules/loose-envify
+712 silly cache addNamed cb loose-envify@1.1.0
+713 verbose unbuild node_modules/react-router/node_modules/invariant/node_modules/loose-envify
+714 silly gentlyRm /Users/ericnation/Google Drive/Web Courses/udemy-courses/reactjs/ReactCasts/imgur_reactjs/node_modules/react-router/node_modules/warning/node_modules/loose-envify is being purged from base /Users/ericnation/Google Drive/Web Courses/udemy-courses/reactjs/ReactCasts/imgur_reactjs
+715 verbose gentlyRm don't care about contents; nuking /Users/ericnation/Google Drive/Web Courses/udemy-courses/reactjs/ReactCasts/imgur_reactjs/node_modules/react-router/node_modules/warning/node_modules/loose-envify
+716 silly gentlyRm /Users/ericnation/Google Drive/Web Courses/udemy-courses/reactjs/ReactCasts/imgur_reactjs/node_modules/history/node_modules/invariant/node_modules/loose-envify is being purged from base /Users/ericnation/Google Drive/Web Courses/udemy-courses/reactjs/ReactCasts/imgur_reactjs
+717 verbose gentlyRm don't care about contents; nuking /Users/ericnation/Google Drive/Web Courses/udemy-courses/reactjs/ReactCasts/imgur_reactjs/node_modules/history/node_modules/invariant/node_modules/loose-envify
+718 verbose tar unpack /Users/ericnation/.npm/loose-envify/1.1.0/package.tgz
+719 verbose tar unpacking to /Users/ericnation/Google Drive/Web Courses/udemy-courses/reactjs/ReactCasts/imgur_reactjs/node_modules/react-router/node_modules/warning/node_modules/loose-envify
+720 silly gentlyRm /Users/ericnation/Google Drive/Web Courses/udemy-courses/reactjs/ReactCasts/imgur_reactjs/node_modules/react-router/node_modules/warning/node_modules/loose-envify is being purged
+721 verbose gentlyRm don't care about contents; nuking /Users/ericnation/Google Drive/Web Courses/udemy-courses/reactjs/ReactCasts/imgur_reactjs/node_modules/react-router/node_modules/warning/node_modules/loose-envify
+722 silly gentlyRm /Users/ericnation/Google Drive/Web Courses/udemy-courses/reactjs/ReactCasts/imgur_reactjs/node_modules/history/node_modules/warning/node_modules/loose-envify is being purged from base /Users/ericnation/Google Drive/Web Courses/udemy-courses/reactjs/ReactCasts/imgur_reactjs
+723 verbose gentlyRm don't care about contents; nuking /Users/ericnation/Google Drive/Web Courses/udemy-courses/reactjs/ReactCasts/imgur_reactjs/node_modules/history/node_modules/warning/node_modules/loose-envify
+724 http 200 https://registry.npmjs.org/strict-uri-encode
+725 silly get cb [ 200,
+725 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+725 silly get     etag: '"C6VMNOWIKOIB7BAA09JAIKXK3"',
+725 silly get     'content-type': 'application/json',
+725 silly get     'cache-control': 'max-age=300',
+725 silly get     'content-length': '6073',
+725 silly get     'accept-ranges': 'bytes',
+725 silly get     date: 'Sat, 30 Jan 2016 21:17:56 GMT',
+725 silly get     via: '1.1 varnish',
+725 silly get     age: '91',
+725 silly get     connection: 'keep-alive',
+725 silly get     'x-served-by': 'cache-sjc3130-SJC',
+725 silly get     'x-cache': 'HIT',
+725 silly get     'x-cache-hits': '1',
+725 silly get     'x-timer': 'S1454188676.519494,VS0,VE0',
+725 silly get     vary: 'Accept' } ]
+726 verbose get saving strict-uri-encode to /Users/ericnation/.npm/registry.npmjs.org/strict-uri-encode/.cache.json
+727 verbose tar unpack /Users/ericnation/.npm/loose-envify/1.1.0/package.tgz
+728 verbose tar unpacking to /Users/ericnation/Google Drive/Web Courses/udemy-courses/reactjs/ReactCasts/imgur_reactjs/node_modules/history/node_modules/invariant/node_modules/loose-envify
+729 silly gentlyRm /Users/ericnation/Google Drive/Web Courses/udemy-courses/reactjs/ReactCasts/imgur_reactjs/node_modules/history/node_modules/invariant/node_modules/loose-envify is being purged
+730 verbose gentlyRm don't care about contents; nuking /Users/ericnation/Google Drive/Web Courses/udemy-courses/reactjs/ReactCasts/imgur_reactjs/node_modules/history/node_modules/invariant/node_modules/loose-envify
+731 silly gentlyRm /Users/ericnation/Google Drive/Web Courses/udemy-courses/reactjs/ReactCasts/imgur_reactjs/node_modules/react-router/node_modules/invariant/node_modules/loose-envify is being purged from base /Users/ericnation/Google Drive/Web Courses/udemy-courses/reactjs/ReactCasts/imgur_reactjs
+732 verbose gentlyRm don't care about contents; nuking /Users/ericnation/Google Drive/Web Courses/udemy-courses/reactjs/ReactCasts/imgur_reactjs/node_modules/react-router/node_modules/invariant/node_modules/loose-envify
+733 silly gunzTarPerm modes [ '755', '644' ]
+734 verbose tar unpack /Users/ericnation/.npm/loose-envify/1.1.0/package.tgz
+735 verbose tar unpacking to /Users/ericnation/Google Drive/Web Courses/udemy-courses/reactjs/ReactCasts/imgur_reactjs/node_modules/history/node_modules/warning/node_modules/loose-envify
+736 silly gentlyRm /Users/ericnation/Google Drive/Web Courses/udemy-courses/reactjs/ReactCasts/imgur_reactjs/node_modules/history/node_modules/warning/node_modules/loose-envify is being purged
+737 verbose gentlyRm don't care about contents; nuking /Users/ericnation/Google Drive/Web Courses/udemy-courses/reactjs/ReactCasts/imgur_reactjs/node_modules/history/node_modules/warning/node_modules/loose-envify
+738 silly gunzTarPerm modes [ '755', '644' ]
+739 verbose tar unpack /Users/ericnation/.npm/loose-envify/1.1.0/package.tgz
+740 verbose tar unpacking to /Users/ericnation/Google Drive/Web Courses/udemy-courses/reactjs/ReactCasts/imgur_reactjs/node_modules/react-router/node_modules/invariant/node_modules/loose-envify
+741 silly gentlyRm /Users/ericnation/Google Drive/Web Courses/udemy-courses/reactjs/ReactCasts/imgur_reactjs/node_modules/react-router/node_modules/invariant/node_modules/loose-envify is being purged
+742 verbose gentlyRm don't care about contents; nuking /Users/ericnation/Google Drive/Web Courses/udemy-courses/reactjs/ReactCasts/imgur_reactjs/node_modules/react-router/node_modules/invariant/node_modules/loose-envify
+743 silly gunzTarPerm modes [ '755', '644' ]
+744 silly gunzTarPerm modes [ '755', '644' ]
+745 silly gunzTarPerm extractEntry package.json
+746 silly gunzTarPerm extractEntry package.json
+747 silly gunzTarPerm extractEntry package.json
+748 silly gunzTarPerm extractEntry package.json
+749 silly addNameRange number 2 { name: 'strict-uri-encode',
+749 silly addNameRange   range: '>=1.0.0 <2.0.0',
+749 silly addNameRange   hasData: true }
+750 silly addNameRange versions [ 'strict-uri-encode', [ '1.0.0', '1.0.1', '1.0.2', '1.1.0' ] ]
+751 verbose addNamed strict-uri-encode@1.1.0
+752 silly addNamed semver.valid 1.1.0
+753 silly addNamed semver.validRange 1.1.0
+754 silly gunzTarPerm extractEntry .npmignore
+755 silly gunzTarPerm extractEntry README.md
+756 silly mapToRegistry name strict-uri-encode
+757 silly mapToRegistry using default registry
+758 silly mapToRegistry registry https://registry.npmjs.org/
+759 silly mapToRegistry uri https://registry.npmjs.org/strict-uri-encode
+760 verbose addRemoteTarball https://registry.npmjs.org/strict-uri-encode/-/strict-uri-encode-1.1.0.tgz not in flight; adding
+761 verbose addRemoteTarball [ 'https://registry.npmjs.org/strict-uri-encode/-/strict-uri-encode-1.1.0.tgz',
+761 verbose addRemoteTarball   '279b225df1d582b1f54e65addd4352e18faa0713' ]
+762 silly gunzTarPerm extractEntry .npmignore
+763 silly gunzTarPerm extractEntry README.md
+764 silly gunzTarPerm extractEntry .npmignore
+765 silly gunzTarPerm extractEntry README.md
+766 silly gunzTarPerm extractEntry .npmignore
+767 silly gunzTarPerm extractEntry README.md
+768 info retry fetch attempt 1 at 2:17:59 PM
+769 info attempt registry request try #1 at 2:17:59 PM
+770 http fetch GET https://registry.npmjs.org/strict-uri-encode/-/strict-uri-encode-1.1.0.tgz
+771 silly gunzTarPerm extractEntry index.js
+772 silly gunzTarPerm extractEntry custom.js
+773 silly gunzTarPerm extractEntry index.js
+774 silly gunzTarPerm extractEntry custom.js
+775 silly gunzTarPerm extractEntry index.js
+776 silly gunzTarPerm extractEntry custom.js
+777 silly gunzTarPerm extractEntry index.js
+778 silly gunzTarPerm extractEntry custom.js
+779 silly gunzTarPerm extractEntry loose-envify.js
+780 silly gunzTarPerm extractEntry replace.js
+781 silly gunzTarPerm extractEntry loose-envify.js
+782 silly gunzTarPerm extractEntry replace.js
+783 silly gunzTarPerm extractEntry loose-envify.js
+784 silly gunzTarPerm extractEntry replace.js
+785 silly gunzTarPerm extractEntry loose-envify.js
+786 silly gunzTarPerm extractEntry replace.js
+787 info preinstall loose-envify@1.1.0
+788 info preinstall loose-envify@1.1.0
+789 info preinstall loose-envify@1.1.0
+790 silly prepareForInstallMany adding js-tokens@^1.0.1 from loose-envify dependencies
+791 silly prepareForInstallMany adding js-tokens@^1.0.1 from loose-envify dependencies
+792 info preinstall loose-envify@1.1.0
+793 silly cache add args [ 'js-tokens@^1.0.1', null ]
+794 verbose cache add spec js-tokens@^1.0.1
+795 silly cache add args [ 'js-tokens@^1.0.1', null ]
+796 verbose cache add spec js-tokens@^1.0.1
+797 silly cache add parsed spec { raw: 'js-tokens@^1.0.1',
+797 silly cache add   scope: null,
+797 silly cache add   name: 'js-tokens',
+797 silly cache add   rawSpec: '^1.0.1',
+797 silly cache add   spec: '>=1.0.1 <2.0.0',
+797 silly cache add   type: 'range' }
+798 verbose addNamed js-tokens@>=1.0.1 <2.0.0
+799 silly addNamed semver.valid null
+800 silly addNamed semver.validRange >=1.0.1 <2.0.0
+801 silly addNameRange { name: 'js-tokens', range: '>=1.0.1 <2.0.0', hasData: false }
+802 silly mapToRegistry name js-tokens
+803 silly mapToRegistry using default registry
+804 silly mapToRegistry registry https://registry.npmjs.org/
+805 silly mapToRegistry uri https://registry.npmjs.org/js-tokens
+806 verbose addNameRange registry:https://registry.npmjs.org/js-tokens not in flight; fetching
+807 silly cache add parsed spec { raw: 'js-tokens@^1.0.1',
+807 silly cache add   scope: null,
+807 silly cache add   name: 'js-tokens',
+807 silly cache add   rawSpec: '^1.0.1',
+807 silly cache add   spec: '>=1.0.1 <2.0.0',
+807 silly cache add   type: 'range' }
+808 verbose addNamed js-tokens@>=1.0.1 <2.0.0
+809 silly addNamed semver.valid null
+810 silly addNamed semver.validRange >=1.0.1 <2.0.0
+811 silly addNameRange { name: 'js-tokens', range: '>=1.0.1 <2.0.0', hasData: false }
+812 silly mapToRegistry name js-tokens
+813 silly mapToRegistry using default registry
+814 silly mapToRegistry registry https://registry.npmjs.org/
+815 silly mapToRegistry uri https://registry.npmjs.org/js-tokens
+816 verbose addNameRange registry:https://registry.npmjs.org/js-tokens already in flight; waiting
+817 silly prepareForInstallMany adding js-tokens@^1.0.1 from loose-envify dependencies
+818 silly prepareForInstallMany adding js-tokens@^1.0.1 from loose-envify dependencies
+819 verbose request uri https://registry.npmjs.org/js-tokens
+820 verbose request no auth needed
+821 info attempt registry request try #1 at 2:17:59 PM
+822 verbose etag "F4N7TBLBJ8Z40VG7DPO546R7U"
+823 http request GET https://registry.npmjs.org/js-tokens
+824 silly cache add args [ 'js-tokens@^1.0.1', null ]
+825 verbose cache add spec js-tokens@^1.0.1
+826 silly cache add args [ 'js-tokens@^1.0.1', null ]
+827 verbose cache add spec js-tokens@^1.0.1
+828 silly cache add parsed spec { raw: 'js-tokens@^1.0.1',
+828 silly cache add   scope: null,
+828 silly cache add   name: 'js-tokens',
+828 silly cache add   rawSpec: '^1.0.1',
+828 silly cache add   spec: '>=1.0.1 <2.0.0',
+828 silly cache add   type: 'range' }
+829 verbose addNamed js-tokens@>=1.0.1 <2.0.0
+830 silly addNamed semver.valid null
+831 silly addNamed semver.validRange >=1.0.1 <2.0.0
+832 silly addNameRange { name: 'js-tokens', range: '>=1.0.1 <2.0.0', hasData: false }
+833 silly mapToRegistry name js-tokens
+834 silly mapToRegistry using default registry
+835 silly mapToRegistry registry https://registry.npmjs.org/
+836 silly mapToRegistry uri https://registry.npmjs.org/js-tokens
+837 verbose addNameRange registry:https://registry.npmjs.org/js-tokens already in flight; waiting
+838 silly cache add parsed spec { raw: 'js-tokens@^1.0.1',
+838 silly cache add   scope: null,
+838 silly cache add   name: 'js-tokens',
+838 silly cache add   rawSpec: '^1.0.1',
+838 silly cache add   spec: '>=1.0.1 <2.0.0',
+838 silly cache add   type: 'range' }
+839 verbose addNamed js-tokens@>=1.0.1 <2.0.0
+840 silly addNamed semver.valid null
+841 silly addNamed semver.validRange >=1.0.1 <2.0.0
+842 silly addNameRange { name: 'js-tokens', range: '>=1.0.1 <2.0.0', hasData: false }
+843 silly mapToRegistry name js-tokens
+844 silly mapToRegistry using default registry
+845 silly mapToRegistry registry https://registry.npmjs.org/
+846 silly mapToRegistry uri https://registry.npmjs.org/js-tokens
+847 verbose addNameRange registry:https://registry.npmjs.org/js-tokens already in flight; waiting
+848 http fetch 200 https://registry.npmjs.org/strict-uri-encode/-/strict-uri-encode-1.1.0.tgz
+849 silly fetchAndShaCheck shasum 279b225df1d582b1f54e65addd4352e18faa0713
+850 verbose addTmpTarball /var/folders/yq/zqhm_fyj3kdb30pp_csc5m1w0000gn/T/npm-7395-fe38fa96/registry.npmjs.org/strict-uri-encode/-/strict-uri-encode-1.1.0.tgz not in flight; adding
+851 verbose addTmpTarball already have metadata; skipping unpack for strict-uri-encode@1.1.0
+852 silly cache afterAdd strict-uri-encode@1.1.0
+853 verbose afterAdd /Users/ericnation/.npm/strict-uri-encode/1.1.0/package/package.json not in flight; writing
+854 verbose afterAdd /Users/ericnation/.npm/strict-uri-encode/1.1.0/package/package.json written
+855 silly install resolved [ { name: 'strict-uri-encode',
+855 silly install resolved     version: '1.1.0',
+855 silly install resolved     description: 'A stricter URI encode adhering to RFC 3986',
+855 silly install resolved     license: 'MIT',
+855 silly install resolved     repository:
+855 silly install resolved      { type: 'git',
+855 silly install resolved        url: 'git+https://github.com/kevva/strict-uri-encode.git' },
+855 silly install resolved     author:
+855 silly install resolved      { name: 'Kevin Mårtensson',
+855 silly install resolved        email: 'kevinmartensson@gmail.com',
+855 silly install resolved        url: 'github.com/kevva' },
+855 silly install resolved     engines: { node: '>=0.10.0' },
+855 silly install resolved     scripts: { test: 'node test.js' },
+855 silly install resolved     files: [ 'index.js' ],
+855 silly install resolved     keywords: [ 'component', 'encode', 'RFC3986', 'uri' ],
+855 silly install resolved     devDependencies: { ava: '^0.0.4' },
+855 silly install resolved     gitHead: 'ce6681428485d30e29222c722f832df15e3c19ac',
+855 silly install resolved     bugs: { url: 'https://github.com/kevva/strict-uri-encode/issues' },
+855 silly install resolved     homepage: 'https://github.com/kevva/strict-uri-encode#readme',
+855 silly install resolved     _id: 'strict-uri-encode@1.1.0',
+855 silly install resolved     _shasum: '279b225df1d582b1f54e65addd4352e18faa0713',
+855 silly install resolved     _from: 'strict-uri-encode@>=1.0.0 <2.0.0',
+855 silly install resolved     _npmVersion: '3.5.3',
+855 silly install resolved     _nodeVersion: '5.3.0',
+855 silly install resolved     _npmUser: { name: 'kevva', email: 'kevinmartensson@gmail.com' },
+855 silly install resolved     dist:
+855 silly install resolved      { shasum: '279b225df1d582b1f54e65addd4352e18faa0713',
+855 silly install resolved        tarball: 'http://registry.npmjs.org/strict-uri-encode/-/strict-uri-encode-1.1.0.tgz' },
+855 silly install resolved     maintainers: [ [Object] ],
+855 silly install resolved     directories: {},
+855 silly install resolved     _resolved: 'https://registry.npmjs.org/strict-uri-encode/-/strict-uri-encode-1.1.0.tgz' } ]
+856 info install strict-uri-encode@1.1.0 into /Users/ericnation/Google Drive/Web Courses/udemy-courses/reactjs/ReactCasts/imgur_reactjs/node_modules/history/node_modules/query-string
+857 info installOne strict-uri-encode@1.1.0
+858 verbose installOne of strict-uri-encode to /Users/ericnation/Google Drive/Web Courses/udemy-courses/reactjs/ReactCasts/imgur_reactjs/node_modules/history/node_modules/query-string not in flight; installing
+859 verbose lock using /Users/ericnation/.npm/_locks/strict-uri-encode-7e7d9a38eb90010b.lock for /Users/ericnation/Google Drive/Web Courses/udemy-courses/reactjs/ReactCasts/imgur_reactjs/node_modules/history/node_modules/query-string/node_modules/strict-uri-encode
+860 silly install write writing strict-uri-encode 1.1.0 to /Users/ericnation/Google Drive/Web Courses/udemy-courses/reactjs/ReactCasts/imgur_reactjs/node_modules/history/node_modules/query-string/node_modules/strict-uri-encode
+861 silly cache addNamed cb strict-uri-encode@1.1.0
+862 verbose unbuild node_modules/history/node_modules/query-string/node_modules/strict-uri-encode
+863 silly gentlyRm /Users/ericnation/Google Drive/Web Courses/udemy-courses/reactjs/ReactCasts/imgur_reactjs/node_modules/history/node_modules/query-string/node_modules/strict-uri-encode is being purged from base /Users/ericnation/Google Drive/Web Courses/udemy-courses/reactjs/ReactCasts/imgur_reactjs
+864 verbose gentlyRm don't care about contents; nuking /Users/ericnation/Google Drive/Web Courses/udemy-courses/reactjs/ReactCasts/imgur_reactjs/node_modules/history/node_modules/query-string/node_modules/strict-uri-encode
+865 verbose tar unpack /Users/ericnation/.npm/strict-uri-encode/1.1.0/package.tgz
+866 verbose tar unpacking to /Users/ericnation/Google Drive/Web Courses/udemy-courses/reactjs/ReactCasts/imgur_reactjs/node_modules/history/node_modules/query-string/node_modules/strict-uri-encode
+867 silly gentlyRm /Users/ericnation/Google Drive/Web Courses/udemy-courses/reactjs/ReactCasts/imgur_reactjs/node_modules/history/node_modules/query-string/node_modules/strict-uri-encode is being purged
+868 verbose gentlyRm don't care about contents; nuking /Users/ericnation/Google Drive/Web Courses/udemy-courses/reactjs/ReactCasts/imgur_reactjs/node_modules/history/node_modules/query-string/node_modules/strict-uri-encode
+869 silly gunzTarPerm modes [ '755', '644' ]
+870 silly gunzTarPerm extractEntry package.json
+871 silly gunzTarPerm modified mode [ 'package.json', 436, 420 ]
+872 silly gunzTarPerm extractEntry index.js
+873 silly gunzTarPerm modified mode [ 'index.js', 436, 420 ]
+874 silly gunzTarPerm extractEntry license
+875 silly gunzTarPerm modified mode [ 'license', 436, 420 ]
+876 silly gunzTarPerm extractEntry readme.md
+877 silly gunzTarPerm modified mode [ 'readme.md', 436, 420 ]
+878 info preinstall strict-uri-encode@1.1.0
+879 silly install resolved []
+880 verbose about to build /Users/ericnation/Google Drive/Web Courses/udemy-courses/reactjs/ReactCasts/imgur_reactjs/node_modules/history/node_modules/query-string/node_modules/strict-uri-encode
+881 info build /Users/ericnation/Google Drive/Web Courses/udemy-courses/reactjs/ReactCasts/imgur_reactjs/node_modules/history/node_modules/query-string/node_modules/strict-uri-encode
+882 verbose linkStuff [ false,
+882 verbose linkStuff   false,
+882 verbose linkStuff   false,
+882 verbose linkStuff   '/Users/ericnation/Google Drive/Web Courses/udemy-courses/reactjs/ReactCasts/imgur_reactjs/node_modules/history/node_modules/query-string/node_modules' ]
+883 info linkStuff strict-uri-encode@1.1.0
+884 verbose linkBins strict-uri-encode@1.1.0
+885 verbose linkMans strict-uri-encode@1.1.0
+886 verbose rebuildBundles strict-uri-encode@1.1.0
+887 info install strict-uri-encode@1.1.0
+888 info postinstall strict-uri-encode@1.1.0
+889 verbose unlock done using /Users/ericnation/.npm/_locks/strict-uri-encode-7e7d9a38eb90010b.lock for /Users/ericnation/Google Drive/Web Courses/udemy-courses/reactjs/ReactCasts/imgur_reactjs/node_modules/history/node_modules/query-string/node_modules/strict-uri-encode
+890 verbose about to build /Users/ericnation/Google Drive/Web Courses/udemy-courses/reactjs/ReactCasts/imgur_reactjs/node_modules/history/node_modules/query-string
+891 info build /Users/ericnation/Google Drive/Web Courses/udemy-courses/reactjs/ReactCasts/imgur_reactjs/node_modules/history/node_modules/query-string
+892 verbose linkStuff [ false,
+892 verbose linkStuff   false,
+892 verbose linkStuff   false,
+892 verbose linkStuff   '/Users/ericnation/Google Drive/Web Courses/udemy-courses/reactjs/ReactCasts/imgur_reactjs/node_modules/history/node_modules' ]
+893 info linkStuff query-string@3.0.0
+894 verbose linkBins query-string@3.0.0
+895 verbose linkMans query-string@3.0.0
+896 verbose rebuildBundles query-string@3.0.0
+897 verbose rebuildBundles [ 'strict-uri-encode' ]
+898 info install query-string@3.0.0
+899 info postinstall query-string@3.0.0
+900 http 304 https://registry.npmjs.org/js-tokens
+901 silly get cb [ 304,
+901 silly get   { date: 'Sat, 30 Jan 2016 21:17:56 GMT',
+901 silly get     via: '1.1 varnish',
+901 silly get     'cache-control': 'max-age=300',
+901 silly get     etag: '"F4N7TBLBJ8Z40VG7DPO546R7U"',
+901 silly get     age: '131',
+901 silly get     connection: 'keep-alive',
+901 silly get     'x-served-by': 'cache-sjc3124-SJC',
+901 silly get     'x-cache': 'HIT',
+901 silly get     'x-cache-hits': '2',
+901 silly get     'x-timer': 'S1454188676.740834,VS0,VE0',
+901 silly get     vary: 'Accept' } ]
+902 verbose etag https://registry.npmjs.org/js-tokens from cache
+903 verbose get saving js-tokens to /Users/ericnation/.npm/registry.npmjs.org/js-tokens/.cache.json
+904 verbose unlock done using /Users/ericnation/.npm/_locks/query-string-9dd3af11f8db0618.lock for /Users/ericnation/Google Drive/Web Courses/udemy-courses/reactjs/ReactCasts/imgur_reactjs/node_modules/history/node_modules/query-string
+905 silly addNameRange number 2 { name: 'js-tokens', range: '>=1.0.1 <2.0.0', hasData: true }
+906 silly addNameRange versions [ 'js-tokens',
+906 silly addNameRange   [ '0.1.0',
+906 silly addNameRange     '0.2.0',
+906 silly addNameRange     '0.3.0',
+906 silly addNameRange     '0.3.1',
+906 silly addNameRange     '0.4.0',
+906 silly addNameRange     '0.4.1',
+906 silly addNameRange     '1.0.0',
+906 silly addNameRange     '1.0.1',
+906 silly addNameRange     '1.0.2' ] ]
+907 verbose addNamed js-tokens@1.0.2
+908 silly addNamed semver.valid 1.0.2
+909 silly addNamed semver.validRange 1.0.2
+910 silly addNameRange number 2 { name: 'js-tokens', range: '>=1.0.1 <2.0.0', hasData: true }
+911 silly addNameRange versions [ 'js-tokens',
+911 silly addNameRange   [ '0.1.0',
+911 silly addNameRange     '0.2.0',
+911 silly addNameRange     '0.3.0',
+911 silly addNameRange     '0.3.1',
+911 silly addNameRange     '0.4.0',
+911 silly addNameRange     '0.4.1',
+911 silly addNameRange     '1.0.0',
+911 silly addNameRange     '1.0.1',
+911 silly addNameRange     '1.0.2' ] ]
+912 verbose addNamed js-tokens@1.0.2
+913 silly addNamed semver.valid 1.0.2
+914 silly addNamed semver.validRange 1.0.2
+915 silly addNameRange number 2 { name: 'js-tokens', range: '>=1.0.1 <2.0.0', hasData: true }
+916 silly addNameRange versions [ 'js-tokens',
+916 silly addNameRange   [ '0.1.0',
+916 silly addNameRange     '0.2.0',
+916 silly addNameRange     '0.3.0',
+916 silly addNameRange     '0.3.1',
+916 silly addNameRange     '0.4.0',
+916 silly addNameRange     '0.4.1',
+916 silly addNameRange     '1.0.0',
+916 silly addNameRange     '1.0.1',
+916 silly addNameRange     '1.0.2' ] ]
+917 verbose addNamed js-tokens@1.0.2
+918 silly addNamed semver.valid 1.0.2
+919 silly addNamed semver.validRange 1.0.2
+920 silly addNameRange number 2 { name: 'js-tokens', range: '>=1.0.1 <2.0.0', hasData: true }
+921 silly addNameRange versions [ 'js-tokens',
+921 silly addNameRange   [ '0.1.0',
+921 silly addNameRange     '0.2.0',
+921 silly addNameRange     '0.3.0',
+921 silly addNameRange     '0.3.1',
+921 silly addNameRange     '0.4.0',
+921 silly addNameRange     '0.4.1',
+921 silly addNameRange     '1.0.0',
+921 silly addNameRange     '1.0.1',
+921 silly addNameRange     '1.0.2' ] ]
+922 verbose addNamed js-tokens@1.0.2
+923 silly addNamed semver.valid 1.0.2
+924 silly addNamed semver.validRange 1.0.2
+925 silly cache afterAdd js-tokens@1.0.2
+926 verbose afterAdd /Users/ericnation/.npm/js-tokens/1.0.2/package/package.json not in flight; writing
+927 silly cache afterAdd js-tokens@1.0.2
+928 verbose afterAdd /Users/ericnation/.npm/js-tokens/1.0.2/package/package.json already in flight; not writing
+929 silly cache afterAdd js-tokens@1.0.2
+930 verbose afterAdd /Users/ericnation/.npm/js-tokens/1.0.2/package/package.json already in flight; not writing
+931 silly cache afterAdd js-tokens@1.0.2
+932 verbose afterAdd /Users/ericnation/.npm/js-tokens/1.0.2/package/package.json already in flight; not writing
+933 verbose afterAdd /Users/ericnation/.npm/js-tokens/1.0.2/package/package.json written
+934 silly install resolved [ { name: 'js-tokens',
+934 silly install resolved     version: '1.0.2',
+934 silly install resolved     author: { name: 'Simon Lydell' },
+934 silly install resolved     license: 'MIT',
+934 silly install resolved     description: 'A regex that tokenizes JavaScript.',
+934 silly install resolved     keywords: [ 'JavaScript', 'js', 'token', 'tokenize', 'regex' ],
+934 silly install resolved     files: [ 'index.js' ],
+934 silly install resolved     repository:
+934 silly install resolved      { type: 'git',
+934 silly install resolved        url: 'git+https://github.com/lydell/js-tokens.git' },
+934 silly install resolved     scripts:
+934 silly install resolved      { test: 'mocha --ui tdd',
+934 silly install resolved        'esprima-compare': 'node esprima-compare ./index.js everything.js/es5.js',
+934 silly install resolved        build: 'node generate-index.js',
+934 silly install resolved        dev: 'npm run build && npm test' },
+934 silly install resolved     devDependencies:
+934 silly install resolved      { 'coffee-script': '~1.9.3',
+934 silly install resolved        esprima: '^2.3.0',
+934 silly install resolved        'everything.js': '^1.0.3',
+934 silly install resolved        mocha: '^2.2.5' },
+934 silly install resolved     gitHead: '90f0f0a217984625180414763234c923aeee4af5',
+934 silly install resolved     bugs: { url: 'https://github.com/lydell/js-tokens/issues' },
+934 silly install resolved     homepage: 'https://github.com/lydell/js-tokens#readme',
+934 silly install resolved     _id: 'js-tokens@1.0.2',
+934 silly install resolved     _shasum: '8647f7e13f64ac15d9357a59a346c804d53b3efe',
+934 silly install resolved     _from: 'js-tokens@>=1.0.1 <2.0.0',
+934 silly install resolved     _npmVersion: '2.14.7',
+934 silly install resolved     _nodeVersion: '4.2.1',
+934 silly install resolved     _npmUser: { name: 'lydell', email: 'simon.lydell@gmail.com' },
+934 silly install resolved     dist:
+934 silly install resolved      { shasum: '8647f7e13f64ac15d9357a59a346c804d53b3efe',
+934 silly install resolved        tarball: 'http://registry.npmjs.org/js-tokens/-/js-tokens-1.0.2.tgz' },
+934 silly install resolved     maintainers: [ [Object] ],
+934 silly install resolved     directories: {},
+934 silly install resolved     _resolved: 'https://registry.npmjs.org/js-tokens/-/js-tokens-1.0.2.tgz',
+934 silly install resolved     readme: 'ERROR: No README data found!' } ]
+935 info install js-tokens@1.0.2 into /Users/ericnation/Google Drive/Web Courses/udemy-courses/reactjs/ReactCasts/imgur_reactjs/node_modules/react-router/node_modules/warning/node_modules/loose-envify
+936 info installOne js-tokens@1.0.2
+937 verbose installOne of js-tokens to /Users/ericnation/Google Drive/Web Courses/udemy-courses/reactjs/ReactCasts/imgur_reactjs/node_modules/react-router/node_modules/warning/node_modules/loose-envify not in flight; installing
+938 silly install resolved [ { name: 'js-tokens',
+938 silly install resolved     version: '1.0.2',
+938 silly install resolved     author: { name: 'Simon Lydell' },
+938 silly install resolved     license: 'MIT',
+938 silly install resolved     description: 'A regex that tokenizes JavaScript.',
+938 silly install resolved     keywords: [ 'JavaScript', 'js', 'token', 'tokenize', 'regex' ],
+938 silly install resolved     files: [ 'index.js' ],
+938 silly install resolved     repository:
+938 silly install resolved      { type: 'git',
+938 silly install resolved        url: 'git+https://github.com/lydell/js-tokens.git' },
+938 silly install resolved     scripts:
+938 silly install resolved      { test: 'mocha --ui tdd',
+938 silly install resolved        'esprima-compare': 'node esprima-compare ./index.js everything.js/es5.js',
+938 silly install resolved        build: 'node generate-index.js',
+938 silly install resolved        dev: 'npm run build && npm test' },
+938 silly install resolved     devDependencies:
+938 silly install resolved      { 'coffee-script': '~1.9.3',
+938 silly install resolved        esprima: '^2.3.0',
+938 silly install resolved        'everything.js': '^1.0.3',
+938 silly install resolved        mocha: '^2.2.5' },
+938 silly install resolved     gitHead: '90f0f0a217984625180414763234c923aeee4af5',
+938 silly install resolved     bugs: { url: 'https://github.com/lydell/js-tokens/issues' },
+938 silly install resolved     homepage: 'https://github.com/lydell/js-tokens#readme',
+938 silly install resolved     _id: 'js-tokens@1.0.2',
+938 silly install resolved     _shasum: '8647f7e13f64ac15d9357a59a346c804d53b3efe',
+938 silly install resolved     _from: 'js-tokens@>=1.0.1 <2.0.0',
+938 silly install resolved     _npmVersion: '2.14.7',
+938 silly install resolved     _nodeVersion: '4.2.1',
+938 silly install resolved     _npmUser: { name: 'lydell', email: 'simon.lydell@gmail.com' },
+938 silly install resolved     dist:
+938 silly install resolved      { shasum: '8647f7e13f64ac15d9357a59a346c804d53b3efe',
+938 silly install resolved        tarball: 'http://registry.npmjs.org/js-tokens/-/js-tokens-1.0.2.tgz' },
+938 silly install resolved     maintainers: [ [Object] ],
+938 silly install resolved     directories: {},
+938 silly install resolved     _resolved: 'https://registry.npmjs.org/js-tokens/-/js-tokens-1.0.2.tgz',
+938 silly install resolved     readme: 'ERROR: No README data found!' } ]
+939 info install js-tokens@1.0.2 into /Users/ericnation/Google Drive/Web Courses/udemy-courses/reactjs/ReactCasts/imgur_reactjs/node_modules/history/node_modules/warning/node_modules/loose-envify
+940 info installOne js-tokens@1.0.2
+941 verbose installOne of js-tokens to /Users/ericnation/Google Drive/Web Courses/udemy-courses/reactjs/ReactCasts/imgur_reactjs/node_modules/history/node_modules/warning/node_modules/loose-envify not in flight; installing
+942 silly install resolved [ { name: 'js-tokens',
+942 silly install resolved     version: '1.0.2',
+942 silly install resolved     author: { name: 'Simon Lydell' },
+942 silly install resolved     license: 'MIT',
+942 silly install resolved     description: 'A regex that tokenizes JavaScript.',
+942 silly install resolved     keywords: [ 'JavaScript', 'js', 'token', 'tokenize', 'regex' ],
+942 silly install resolved     files: [ 'index.js' ],
+942 silly install resolved     repository:
+942 silly install resolved      { type: 'git',
+942 silly install resolved        url: 'git+https://github.com/lydell/js-tokens.git' },
+942 silly install resolved     scripts:
+942 silly install resolved      { test: 'mocha --ui tdd',
+942 silly install resolved        'esprima-compare': 'node esprima-compare ./index.js everything.js/es5.js',
+942 silly install resolved        build: 'node generate-index.js',
+942 silly install resolved        dev: 'npm run build && npm test' },
+942 silly install resolved     devDependencies:
+942 silly install resolved      { 'coffee-script': '~1.9.3',
+942 silly install resolved        esprima: '^2.3.0',
+942 silly install resolved        'everything.js': '^1.0.3',
+942 silly install resolved        mocha: '^2.2.5' },
+942 silly install resolved     gitHead: '90f0f0a217984625180414763234c923aeee4af5',
+942 silly install resolved     bugs: { url: 'https://github.com/lydell/js-tokens/issues' },
+942 silly install resolved     homepage: 'https://github.com/lydell/js-tokens#readme',
+942 silly install resolved     _id: 'js-tokens@1.0.2',
+942 silly install resolved     _shasum: '8647f7e13f64ac15d9357a59a346c804d53b3efe',
+942 silly install resolved     _from: 'js-tokens@>=1.0.1 <2.0.0',
+942 silly install resolved     _npmVersion: '2.14.7',
+942 silly install resolved     _nodeVersion: '4.2.1',
+942 silly install resolved     _npmUser: { name: 'lydell', email: 'simon.lydell@gmail.com' },
+942 silly install resolved     dist:
+942 silly install resolved      { shasum: '8647f7e13f64ac15d9357a59a346c804d53b3efe',
+942 silly install resolved        tarball: 'http://registry.npmjs.org/js-tokens/-/js-tokens-1.0.2.tgz' },
+942 silly install resolved     maintainers: [ [Object] ],
+942 silly install resolved     directories: {},
+942 silly install resolved     _resolved: 'https://registry.npmjs.org/js-tokens/-/js-tokens-1.0.2.tgz',
+942 silly install resolved     readme: 'ERROR: No README data found!' } ]
+943 info install js-tokens@1.0.2 into /Users/ericnation/Google Drive/Web Courses/udemy-courses/reactjs/ReactCasts/imgur_reactjs/node_modules/react-router/node_modules/invariant/node_modules/loose-envify
+944 info installOne js-tokens@1.0.2
+945 verbose installOne of js-tokens to /Users/ericnation/Google Drive/Web Courses/udemy-courses/reactjs/ReactCasts/imgur_reactjs/node_modules/react-router/node_modules/invariant/node_modules/loose-envify not in flight; installing
+946 silly install resolved [ { name: 'js-tokens',
+946 silly install resolved     version: '1.0.2',
+946 silly install resolved     author: { name: 'Simon Lydell' },
+946 silly install resolved     license: 'MIT',
+946 silly install resolved     description: 'A regex that tokenizes JavaScript.',
+946 silly install resolved     keywords: [ 'JavaScript', 'js', 'token', 'tokenize', 'regex' ],
+946 silly install resolved     files: [ 'index.js' ],
+946 silly install resolved     repository:
+946 silly install resolved      { type: 'git',
+946 silly install resolved        url: 'git+https://github.com/lydell/js-tokens.git' },
+946 silly install resolved     scripts:
+946 silly install resolved      { test: 'mocha --ui tdd',
+946 silly install resolved        'esprima-compare': 'node esprima-compare ./index.js everything.js/es5.js',
+946 silly install resolved        build: 'node generate-index.js',
+946 silly install resolved        dev: 'npm run build && npm test' },
+946 silly install resolved     devDependencies:
+946 silly install resolved      { 'coffee-script': '~1.9.3',
+946 silly install resolved        esprima: '^2.3.0',
+946 silly install resolved        'everything.js': '^1.0.3',
+946 silly install resolved        mocha: '^2.2.5' },
+946 silly install resolved     gitHead: '90f0f0a217984625180414763234c923aeee4af5',
+946 silly install resolved     bugs: { url: 'https://github.com/lydell/js-tokens/issues' },
+946 silly install resolved     homepage: 'https://github.com/lydell/js-tokens#readme',
+946 silly install resolved     _id: 'js-tokens@1.0.2',
+946 silly install resolved     _shasum: '8647f7e13f64ac15d9357a59a346c804d53b3efe',
+946 silly install resolved     _from: 'js-tokens@>=1.0.1 <2.0.0',
+946 silly install resolved     _npmVersion: '2.14.7',
+946 silly install resolved     _nodeVersion: '4.2.1',
+946 silly install resolved     _npmUser: { name: 'lydell', email: 'simon.lydell@gmail.com' },
+946 silly install resolved     dist:
+946 silly install resolved      { shasum: '8647f7e13f64ac15d9357a59a346c804d53b3efe',
+946 silly install resolved        tarball: 'http://registry.npmjs.org/js-tokens/-/js-tokens-1.0.2.tgz' },
+946 silly install resolved     maintainers: [ [Object] ],
+946 silly install resolved     directories: {},
+946 silly install resolved     _resolved: 'https://registry.npmjs.org/js-tokens/-/js-tokens-1.0.2.tgz',
+946 silly install resolved     readme: 'ERROR: No README data found!' } ]
+947 info install js-tokens@1.0.2 into /Users/ericnation/Google Drive/Web Courses/udemy-courses/reactjs/ReactCasts/imgur_reactjs/node_modules/history/node_modules/invariant/node_modules/loose-envify
+948 info installOne js-tokens@1.0.2
+949 verbose installOne of js-tokens to /Users/ericnation/Google Drive/Web Courses/udemy-courses/reactjs/ReactCasts/imgur_reactjs/node_modules/history/node_modules/invariant/node_modules/loose-envify not in flight; installing
+950 verbose lock using /Users/ericnation/.npm/_locks/js-tokens-5ec8cf4809c1370b.lock for /Users/ericnation/Google Drive/Web Courses/udemy-courses/reactjs/ReactCasts/imgur_reactjs/node_modules/react-router/node_modules/warning/node_modules/loose-envify/node_modules/js-tokens
+951 silly install write writing js-tokens 1.0.2 to /Users/ericnation/Google Drive/Web Courses/udemy-courses/reactjs/ReactCasts/imgur_reactjs/node_modules/react-router/node_modules/warning/node_modules/loose-envify/node_modules/js-tokens
+952 silly cache addNamed cb js-tokens@1.0.2
+953 verbose unbuild node_modules/react-router/node_modules/warning/node_modules/loose-envify/node_modules/js-tokens
+954 verbose lock using /Users/ericnation/.npm/_locks/js-tokens-77a87fa0b5c1ad4e.lock for /Users/ericnation/Google Drive/Web Courses/udemy-courses/reactjs/ReactCasts/imgur_reactjs/node_modules/history/node_modules/warning/node_modules/loose-envify/node_modules/js-tokens
+955 verbose lock using /Users/ericnation/.npm/_locks/js-tokens-c278b7e5a65eb624.lock for /Users/ericnation/Google Drive/Web Courses/udemy-courses/reactjs/ReactCasts/imgur_reactjs/node_modules/react-router/node_modules/invariant/node_modules/loose-envify/node_modules/js-tokens
+956 silly install write writing js-tokens 1.0.2 to /Users/ericnation/Google Drive/Web Courses/udemy-courses/reactjs/ReactCasts/imgur_reactjs/node_modules/history/node_modules/warning/node_modules/loose-envify/node_modules/js-tokens
+957 silly cache addNamed cb js-tokens@1.0.2
+958 verbose unbuild node_modules/history/node_modules/warning/node_modules/loose-envify/node_modules/js-tokens
+959 silly install write writing js-tokens 1.0.2 to /Users/ericnation/Google Drive/Web Courses/udemy-courses/reactjs/ReactCasts/imgur_reactjs/node_modules/react-router/node_modules/invariant/node_modules/loose-envify/node_modules/js-tokens
+960 silly cache addNamed cb js-tokens@1.0.2
+961 verbose unbuild node_modules/react-router/node_modules/invariant/node_modules/loose-envify/node_modules/js-tokens
+962 verbose lock using /Users/ericnation/.npm/_locks/js-tokens-1daa5d0937a11666.lock for /Users/ericnation/Google Drive/Web Courses/udemy-courses/reactjs/ReactCasts/imgur_reactjs/node_modules/history/node_modules/invariant/node_modules/loose-envify/node_modules/js-tokens
+963 silly gentlyRm /Users/ericnation/Google Drive/Web Courses/udemy-courses/reactjs/ReactCasts/imgur_reactjs/node_modules/react-router/node_modules/warning/node_modules/loose-envify/node_modules/js-tokens is being purged from base /Users/ericnation/Google Drive/Web Courses/udemy-courses/reactjs/ReactCasts/imgur_reactjs
+964 verbose gentlyRm don't care about contents; nuking /Users/ericnation/Google Drive/Web Courses/udemy-courses/reactjs/ReactCasts/imgur_reactjs/node_modules/react-router/node_modules/warning/node_modules/loose-envify/node_modules/js-tokens
+965 silly install write writing js-tokens 1.0.2 to /Users/ericnation/Google Drive/Web Courses/udemy-courses/reactjs/ReactCasts/imgur_reactjs/node_modules/history/node_modules/invariant/node_modules/loose-envify/node_modules/js-tokens
+966 silly cache addNamed cb js-tokens@1.0.2
+967 verbose unbuild node_modules/history/node_modules/invariant/node_modules/loose-envify/node_modules/js-tokens
+968 verbose tar unpack /Users/ericnation/.npm/js-tokens/1.0.2/package.tgz
+969 verbose tar unpacking to /Users/ericnation/Google Drive/Web Courses/udemy-courses/reactjs/ReactCasts/imgur_reactjs/node_modules/react-router/node_modules/warning/node_modules/loose-envify/node_modules/js-tokens
+970 silly gentlyRm /Users/ericnation/Google Drive/Web Courses/udemy-courses/reactjs/ReactCasts/imgur_reactjs/node_modules/react-router/node_modules/warning/node_modules/loose-envify/node_modules/js-tokens is being purged
+971 verbose gentlyRm don't care about contents; nuking /Users/ericnation/Google Drive/Web Courses/udemy-courses/reactjs/ReactCasts/imgur_reactjs/node_modules/react-router/node_modules/warning/node_modules/loose-envify/node_modules/js-tokens
+972 silly gentlyRm /Users/ericnation/Google Drive/Web Courses/udemy-courses/reactjs/ReactCasts/imgur_reactjs/node_modules/history/node_modules/warning/node_modules/loose-envify/node_modules/js-tokens is being purged from base /Users/ericnation/Google Drive/Web Courses/udemy-courses/reactjs/ReactCasts/imgur_reactjs
+973 verbose gentlyRm don't care about contents; nuking /Users/ericnation/Google Drive/Web Courses/udemy-courses/reactjs/ReactCasts/imgur_reactjs/node_modules/history/node_modules/warning/node_modules/loose-envify/node_modules/js-tokens
+974 silly gentlyRm /Users/ericnation/Google Drive/Web Courses/udemy-courses/reactjs/ReactCasts/imgur_reactjs/node_modules/react-router/node_modules/invariant/node_modules/loose-envify/node_modules/js-tokens is being purged from base /Users/ericnation/Google Drive/Web Courses/udemy-courses/reactjs/ReactCasts/imgur_reactjs
+975 verbose gentlyRm don't care about contents; nuking /Users/ericnation/Google Drive/Web Courses/udemy-courses/reactjs/ReactCasts/imgur_reactjs/node_modules/react-router/node_modules/invariant/node_modules/loose-envify/node_modules/js-tokens
+976 silly gunzTarPerm modes [ '755', '644' ]
+977 verbose tar unpack /Users/ericnation/.npm/js-tokens/1.0.2/package.tgz
+978 verbose tar unpacking to /Users/ericnation/Google Drive/Web Courses/udemy-courses/reactjs/ReactCasts/imgur_reactjs/node_modules/history/node_modules/warning/node_modules/loose-envify/node_modules/js-tokens
+979 silly gentlyRm /Users/ericnation/Google Drive/Web Courses/udemy-courses/reactjs/ReactCasts/imgur_reactjs/node_modules/history/node_modules/warning/node_modules/loose-envify/node_modules/js-tokens is being purged
+980 verbose gentlyRm don't care about contents; nuking /Users/ericnation/Google Drive/Web Courses/udemy-courses/reactjs/ReactCasts/imgur_reactjs/node_modules/history/node_modules/warning/node_modules/loose-envify/node_modules/js-tokens
+981 verbose tar unpack /Users/ericnation/.npm/js-tokens/1.0.2/package.tgz
+982 verbose tar unpacking to /Users/ericnation/Google Drive/Web Courses/udemy-courses/reactjs/ReactCasts/imgur_reactjs/node_modules/react-router/node_modules/invariant/node_modules/loose-envify/node_modules/js-tokens
+983 silly gentlyRm /Users/ericnation/Google Drive/Web Courses/udemy-courses/reactjs/ReactCasts/imgur_reactjs/node_modules/react-router/node_modules/invariant/node_modules/loose-envify/node_modules/js-tokens is being purged
+984 verbose gentlyRm don't care about contents; nuking /Users/ericnation/Google Drive/Web Courses/udemy-courses/reactjs/ReactCasts/imgur_reactjs/node_modules/react-router/node_modules/invariant/node_modules/loose-envify/node_modules/js-tokens
+985 silly gentlyRm /Users/ericnation/Google Drive/Web Courses/udemy-courses/reactjs/ReactCasts/imgur_reactjs/node_modules/history/node_modules/invariant/node_modules/loose-envify/node_modules/js-tokens is being purged from base /Users/ericnation/Google Drive/Web Courses/udemy-courses/reactjs/ReactCasts/imgur_reactjs
+986 verbose gentlyRm don't care about contents; nuking /Users/ericnation/Google Drive/Web Courses/udemy-courses/reactjs/ReactCasts/imgur_reactjs/node_modules/history/node_modules/invariant/node_modules/loose-envify/node_modules/js-tokens
+987 silly gunzTarPerm modes [ '755', '644' ]
+988 silly gunzTarPerm modes [ '755', '644' ]
+989 verbose tar unpack /Users/ericnation/.npm/js-tokens/1.0.2/package.tgz
+990 verbose tar unpacking to /Users/ericnation/Google Drive/Web Courses/udemy-courses/reactjs/ReactCasts/imgur_reactjs/node_modules/history/node_modules/invariant/node_modules/loose-envify/node_modules/js-tokens
+991 silly gentlyRm /Users/ericnation/Google Drive/Web Courses/udemy-courses/reactjs/ReactCasts/imgur_reactjs/node_modules/history/node_modules/invariant/node_modules/loose-envify/node_modules/js-tokens is being purged
+992 verbose gentlyRm don't care about contents; nuking /Users/ericnation/Google Drive/Web Courses/udemy-courses/reactjs/ReactCasts/imgur_reactjs/node_modules/history/node_modules/invariant/node_modules/loose-envify/node_modules/js-tokens
+993 silly gunzTarPerm modes [ '755', '644' ]
+994 silly gunzTarPerm extractEntry package.json
+995 silly gunzTarPerm modified mode [ 'package.json', 436, 420 ]
+996 silly gunzTarPerm extractEntry package.json
+997 silly gunzTarPerm modified mode [ 'package.json', 436, 420 ]
+998 silly gunzTarPerm extractEntry package.json
+999 silly gunzTarPerm modified mode [ 'package.json', 436, 420 ]
+1000 silly gunzTarPerm extractEntry package.json
+1001 silly gunzTarPerm modified mode [ 'package.json', 436, 420 ]
+1002 silly gunzTarPerm extractEntry LICENSE
+1003 silly gunzTarPerm modified mode [ 'LICENSE', 436, 420 ]
+1004 silly gunzTarPerm extractEntry index.js
+1005 silly gunzTarPerm modified mode [ 'index.js', 436, 420 ]
+1006 silly gunzTarPerm extractEntry LICENSE
+1007 silly gunzTarPerm modified mode [ 'LICENSE', 436, 420 ]
+1008 silly gunzTarPerm extractEntry index.js
+1009 silly gunzTarPerm modified mode [ 'index.js', 436, 420 ]
+1010 silly gunzTarPerm extractEntry LICENSE
+1011 silly gunzTarPerm modified mode [ 'LICENSE', 436, 420 ]
+1012 silly gunzTarPerm extractEntry index.js
+1013 silly gunzTarPerm modified mode [ 'index.js', 436, 420 ]
+1014 silly gunzTarPerm extractEntry LICENSE
+1015 silly gunzTarPerm modified mode [ 'LICENSE', 436, 420 ]
+1016 silly gunzTarPerm extractEntry index.js
+1017 silly gunzTarPerm modified mode [ 'index.js', 436, 420 ]
+1018 silly gunzTarPerm extractEntry changelog.md
+1019 silly gunzTarPerm modified mode [ 'changelog.md', 436, 420 ]
+1020 silly gunzTarPerm extractEntry readme.md
+1021 silly gunzTarPerm modified mode [ 'readme.md', 436, 420 ]
+1022 silly gunzTarPerm extractEntry changelog.md
+1023 silly gunzTarPerm modified mode [ 'changelog.md', 436, 420 ]
+1024 silly gunzTarPerm extractEntry readme.md
+1025 silly gunzTarPerm modified mode [ 'readme.md', 436, 420 ]
+1026 silly gunzTarPerm extractEntry changelog.md
+1027 silly gunzTarPerm modified mode [ 'changelog.md', 436, 420 ]
+1028 silly gunzTarPerm extractEntry readme.md
+1029 silly gunzTarPerm modified mode [ 'readme.md', 436, 420 ]
+1030 silly gunzTarPerm extractEntry changelog.md
+1031 silly gunzTarPerm modified mode [ 'changelog.md', 436, 420 ]
+1032 silly gunzTarPerm extractEntry readme.md
+1033 silly gunzTarPerm modified mode [ 'readme.md', 436, 420 ]
+1034 info preinstall js-tokens@1.0.2
+1035 info preinstall js-tokens@1.0.2
+1036 info preinstall js-tokens@1.0.2
+1037 info preinstall js-tokens@1.0.2
+1038 silly install resolved []
+1039 verbose about to build /Users/ericnation/Google Drive/Web Courses/udemy-courses/reactjs/ReactCasts/imgur_reactjs/node_modules/react-router/node_modules/warning/node_modules/loose-envify/node_modules/js-tokens
+1040 info build /Users/ericnation/Google Drive/Web Courses/udemy-courses/reactjs/ReactCasts/imgur_reactjs/node_modules/react-router/node_modules/warning/node_modules/loose-envify/node_modules/js-tokens
+1041 verbose linkStuff [ false,
+1041 verbose linkStuff   false,
+1041 verbose linkStuff   false,
+1041 verbose linkStuff   '/Users/ericnation/Google Drive/Web Courses/udemy-courses/reactjs/ReactCasts/imgur_reactjs/node_modules/react-router/node_modules/warning/node_modules/loose-envify/node_modules' ]
+1042 info linkStuff js-tokens@1.0.2
+1043 verbose linkBins js-tokens@1.0.2
+1044 verbose linkMans js-tokens@1.0.2
+1045 verbose rebuildBundles js-tokens@1.0.2
+1046 silly install resolved []
+1047 verbose about to build /Users/ericnation/Google Drive/Web Courses/udemy-courses/reactjs/ReactCasts/imgur_reactjs/node_modules/history/node_modules/warning/node_modules/loose-envify/node_modules/js-tokens
+1048 info build /Users/ericnation/Google Drive/Web Courses/udemy-courses/reactjs/ReactCasts/imgur_reactjs/node_modules/history/node_modules/warning/node_modules/loose-envify/node_modules/js-tokens
+1049 verbose linkStuff [ false,
+1049 verbose linkStuff   false,
+1049 verbose linkStuff   false,
+1049 verbose linkStuff   '/Users/ericnation/Google Drive/Web Courses/udemy-courses/reactjs/ReactCasts/imgur_reactjs/node_modules/history/node_modules/warning/node_modules/loose-envify/node_modules' ]
+1050 info linkStuff js-tokens@1.0.2
+1051 verbose linkBins js-tokens@1.0.2
+1052 verbose linkMans js-tokens@1.0.2
+1053 verbose rebuildBundles js-tokens@1.0.2
+1054 silly install resolved []
+1055 verbose about to build /Users/ericnation/Google Drive/Web Courses/udemy-courses/reactjs/ReactCasts/imgur_reactjs/node_modules/react-router/node_modules/invariant/node_modules/loose-envify/node_modules/js-tokens
+1056 info build /Users/ericnation/Google Drive/Web Courses/udemy-courses/reactjs/ReactCasts/imgur_reactjs/node_modules/react-router/node_modules/invariant/node_modules/loose-envify/node_modules/js-tokens
+1057 verbose linkStuff [ false,
+1057 verbose linkStuff   false,
+1057 verbose linkStuff   false,
+1057 verbose linkStuff   '/Users/ericnation/Google Drive/Web Courses/udemy-courses/reactjs/ReactCasts/imgur_reactjs/node_modules/react-router/node_modules/invariant/node_modules/loose-envify/node_modules' ]
+1058 info linkStuff js-tokens@1.0.2
+1059 verbose linkBins js-tokens@1.0.2
+1060 verbose linkMans js-tokens@1.0.2
+1061 verbose rebuildBundles js-tokens@1.0.2
+1062 info install js-tokens@1.0.2
+1063 info install js-tokens@1.0.2
+1064 info install js-tokens@1.0.2
+1065 silly install resolved []
+1066 verbose about to build /Users/ericnation/Google Drive/Web Courses/udemy-courses/reactjs/ReactCasts/imgur_reactjs/node_modules/history/node_modules/invariant/node_modules/loose-envify/node_modules/js-tokens
+1067 info build /Users/ericnation/Google Drive/Web Courses/udemy-courses/reactjs/ReactCasts/imgur_reactjs/node_modules/history/node_modules/invariant/node_modules/loose-envify/node_modules/js-tokens
+1068 verbose linkStuff [ false,
+1068 verbose linkStuff   false,
+1068 verbose linkStuff   false,
+1068 verbose linkStuff   '/Users/ericnation/Google Drive/Web Courses/udemy-courses/reactjs/ReactCasts/imgur_reactjs/node_modules/history/node_modules/invariant/node_modules/loose-envify/node_modules' ]
+1069 info linkStuff js-tokens@1.0.2
+1070 verbose linkBins js-tokens@1.0.2
+1071 verbose linkMans js-tokens@1.0.2
+1072 verbose rebuildBundles js-tokens@1.0.2
+1073 info postinstall js-tokens@1.0.2
+1074 info postinstall js-tokens@1.0.2
+1075 info postinstall js-tokens@1.0.2
+1076 info install js-tokens@1.0.2
+1077 info postinstall js-tokens@1.0.2
+1078 verbose unlock done using /Users/ericnation/.npm/_locks/js-tokens-5ec8cf4809c1370b.lock for /Users/ericnation/Google Drive/Web Courses/udemy-courses/reactjs/ReactCasts/imgur_reactjs/node_modules/react-router/node_modules/warning/node_modules/loose-envify/node_modules/js-tokens
+1079 verbose about to build /Users/ericnation/Google Drive/Web Courses/udemy-courses/reactjs/ReactCasts/imgur_reactjs/node_modules/react-router/node_modules/warning/node_modules/loose-envify
+1080 info build /Users/ericnation/Google Drive/Web Courses/udemy-courses/reactjs/ReactCasts/imgur_reactjs/node_modules/react-router/node_modules/warning/node_modules/loose-envify
+1081 verbose linkStuff [ false,
+1081 verbose linkStuff   false,
+1081 verbose linkStuff   false,
+1081 verbose linkStuff   '/Users/ericnation/Google Drive/Web Courses/udemy-courses/reactjs/ReactCasts/imgur_reactjs/node_modules/react-router/node_modules/warning/node_modules' ]
+1082 info linkStuff loose-envify@1.1.0
+1083 verbose linkBins loose-envify@1.1.0
+1084 verbose linkMans loose-envify@1.1.0
+1085 verbose rebuildBundles loose-envify@1.1.0
+1086 verbose unlock done using /Users/ericnation/.npm/_locks/js-tokens-77a87fa0b5c1ad4e.lock for /Users/ericnation/Google Drive/Web Courses/udemy-courses/reactjs/ReactCasts/imgur_reactjs/node_modules/history/node_modules/warning/node_modules/loose-envify/node_modules/js-tokens
+1087 verbose about to build /Users/ericnation/Google Drive/Web Courses/udemy-courses/reactjs/ReactCasts/imgur_reactjs/node_modules/history/node_modules/warning/node_modules/loose-envify
+1088 info build /Users/ericnation/Google Drive/Web Courses/udemy-courses/reactjs/ReactCasts/imgur_reactjs/node_modules/history/node_modules/warning/node_modules/loose-envify
+1089 verbose linkStuff [ false,
+1089 verbose linkStuff   false,
+1089 verbose linkStuff   false,
+1089 verbose linkStuff   '/Users/ericnation/Google Drive/Web Courses/udemy-courses/reactjs/ReactCasts/imgur_reactjs/node_modules/history/node_modules/warning/node_modules' ]
+1090 info linkStuff loose-envify@1.1.0
+1091 verbose linkBins loose-envify@1.1.0
+1092 verbose linkMans loose-envify@1.1.0
+1093 verbose rebuildBundles loose-envify@1.1.0
+1094 verbose unlock done using /Users/ericnation/.npm/_locks/js-tokens-c278b7e5a65eb624.lock for /Users/ericnation/Google Drive/Web Courses/udemy-courses/reactjs/ReactCasts/imgur_reactjs/node_modules/react-router/node_modules/invariant/node_modules/loose-envify/node_modules/js-tokens
+1095 verbose about to build /Users/ericnation/Google Drive/Web Courses/udemy-courses/reactjs/ReactCasts/imgur_reactjs/node_modules/react-router/node_modules/invariant/node_modules/loose-envify
+1096 info build /Users/ericnation/Google Drive/Web Courses/udemy-courses/reactjs/ReactCasts/imgur_reactjs/node_modules/react-router/node_modules/invariant/node_modules/loose-envify
+1097 verbose linkStuff [ false,
+1097 verbose linkStuff   false,
+1097 verbose linkStuff   false,
+1097 verbose linkStuff   '/Users/ericnation/Google Drive/Web Courses/udemy-courses/reactjs/ReactCasts/imgur_reactjs/node_modules/react-router/node_modules/invariant/node_modules' ]
+1098 info linkStuff loose-envify@1.1.0
+1099 verbose linkBins loose-envify@1.1.0
+1100 verbose linkMans loose-envify@1.1.0
+1101 verbose rebuildBundles loose-envify@1.1.0
+1102 verbose rebuildBundles [ 'js-tokens' ]
+1103 info install loose-envify@1.1.0
+1104 verbose rebuildBundles [ 'js-tokens' ]
+1105 info install loose-envify@1.1.0
+1106 verbose rebuildBundles [ 'js-tokens' ]
+1107 info install loose-envify@1.1.0
+1108 verbose unlock done using /Users/ericnation/.npm/_locks/js-tokens-1daa5d0937a11666.lock for /Users/ericnation/Google Drive/Web Courses/udemy-courses/reactjs/ReactCasts/imgur_reactjs/node_modules/history/node_modules/invariant/node_modules/loose-envify/node_modules/js-tokens
+1109 verbose about to build /Users/ericnation/Google Drive/Web Courses/udemy-courses/reactjs/ReactCasts/imgur_reactjs/node_modules/history/node_modules/invariant/node_modules/loose-envify
+1110 info build /Users/ericnation/Google Drive/Web Courses/udemy-courses/reactjs/ReactCasts/imgur_reactjs/node_modules/history/node_modules/invariant/node_modules/loose-envify
+1111 verbose linkStuff [ false,
+1111 verbose linkStuff   false,
+1111 verbose linkStuff   false,
+1111 verbose linkStuff   '/Users/ericnation/Google Drive/Web Courses/udemy-courses/reactjs/ReactCasts/imgur_reactjs/node_modules/history/node_modules/invariant/node_modules' ]
+1112 info linkStuff loose-envify@1.1.0
+1113 verbose linkBins loose-envify@1.1.0
+1114 verbose linkMans loose-envify@1.1.0
+1115 verbose rebuildBundles loose-envify@1.1.0
+1116 info postinstall loose-envify@1.1.0
+1117 info postinstall loose-envify@1.1.0
+1118 info postinstall loose-envify@1.1.0
+1119 verbose rebuildBundles [ 'js-tokens' ]
+1120 info install loose-envify@1.1.0
+1121 info postinstall loose-envify@1.1.0
+1122 verbose unlock done using /Users/ericnation/.npm/_locks/loose-envify-e5f65d8fe8171c18.lock for /Users/ericnation/Google Drive/Web Courses/udemy-courses/reactjs/ReactCasts/imgur_reactjs/node_modules/react-router/node_modules/warning/node_modules/loose-envify
+1123 verbose about to build /Users/ericnation/Google Drive/Web Courses/udemy-courses/reactjs/ReactCasts/imgur_reactjs/node_modules/react-router/node_modules/warning
+1124 info build /Users/ericnation/Google Drive/Web Courses/udemy-courses/reactjs/ReactCasts/imgur_reactjs/node_modules/react-router/node_modules/warning
+1125 verbose linkStuff [ false,
+1125 verbose linkStuff   false,
+1125 verbose linkStuff   false,
+1125 verbose linkStuff   '/Users/ericnation/Google Drive/Web Courses/udemy-courses/reactjs/ReactCasts/imgur_reactjs/node_modules/react-router/node_modules' ]
+1126 info linkStuff warning@2.1.0
+1127 verbose linkBins warning@2.1.0
+1128 verbose linkMans warning@2.1.0
+1129 verbose rebuildBundles warning@2.1.0
+1130 verbose unlock done using /Users/ericnation/.npm/_locks/loose-envify-f25b45f0878e904b.lock for /Users/ericnation/Google Drive/Web Courses/udemy-courses/reactjs/ReactCasts/imgur_reactjs/node_modules/history/node_modules/warning/node_modules/loose-envify
+1131 verbose about to build /Users/ericnation/Google Drive/Web Courses/udemy-courses/reactjs/ReactCasts/imgur_reactjs/node_modules/history/node_modules/warning
+1132 info build /Users/ericnation/Google Drive/Web Courses/udemy-courses/reactjs/ReactCasts/imgur_reactjs/node_modules/history/node_modules/warning
+1133 verbose linkStuff [ false,
+1133 verbose linkStuff   false,
+1133 verbose linkStuff   false,
+1133 verbose linkStuff   '/Users/ericnation/Google Drive/Web Courses/udemy-courses/reactjs/ReactCasts/imgur_reactjs/node_modules/history/node_modules' ]
+1134 info linkStuff warning@2.1.0
+1135 verbose linkBins warning@2.1.0
+1136 verbose linkMans warning@2.1.0
+1137 verbose rebuildBundles warning@2.1.0
+1138 verbose unlock done using /Users/ericnation/.npm/_locks/loose-envify-efb9a48b4d88789a.lock for /Users/ericnation/Google Drive/Web Courses/udemy-courses/reactjs/ReactCasts/imgur_reactjs/node_modules/react-router/node_modules/invariant/node_modules/loose-envify
+1139 verbose about to build /Users/ericnation/Google Drive/Web Courses/udemy-courses/reactjs/ReactCasts/imgur_reactjs/node_modules/react-router/node_modules/invariant
+1140 info build /Users/ericnation/Google Drive/Web Courses/udemy-courses/reactjs/ReactCasts/imgur_reactjs/node_modules/react-router/node_modules/invariant
+1141 verbose linkStuff [ false,
+1141 verbose linkStuff   false,
+1141 verbose linkStuff   false,
+1141 verbose linkStuff   '/Users/ericnation/Google Drive/Web Courses/udemy-courses/reactjs/ReactCasts/imgur_reactjs/node_modules/react-router/node_modules' ]
+1142 info linkStuff invariant@2.2.0
+1143 verbose linkBins invariant@2.2.0
+1144 verbose linkMans invariant@2.2.0
+1145 verbose rebuildBundles invariant@2.2.0
+1146 verbose rebuildBundles [ 'loose-envify' ]
+1147 info install warning@2.1.0
+1148 verbose rebuildBundles [ 'loose-envify' ]
+1149 info install warning@2.1.0
+1150 verbose rebuildBundles [ 'loose-envify' ]
+1151 info install invariant@2.2.0
+1152 verbose unlock done using /Users/ericnation/.npm/_locks/loose-envify-85b9bbaafb19a4fd.lock for /Users/ericnation/Google Drive/Web Courses/udemy-courses/reactjs/ReactCasts/imgur_reactjs/node_modules/history/node_modules/invariant/node_modules/loose-envify
+1153 verbose about to build /Users/ericnation/Google Drive/Web Courses/udemy-courses/reactjs/ReactCasts/imgur_reactjs/node_modules/history/node_modules/invariant
+1154 info build /Users/ericnation/Google Drive/Web Courses/udemy-courses/reactjs/ReactCasts/imgur_reactjs/node_modules/history/node_modules/invariant
+1155 verbose linkStuff [ false,
+1155 verbose linkStuff   false,
+1155 verbose linkStuff   false,
+1155 verbose linkStuff   '/Users/ericnation/Google Drive/Web Courses/udemy-courses/reactjs/ReactCasts/imgur_reactjs/node_modules/history/node_modules' ]
+1156 info linkStuff invariant@2.2.0
+1157 verbose linkBins invariant@2.2.0
+1158 verbose linkMans invariant@2.2.0
+1159 verbose rebuildBundles invariant@2.2.0
+1160 info postinstall warning@2.1.0
+1161 info postinstall warning@2.1.0
+1162 info postinstall invariant@2.2.0
+1163 verbose rebuildBundles [ 'loose-envify' ]
+1164 info install invariant@2.2.0
+1165 info postinstall invariant@2.2.0
+1166 verbose unlock done using /Users/ericnation/.npm/_locks/warning-67192a35dce95790.lock for /Users/ericnation/Google Drive/Web Courses/udemy-courses/reactjs/ReactCasts/imgur_reactjs/node_modules/react-router/node_modules/warning
+1167 verbose unlock done using /Users/ericnation/.npm/_locks/warning-eae02ed1ee3ea5a2.lock for /Users/ericnation/Google Drive/Web Courses/udemy-courses/reactjs/ReactCasts/imgur_reactjs/node_modules/history/node_modules/warning
+1168 verbose unlock done using /Users/ericnation/.npm/_locks/invariant-c67b861ba3bed412.lock for /Users/ericnation/Google Drive/Web Courses/udemy-courses/reactjs/ReactCasts/imgur_reactjs/node_modules/react-router/node_modules/invariant
+1169 verbose about to build /Users/ericnation/Google Drive/Web Courses/udemy-courses/reactjs/ReactCasts/imgur_reactjs/node_modules/react-router
+1170 info build /Users/ericnation/Google Drive/Web Courses/udemy-courses/reactjs/ReactCasts/imgur_reactjs/node_modules/react-router
+1171 verbose linkStuff [ false,
+1171 verbose linkStuff   false,
+1171 verbose linkStuff   false,
+1171 verbose linkStuff   '/Users/ericnation/Google Drive/Web Courses/udemy-courses/reactjs/ReactCasts/imgur_reactjs/node_modules' ]
+1172 info linkStuff react-router@1.0.3
+1173 verbose linkBins react-router@1.0.3
+1174 verbose linkMans react-router@1.0.3
+1175 verbose rebuildBundles react-router@1.0.3
+1176 verbose rebuildBundles [ 'invariant', 'warning' ]
+1177 info install react-router@1.0.3
+1178 verbose unlock done using /Users/ericnation/.npm/_locks/invariant-4af35b8ae22c4568.lock for /Users/ericnation/Google Drive/Web Courses/udemy-courses/reactjs/ReactCasts/imgur_reactjs/node_modules/history/node_modules/invariant
+1179 verbose about to build /Users/ericnation/Google Drive/Web Courses/udemy-courses/reactjs/ReactCasts/imgur_reactjs/node_modules/history
+1180 info build /Users/ericnation/Google Drive/Web Courses/udemy-courses/reactjs/ReactCasts/imgur_reactjs/node_modules/history
+1181 verbose linkStuff [ false,
+1181 verbose linkStuff   false,
+1181 verbose linkStuff   false,
+1181 verbose linkStuff   '/Users/ericnation/Google Drive/Web Courses/udemy-courses/reactjs/ReactCasts/imgur_reactjs/node_modules' ]
+1182 info linkStuff history@2.0.0-rc2
+1183 verbose linkBins history@2.0.0-rc2
+1184 verbose linkMans history@2.0.0-rc2
+1185 verbose rebuildBundles history@2.0.0-rc2
+1186 verbose rebuildBundles [ 'deep-equal', 'invariant', 'query-string', 'warning' ]
+1187 info install history@2.0.0-rc2
+1188 info postinstall react-router@1.0.3
+1189 verbose unsafe-perm in lifecycle true
+1190 info postinstall history@2.0.0-rc2
+1191 verbose unsafe-perm in lifecycle true
+1192 verbose already installed skipping history@^1.17.0 /Users/ericnation/Google Drive/Web Courses/udemy-courses/reactjs/ReactCasts/imgur_reactjs
+1193 silly install resolved []
+1194 verbose unlock done using /Users/ericnation/.npm/_locks/react-router-08c833ade85e4f96.lock for /Users/ericnation/Google Drive/Web Courses/udemy-courses/reactjs/ReactCasts/imgur_reactjs/node_modules/react-router
+1195 verbose unlock done using /Users/ericnation/.npm/_locks/history-45923dceb8d92945.lock for /Users/ericnation/Google Drive/Web Courses/udemy-courses/reactjs/ReactCasts/imgur_reactjs/node_modules/history
+1196 verbose stack Error: The package history does not satisfy its siblings' peerDependencies requirements!
+1196 verbose stack     at /usr/local/lib/node_modules/npm/lib/install.js:125:32
+1196 verbose stack     at /usr/local/lib/node_modules/npm/lib/install.js:264:7
+1196 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/read-installed/read-installed.js:138:5
+1196 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/read-installed/read-installed.js:251:14
+1196 verbose stack     at cb (/usr/local/lib/node_modules/npm/node_modules/slide/lib/async-map.js:47:24)
+1196 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/read-installed/read-installed.js:251:14
+1196 verbose stack     at cb (/usr/local/lib/node_modules/npm/node_modules/slide/lib/async-map.js:47:24)
+1196 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/read-installed/read-installed.js:251:14
+1196 verbose stack     at cb (/usr/local/lib/node_modules/npm/node_modules/slide/lib/async-map.js:47:24)
+1196 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/read-installed/read-installed.js:251:14
+1197 verbose cwd /Users/ericnation/Google Drive/Web Courses/udemy-courses/reactjs/ReactCasts/imgur_reactjs
+1198 error Darwin 15.3.0
+1199 error argv "/usr/local/bin/node" "/usr/local/bin/npm" "install" "--save" "react-router@1.0.3" "history"
+1200 error node v0.12.2
+1201 error npm  v2.7.4
+1202 error code EPEERINVALID
+1203 error peerinvalid The package history does not satisfy its siblings' peerDependencies requirements!
+1203 error peerinvalid Peer react-router@1.0.3 wants history@^1.17.0
+1204 verbose exit [ 1, true ]

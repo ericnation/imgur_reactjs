@@ -2,3 +2,4 @@ node_modules/
 main.js
 style.css
 src/utils/apikey.jsx
+npm-debug.log

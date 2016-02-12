@@ -8,3 +8,8 @@
 	right: 0;
 	top: 0;
 }
+
+.navbar-inverse .navbar-nav>li>a.active {
+	font-weight: bold;
+	color: #fff;
+}

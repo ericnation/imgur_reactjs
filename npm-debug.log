@@ -3,161 +3,573 @@
 1 verbose cli   '/usr/local/bin/npm',
 1 verbose cli   'install',
 1 verbose cli   '--save',
-1 verbose cli   'whatwg-fetch' ]
+1 verbose cli   'reflux' ]
 2 info using npm@2.7.4
 3 info using node@v0.12.2
 4 warn package.json react-starter@1.0.0 No repository field.
-5 silly cache add args [ 'whatwg-fetch', null ]
-6 verbose cache add spec whatwg-fetch
-7 silly cache add parsed spec { raw: 'whatwg-fetch',
+5 silly cache add args [ 'reflux', null ]
+6 verbose cache add spec reflux
+7 silly cache add parsed spec { raw: 'reflux',
 7 silly cache add   scope: null,
-7 silly cache add   name: 'whatwg-fetch',
+7 silly cache add   name: 'reflux',
 7 silly cache add   rawSpec: '',
 7 silly cache add   spec: '*',
 7 silly cache add   type: 'range' }
-8 verbose addNamed whatwg-fetch@*
+8 verbose addNamed reflux@*
 9 silly addNamed semver.valid null
 10 silly addNamed semver.validRange *
-11 silly addNameRange { name: 'whatwg-fetch', range: '*', hasData: false }
-12 silly mapToRegistry name whatwg-fetch
+11 silly addNameRange { name: 'reflux', range: '*', hasData: false }
+12 silly mapToRegistry name reflux
 13 silly mapToRegistry using default registry
 14 silly mapToRegistry registry https://registry.npmjs.org/
-15 silly mapToRegistry uri https://registry.npmjs.org/whatwg-fetch
-16 verbose addNameRange registry:https://registry.npmjs.org/whatwg-fetch not in flight; fetching
-17 verbose request uri https://registry.npmjs.org/whatwg-fetch
+15 silly mapToRegistry uri https://registry.npmjs.org/reflux
+16 verbose addNameRange registry:https://registry.npmjs.org/reflux not in flight; fetching
+17 verbose request uri https://registry.npmjs.org/reflux
 18 verbose request no auth needed
-19 info attempt registry request try #1 at 4:23:37 PM
-20 verbose request id 5aad5c73eea050e2
-21 verbose etag "PRJ4HAI6KP1TEP8ZKZ6F8SWW"
-22 http request GET https://registry.npmjs.org/whatwg-fetch
-23 http 304 https://registry.npmjs.org/whatwg-fetch
-24 silly get cb [ 304,
-24 silly get   { date: 'Sat, 30 Jan 2016 23:23:34 GMT',
-24 silly get     via: '1.1 varnish',
-24 silly get     'cache-control': 'max-age=300',
-24 silly get     etag: '"PRJ4HAI6KP1TEP8ZKZ6F8SWW"',
-24 silly get     age: '217',
-24 silly get     connection: 'keep-alive',
-24 silly get     'x-served-by': 'cache-sjc3130-SJC',
-24 silly get     'x-cache': 'HIT',
-24 silly get     'x-cache-hits': '2',
-24 silly get     'x-timer': 'S1454196214.123697,VS0,VE0',
-24 silly get     vary: 'Accept' } ]
-25 verbose etag https://registry.npmjs.org/whatwg-fetch from cache
-26 verbose get saving whatwg-fetch to /Users/ericnation/.npm/registry.npmjs.org/whatwg-fetch/.cache.json
-27 silly addNameRange number 2 { name: 'whatwg-fetch', range: '*', hasData: true }
-28 silly addNameRange versions [ 'whatwg-fetch',
-28 silly addNameRange   [ '0.5.0',
-28 silly addNameRange     '0.6.0',
-28 silly addNameRange     '0.6.1',
-28 silly addNameRange     '0.7.0',
-28 silly addNameRange     '0.8.0',
-28 silly addNameRange     '0.8.1',
-28 silly addNameRange     '0.8.2',
-28 silly addNameRange     '0.9.0',
-28 silly addNameRange     '0.10.0',
-28 silly addNameRange     '0.10.1',
-28 silly addNameRange     '0.11.0' ] ]
-29 verbose addNamed whatwg-fetch@0.11.0
-30 silly addNamed semver.valid 0.11.0
-31 silly addNamed semver.validRange 0.11.0
-32 silly mapToRegistry name whatwg-fetch
-33 silly mapToRegistry using default registry
-34 silly mapToRegistry registry https://registry.npmjs.org/
-35 silly mapToRegistry uri https://registry.npmjs.org/whatwg-fetch
-36 verbose addRemoteTarball https://registry.npmjs.org/whatwg-fetch/-/whatwg-fetch-0.11.0.tgz not in flight; adding
-37 verbose addRemoteTarball [ 'https://registry.npmjs.org/whatwg-fetch/-/whatwg-fetch-0.11.0.tgz',
-37 verbose addRemoteTarball   '46b1d18d0aa99955971ef1a2f5aac506add28815' ]
-38 info retry fetch attempt 1 at 4:23:37 PM
-39 info attempt registry request try #1 at 4:23:37 PM
-40 http fetch GET https://registry.npmjs.org/whatwg-fetch/-/whatwg-fetch-0.11.0.tgz
-41 http fetch 200 https://registry.npmjs.org/whatwg-fetch/-/whatwg-fetch-0.11.0.tgz
-42 silly fetchAndShaCheck shasum 46b1d18d0aa99955971ef1a2f5aac506add28815
-43 verbose addTmpTarball /var/folders/yq/zqhm_fyj3kdb30pp_csc5m1w0000gn/T/npm-7995-9e52d73f/registry.npmjs.org/whatwg-fetch/-/whatwg-fetch-0.11.0.tgz not in flight; adding
-44 verbose addTmpTarball already have metadata; skipping unpack for whatwg-fetch@0.11.0
-45 silly cache afterAdd whatwg-fetch@0.11.0
-46 verbose afterAdd /Users/ericnation/.npm/whatwg-fetch/0.11.0/package/package.json not in flight; writing
-47 verbose afterAdd /Users/ericnation/.npm/whatwg-fetch/0.11.0/package/package.json written
-48 silly install resolved [ { name: 'whatwg-fetch',
-48 silly install resolved     description: 'A window.fetch polyfill.',
-48 silly install resolved     version: '0.11.0',
-48 silly install resolved     main: 'fetch.js',
-48 silly install resolved     repository: { type: 'git', url: 'git+https://github.com/github/fetch.git' },
-48 silly install resolved     licenses: [ [Object] ],
-48 silly install resolved     devDependencies:
-48 silly install resolved      { bower: '1.3.8',
-48 silly install resolved        chai: '1.10.0',
-48 silly install resolved        jshint: '2.8.0',
-48 silly install resolved        'mocha-phantomjs': '3.5.2',
-48 silly install resolved        mocha: '2.1.0',
-48 silly install resolved        phantomjs: '1.9.19' },
-48 silly install resolved     files: [ 'LICENSE', 'fetch.js' ],
-48 silly install resolved     gitHead: '989a1e8132e9adb4c4e973875ad043ff7219fc5a',
-48 silly install resolved     bugs: { url: 'https://github.com/github/fetch/issues' },
-48 silly install resolved     homepage: 'https://github.com/github/fetch#readme',
-48 silly install resolved     _id: 'whatwg-fetch@0.11.0',
-48 silly install resolved     scripts: {},
-48 silly install resolved     _shasum: '46b1d18d0aa99955971ef1a2f5aac506add28815',
-48 silly install resolved     _from: 'whatwg-fetch@*',
-48 silly install resolved     _npmVersion: '3.3.12',
-48 silly install resolved     _nodeVersion: '5.4.0',
-48 silly install resolved     _npmUser: { name: 'mislav', email: 'mislav.marohnic@gmail.com' },
-48 silly install resolved     dist:
-48 silly install resolved      { shasum: '46b1d18d0aa99955971ef1a2f5aac506add28815',
-48 silly install resolved        tarball: 'http://registry.npmjs.org/whatwg-fetch/-/whatwg-fetch-0.11.0.tgz' },
-48 silly install resolved     maintainers: [ [Object], [Object] ],
-48 silly install resolved     directories: {},
-48 silly install resolved     _resolved: 'https://registry.npmjs.org/whatwg-fetch/-/whatwg-fetch-0.11.0.tgz' } ]
-49 info install whatwg-fetch@0.11.0 into /Users/ericnation/Google Drive/Web Courses/udemy-courses/reactjs/ReactCasts/imgur_reactjs
-50 info installOne whatwg-fetch@0.11.0
-51 verbose installOne of whatwg-fetch to /Users/ericnation/Google Drive/Web Courses/udemy-courses/reactjs/ReactCasts/imgur_reactjs not in flight; installing
-52 verbose lock using /Users/ericnation/.npm/_locks/whatwg-fetch-29ccd6eb61d0f3da.lock for /Users/ericnation/Google Drive/Web Courses/udemy-courses/reactjs/ReactCasts/imgur_reactjs/node_modules/whatwg-fetch
-53 silly install write writing whatwg-fetch 0.11.0 to /Users/ericnation/Google Drive/Web Courses/udemy-courses/reactjs/ReactCasts/imgur_reactjs/node_modules/whatwg-fetch
-54 silly cache addNamed cb whatwg-fetch@0.11.0
-55 verbose unbuild node_modules/whatwg-fetch
-56 silly gentlyRm /Users/ericnation/Google Drive/Web Courses/udemy-courses/reactjs/ReactCasts/imgur_reactjs/node_modules/whatwg-fetch is being purged from base /Users/ericnation/Google Drive/Web Courses/udemy-courses/reactjs/ReactCasts/imgur_reactjs
-57 verbose gentlyRm don't care about contents; nuking /Users/ericnation/Google Drive/Web Courses/udemy-courses/reactjs/ReactCasts/imgur_reactjs/node_modules/whatwg-fetch
-58 verbose tar unpack /Users/ericnation/.npm/whatwg-fetch/0.11.0/package.tgz
-59 verbose tar unpacking to /Users/ericnation/Google Drive/Web Courses/udemy-courses/reactjs/ReactCasts/imgur_reactjs/node_modules/whatwg-fetch
-60 silly gentlyRm /Users/ericnation/Google Drive/Web Courses/udemy-courses/reactjs/ReactCasts/imgur_reactjs/node_modules/whatwg-fetch is being purged
-61 verbose gentlyRm don't care about contents; nuking /Users/ericnation/Google Drive/Web Courses/udemy-courses/reactjs/ReactCasts/imgur_reactjs/node_modules/whatwg-fetch
-62 silly gunzTarPerm modes [ '755', '644' ]
-63 silly gunzTarPerm extractEntry package.json
-64 silly gunzTarPerm extractEntry README.md
-65 silly gunzTarPerm extractEntry LICENSE
-66 silly gunzTarPerm extractEntry fetch.js
-67 info preinstall whatwg-fetch@0.11.0
-68 silly install resolved []
-69 verbose about to build /Users/ericnation/Google Drive/Web Courses/udemy-courses/reactjs/ReactCasts/imgur_reactjs/node_modules/whatwg-fetch
-70 info build /Users/ericnation/Google Drive/Web Courses/udemy-courses/reactjs/ReactCasts/imgur_reactjs/node_modules/whatwg-fetch
-71 verbose linkStuff [ false,
-71 verbose linkStuff   false,
-71 verbose linkStuff   false,
-71 verbose linkStuff   '/Users/ericnation/Google Drive/Web Courses/udemy-courses/reactjs/ReactCasts/imgur_reactjs/node_modules' ]
-72 info linkStuff whatwg-fetch@0.11.0
-73 verbose linkBins whatwg-fetch@0.11.0
-74 verbose linkMans whatwg-fetch@0.11.0
-75 verbose rebuildBundles whatwg-fetch@0.11.0
-76 info install whatwg-fetch@0.11.0
-77 info postinstall whatwg-fetch@0.11.0
-78 verbose unlock done using /Users/ericnation/.npm/_locks/whatwg-fetch-29ccd6eb61d0f3da.lock for /Users/ericnation/Google Drive/Web Courses/udemy-courses/reactjs/ReactCasts/imgur_reactjs/node_modules/whatwg-fetch
-79 verbose stack Error: The package history does not satisfy its siblings' peerDependencies requirements!
-79 verbose stack     at /usr/local/lib/node_modules/npm/lib/install.js:125:32
-79 verbose stack     at /usr/local/lib/node_modules/npm/lib/install.js:264:7
-79 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/read-installed/read-installed.js:138:5
-79 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/read-installed/read-installed.js:251:14
-79 verbose stack     at cb (/usr/local/lib/node_modules/npm/node_modules/slide/lib/async-map.js:47:24)
-79 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/read-installed/read-installed.js:251:14
-79 verbose stack     at cb (/usr/local/lib/node_modules/npm/node_modules/slide/lib/async-map.js:47:24)
-79 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/read-installed/read-installed.js:251:14
-79 verbose stack     at cb (/usr/local/lib/node_modules/npm/node_modules/slide/lib/async-map.js:47:24)
-79 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/read-installed/read-installed.js:251:14
-80 verbose cwd /Users/ericnation/Google Drive/Web Courses/udemy-courses/reactjs/ReactCasts/imgur_reactjs
-81 error Darwin 15.3.0
-82 error argv "/usr/local/bin/node" "/usr/local/bin/npm" "install" "--save" "whatwg-fetch"
-83 error node v0.12.2
-84 error npm  v2.7.4
-85 error code EPEERINVALID
-86 error peerinvalid The package history does not satisfy its siblings' peerDependencies requirements!
-86 error peerinvalid Peer react-router@1.0.3 wants history@^1.17.0
-87 verbose exit [ 1, true ]
+19 info attempt registry request try #1 at 9:10:24 PM
+20 verbose request id 07956429ad0202ea
+21 http request GET https://registry.npmjs.org/reflux
+22 http 200 https://registry.npmjs.org/reflux
+23 silly get cb [ 200,
+23 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+23 silly get     etag: '"5XGAV9SFNKHY5OGAN43A8HM4G"',
+23 silly get     'content-type': 'application/json',
+23 silly get     'cache-control': 'max-age=300',
+23 silly get     'content-length': '81841',
+23 silly get     'accept-ranges': 'bytes',
+23 silly get     date: 'Fri, 05 Feb 2016 04:10:25 GMT',
+23 silly get     via: '1.1 varnish',
+23 silly get     age: '0',
+23 silly get     connection: 'keep-alive',
+23 silly get     'x-served-by': 'cache-sjc3128-SJC',
+23 silly get     'x-cache': 'HIT',
+23 silly get     'x-cache-hits': '1',
+23 silly get     'x-timer': 'S1454645425.100253,VS0,VE84',
+23 silly get     vary: 'Accept' } ]
+24 verbose get saving reflux to /Users/ericnation/.npm/registry.npmjs.org/reflux/.cache.json
+25 silly addNameRange number 2 { name: 'reflux', range: '*', hasData: true }
+26 silly addNameRange versions [ 'reflux',
+26 silly addNameRange   [ '0.0.1',
+26 silly addNameRange     '0.0.2',
+26 silly addNameRange     '0.0.3',
+26 silly addNameRange     '0.0.4',
+26 silly addNameRange     '0.1.0',
+26 silly addNameRange     '0.1.1',
+26 silly addNameRange     '0.1.2',
+26 silly addNameRange     '0.1.3',
+26 silly addNameRange     '0.1.4',
+26 silly addNameRange     '0.1.5',
+26 silly addNameRange     '0.1.6',
+26 silly addNameRange     '0.1.7',
+26 silly addNameRange     '0.1.8',
+26 silly addNameRange     '0.1.9',
+26 silly addNameRange     '0.1.10',
+26 silly addNameRange     '0.1.11',
+26 silly addNameRange     '0.1.12',
+26 silly addNameRange     '0.1.13',
+26 silly addNameRange     '0.1.14',
+26 silly addNameRange     '0.1.15',
+26 silly addNameRange     '0.2.0',
+26 silly addNameRange     '0.2.1',
+26 silly addNameRange     '0.2.2',
+26 silly addNameRange     '0.2.3',
+26 silly addNameRange     '0.2.4',
+26 silly addNameRange     '0.2.5',
+26 silly addNameRange     '0.2.6',
+26 silly addNameRange     '0.2.7',
+26 silly addNameRange     '0.2.8',
+26 silly addNameRange     '0.2.9',
+26 silly addNameRange     '0.2.10',
+26 silly addNameRange     '0.2.11',
+26 silly addNameRange     '0.2.12',
+26 silly addNameRange     '0.2.13',
+26 silly addNameRange     '0.3.0' ] ]
+27 verbose addNamed reflux@0.3.0
+28 silly addNamed semver.valid 0.3.0
+29 silly addNamed semver.validRange 0.3.0
+30 silly mapToRegistry name reflux
+31 silly mapToRegistry using default registry
+32 silly mapToRegistry registry https://registry.npmjs.org/
+33 silly mapToRegistry uri https://registry.npmjs.org/reflux
+34 verbose addRemoteTarball https://registry.npmjs.org/reflux/-/reflux-0.3.0.tgz not in flight; adding
+35 verbose addRemoteTarball [ 'https://registry.npmjs.org/reflux/-/reflux-0.3.0.tgz',
+35 verbose addRemoteTarball   'd1dd98330edb5422e937a1bf23293daf0d42402b' ]
+36 info retry fetch attempt 1 at 9:10:25 PM
+37 info attempt registry request try #1 at 9:10:25 PM
+38 http fetch GET https://registry.npmjs.org/reflux/-/reflux-0.3.0.tgz
+39 http fetch 200 https://registry.npmjs.org/reflux/-/reflux-0.3.0.tgz
+40 silly fetchAndShaCheck shasum d1dd98330edb5422e937a1bf23293daf0d42402b
+41 verbose addTmpTarball /var/folders/yq/zqhm_fyj3kdb30pp_csc5m1w0000gn/T/npm-21603-305e4679/registry.npmjs.org/reflux/-/reflux-0.3.0.tgz not in flight; adding
+42 verbose addTmpTarball already have metadata; skipping unpack for reflux@0.3.0
+43 silly cache afterAdd reflux@0.3.0
+44 verbose afterAdd /Users/ericnation/.npm/reflux/0.3.0/package/package.json not in flight; writing
+45 verbose afterAdd /Users/ericnation/.npm/reflux/0.3.0/package/package.json written
+46 silly install resolved [ { name: 'reflux',
+46 silly install resolved     version: '0.3.0',
+46 silly install resolved     description: 'A simple library for uni-directional dataflow application architecture inspired by ReactJS Flux',
+46 silly install resolved     main: 'src/index.js',
+46 silly install resolved     scripts:
+46 silly install resolved      { test: 'grunt test',
+46 silly install resolved        'test:sauce': 'grunt karma:sauce',
+46 silly install resolved        benchmark: 'node test/benchmarks',
+46 silly install resolved        build: 'grunt build' },
+46 silly install resolved     author: { name: 'Mikael Brassman' },
+46 silly install resolved     license: 'BSD-3-Clause',
+46 silly install resolved     repository:
+46 silly install resolved      { type: 'git',
+46 silly install resolved        url: 'git+ssh://git@github.com/reflux/refluxjs.git' },
+46 silly install resolved     bugs: { url: 'https://github.com/reflux/refluxjs/issues' },
+46 silly install resolved     keywords:
+46 silly install resolved      [ 'reflux',
+46 silly install resolved        'react',
+46 silly install resolved        'flux',
+46 silly install resolved        'architecture',
+46 silly install resolved        'dataflow',
+46 silly install resolved        'action',
+46 silly install resolved        'event',
+46 silly install resolved        'data' ],
+46 silly install resolved     dependencies: { eventemitter3: '^1.1.1', 'reflux-core': '^0.3.0' },
+46 silly install resolved     devDependencies:
+46 silly install resolved      { benchmark: '^1.0.0',
+46 silly install resolved        browserify: '~10.2.3',
+46 silly install resolved        chai: 'latest',
+46 silly install resolved        'chai-as-promised': 'latest',
+46 silly install resolved        'es6-promise': '^2.3.0',
+46 silly install resolved        grunt: '^0.4.5',
+46 silly install resolved        'grunt-browserify': '3.8.0',
+46 silly install resolved        'grunt-cli': '^0.1.13',
+46 silly install resolved        'grunt-contrib-jshint': '^0.11.2',
+46 silly install resolved        'grunt-contrib-uglify': '^0.5.0',
+46 silly install resolved        'grunt-contrib-watch': '^0.6.1',
+46 silly install resolved        'grunt-karma': 'latest',
+46 silly install resolved        'grunt-mocha-test': '~0.12.7',
+46 silly install resolved        karma: 'latest',
+46 silly install resolved        'karma-browserify': 'latest',
+46 silly install resolved        'karma-commonjs': 'latest',
+46 silly install resolved        'karma-mocha': 'latest',
+46 silly install resolved        'karma-phantomjs-launcher': 'latest',
+46 silly install resolved        'karma-sauce-launcher': 'latest',
+46 silly install resolved        'karma-spec-reporter': 'latest',
+46 silly install resolved        matchdep: '^0.3.0',
+46 silly install resolved        mocha: 'latest',
+46 silly install resolved        q: '^1.0.1',
+46 silly install resolved        sinon: '^1.10.3' },
+46 silly install resolved     peerDependencies: { react: '>=0.12.2 <0.15.0' },
+46 silly install resolved     gitHead: '2b355e9436479c4bd0b8dbff0d33ab8fb28f5916',
+46 silly install resolved     homepage: 'https://github.com/reflux/refluxjs#readme',
+46 silly install resolved     _id: 'reflux@0.3.0',
+46 silly install resolved     _shasum: 'd1dd98330edb5422e937a1bf23293daf0d42402b',
+46 silly install resolved     _from: 'reflux@*',
+46 silly install resolved     _npmVersion: '2.11.1',
+46 silly install resolved     _nodeVersion: '0.10.12',
+46 silly install resolved     _npmUser: { name: 'spoike', email: 'mishakun+npm@gmail.com' },
+46 silly install resolved     maintainers: [ [Object] ],
+46 silly install resolved     dist:
+46 silly install resolved      { shasum: 'd1dd98330edb5422e937a1bf23293daf0d42402b',
+46 silly install resolved        tarball: 'http://registry.npmjs.org/reflux/-/reflux-0.3.0.tgz' },
+46 silly install resolved     directories: {},
+46 silly install resolved     _resolved: 'https://registry.npmjs.org/reflux/-/reflux-0.3.0.tgz' } ]
+47 info install reflux@0.3.0 into /Users/ericnation/Google Drive/Web Courses/udemy-courses/reactjs/ReactCasts/imgur_reactjs
+48 info installOne reflux@0.3.0
+49 verbose installOne of reflux to /Users/ericnation/Google Drive/Web Courses/udemy-courses/reactjs/ReactCasts/imgur_reactjs not in flight; installing
+50 verbose lock using /Users/ericnation/.npm/_locks/reflux-14ebc88f5a299a8f.lock for /Users/ericnation/Google Drive/Web Courses/udemy-courses/reactjs/ReactCasts/imgur_reactjs/node_modules/reflux
+51 silly install write writing reflux 0.3.0 to /Users/ericnation/Google Drive/Web Courses/udemy-courses/reactjs/ReactCasts/imgur_reactjs/node_modules/reflux
+52 silly cache addNamed cb reflux@0.3.0
+53 verbose unbuild node_modules/reflux
+54 silly gentlyRm /Users/ericnation/Google Drive/Web Courses/udemy-courses/reactjs/ReactCasts/imgur_reactjs/node_modules/reflux is being purged from base /Users/ericnation/Google Drive/Web Courses/udemy-courses/reactjs/ReactCasts/imgur_reactjs
+55 verbose gentlyRm don't care about contents; nuking /Users/ericnation/Google Drive/Web Courses/udemy-courses/reactjs/ReactCasts/imgur_reactjs/node_modules/reflux
+56 verbose tar unpack /Users/ericnation/.npm/reflux/0.3.0/package.tgz
+57 verbose tar unpacking to /Users/ericnation/Google Drive/Web Courses/udemy-courses/reactjs/ReactCasts/imgur_reactjs/node_modules/reflux
+58 silly gentlyRm /Users/ericnation/Google Drive/Web Courses/udemy-courses/reactjs/ReactCasts/imgur_reactjs/node_modules/reflux is being purged
+59 verbose gentlyRm don't care about contents; nuking /Users/ericnation/Google Drive/Web Courses/udemy-courses/reactjs/ReactCasts/imgur_reactjs/node_modules/reflux
+60 silly gunzTarPerm modes [ '755', '644' ]
+61 silly gunzTarPerm extractEntry package.json
+62 silly gunzTarPerm extractEntry .npmignore
+63 silly gunzTarPerm extractEntry README.md
+64 silly gunzTarPerm extractEntry Gruntfile.js
+65 silly gunzTarPerm extractEntry karma.conf.js
+66 silly gunzTarPerm extractEntry .travis.yml
+67 silly gunzTarPerm extractEntry CHANGELOG.md
+68 silly gunzTarPerm extractEntry LICENSE.md
+69 silly gunzTarPerm extractEntry .editorconfig
+70 silly gunzTarPerm extractEntry bower.json
+71 silly gunzTarPerm extractEntry .jshintrc
+72 silly gunzTarPerm extractEntry src/ListenerMixin.js
+73 silly gunzTarPerm extractEntry src/connect.js
+74 silly gunzTarPerm extractEntry src/connectFilter.js
+75 silly gunzTarPerm extractEntry src/index.js
+76 silly gunzTarPerm extractEntry src/listenTo.js
+77 silly gunzTarPerm extractEntry src/listenToMany.js
+78 info preinstall reflux@0.3.0
+79 silly prepareForInstallMany adding eventemitter3@^1.1.1 from reflux dependencies
+80 silly prepareForInstallMany adding reflux-core@^0.3.0 from reflux dependencies
+81 silly cache add args [ 'reflux-core@^0.3.0', null ]
+82 verbose cache add spec reflux-core@^0.3.0
+83 silly cache add parsed spec { raw: 'reflux-core@^0.3.0',
+83 silly cache add   scope: null,
+83 silly cache add   name: 'reflux-core',
+83 silly cache add   rawSpec: '^0.3.0',
+83 silly cache add   spec: '>=0.3.0 <0.4.0',
+83 silly cache add   type: 'range' }
+84 verbose addNamed reflux-core@>=0.3.0 <0.4.0
+85 silly addNamed semver.valid null
+86 silly addNamed semver.validRange >=0.3.0 <0.4.0
+87 silly addNameRange { name: 'reflux-core', range: '>=0.3.0 <0.4.0', hasData: false }
+88 silly mapToRegistry name reflux-core
+89 silly mapToRegistry using default registry
+90 silly mapToRegistry registry https://registry.npmjs.org/
+91 silly mapToRegistry uri https://registry.npmjs.org/reflux-core
+92 verbose addNameRange registry:https://registry.npmjs.org/reflux-core not in flight; fetching
+93 silly cache add args [ 'eventemitter3@^1.1.1', null ]
+94 verbose cache add spec eventemitter3@^1.1.1
+95 silly cache add parsed spec { raw: 'eventemitter3@^1.1.1',
+95 silly cache add   scope: null,
+95 silly cache add   name: 'eventemitter3',
+95 silly cache add   rawSpec: '^1.1.1',
+95 silly cache add   spec: '>=1.1.1 <2.0.0',
+95 silly cache add   type: 'range' }
+96 verbose addNamed eventemitter3@>=1.1.1 <2.0.0
+97 silly addNamed semver.valid null
+98 silly addNamed semver.validRange >=1.1.1 <2.0.0
+99 silly addNameRange { name: 'eventemitter3',
+99 silly addNameRange   range: '>=1.1.1 <2.0.0',
+99 silly addNameRange   hasData: false }
+100 silly mapToRegistry name eventemitter3
+101 silly mapToRegistry using default registry
+102 silly mapToRegistry registry https://registry.npmjs.org/
+103 silly mapToRegistry uri https://registry.npmjs.org/eventemitter3
+104 verbose addNameRange registry:https://registry.npmjs.org/eventemitter3 not in flight; fetching
+105 verbose request uri https://registry.npmjs.org/reflux-core
+106 verbose request no auth needed
+107 info attempt registry request try #1 at 9:10:25 PM
+108 http request GET https://registry.npmjs.org/reflux-core
+109 verbose request uri https://registry.npmjs.org/eventemitter3
+110 verbose request no auth needed
+111 info attempt registry request try #1 at 9:10:25 PM
+112 verbose etag "CY3X87ZM8DTAO4EGU81JUIWCU"
+113 http request GET https://registry.npmjs.org/eventemitter3
+114 http 304 https://registry.npmjs.org/eventemitter3
+115 silly get cb [ 304,
+115 silly get   { date: 'Fri, 05 Feb 2016 04:10:25 GMT',
+115 silly get     via: '1.1 varnish',
+115 silly get     'cache-control': 'max-age=300',
+115 silly get     etag: '"CY3X87ZM8DTAO4EGU81JUIWCU"',
+115 silly get     age: '119',
+115 silly get     connection: 'keep-alive',
+115 silly get     'x-served-by': 'cache-sjc3121-SJC',
+115 silly get     'x-cache': 'HIT',
+115 silly get     'x-cache-hits': '1',
+115 silly get     'x-timer': 'S1454645425.754386,VS0,VE0',
+115 silly get     vary: 'Accept' } ]
+116 verbose etag https://registry.npmjs.org/eventemitter3 from cache
+117 verbose get saving eventemitter3 to /Users/ericnation/.npm/registry.npmjs.org/eventemitter3/.cache.json
+118 silly addNameRange number 2 { name: 'eventemitter3', range: '>=1.1.1 <2.0.0', hasData: true }
+119 silly addNameRange versions [ 'eventemitter3',
+119 silly addNameRange   [ '0.0.0',
+119 silly addNameRange     '0.0.1',
+119 silly addNameRange     '0.1.0',
+119 silly addNameRange     '0.1.1',
+119 silly addNameRange     '0.1.2',
+119 silly addNameRange     '0.1.3',
+119 silly addNameRange     '0.1.4',
+119 silly addNameRange     '0.1.5',
+119 silly addNameRange     '0.1.6',
+119 silly addNameRange     '1.0.0',
+119 silly addNameRange     '1.0.1',
+119 silly addNameRange     '1.0.2',
+119 silly addNameRange     '1.0.3',
+119 silly addNameRange     '1.1.0',
+119 silly addNameRange     '1.1.1' ] ]
+120 verbose addNamed eventemitter3@1.1.1
+121 silly addNamed semver.valid 1.1.1
+122 silly addNamed semver.validRange 1.1.1
+123 silly cache afterAdd eventemitter3@1.1.1
+124 verbose afterAdd /Users/ericnation/.npm/eventemitter3/1.1.1/package/package.json not in flight; writing
+125 verbose afterAdd /Users/ericnation/.npm/eventemitter3/1.1.1/package/package.json written
+126 http 200 https://registry.npmjs.org/reflux-core
+127 silly get cb [ 200,
+127 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+127 silly get     etag: '"7JSCJR4P69WT2YIO4PUTJY726"',
+127 silly get     'content-type': 'application/json',
+127 silly get     'cache-control': 'max-age=300',
+127 silly get     'content-length': '14632',
+127 silly get     'accept-ranges': 'bytes',
+127 silly get     date: 'Fri, 05 Feb 2016 04:10:25 GMT',
+127 silly get     via: '1.1 varnish',
+127 silly get     age: '262',
+127 silly get     connection: 'keep-alive',
+127 silly get     'x-served-by': 'cache-sjc3134-SJC',
+127 silly get     'x-cache': 'HIT',
+127 silly get     'x-cache-hits': '1',
+127 silly get     'x-timer': 'S1454645425.755310,VS0,VE0',
+127 silly get     vary: 'Accept' } ]
+128 verbose get saving reflux-core to /Users/ericnation/.npm/registry.npmjs.org/reflux-core/.cache.json
+129 silly addNameRange number 2 { name: 'reflux-core', range: '>=0.3.0 <0.4.0', hasData: true }
+130 silly addNameRange versions [ 'reflux-core', [ '0.2.0-rc', '0.2.0', '0.2.1', '0.3.0' ] ]
+131 verbose addNamed reflux-core@0.3.0
+132 silly addNamed semver.valid 0.3.0
+133 silly addNamed semver.validRange 0.3.0
+134 silly mapToRegistry name reflux-core
+135 silly mapToRegistry using default registry
+136 silly mapToRegistry registry https://registry.npmjs.org/
+137 silly mapToRegistry uri https://registry.npmjs.org/reflux-core
+138 verbose addRemoteTarball https://registry.npmjs.org/reflux-core/-/reflux-core-0.3.0.tgz not in flight; adding
+139 verbose addRemoteTarball [ 'https://registry.npmjs.org/reflux-core/-/reflux-core-0.3.0.tgz',
+139 verbose addRemoteTarball   'c9aa78984555296237069613f9d6b11e2dbbc74c' ]
+140 info retry fetch attempt 1 at 9:10:25 PM
+141 info attempt registry request try #1 at 9:10:25 PM
+142 http fetch GET https://registry.npmjs.org/reflux-core/-/reflux-core-0.3.0.tgz
+143 http fetch 200 https://registry.npmjs.org/reflux-core/-/reflux-core-0.3.0.tgz
+144 silly fetchAndShaCheck shasum c9aa78984555296237069613f9d6b11e2dbbc74c
+145 verbose addTmpTarball /var/folders/yq/zqhm_fyj3kdb30pp_csc5m1w0000gn/T/npm-21603-305e4679/registry.npmjs.org/reflux-core/-/reflux-core-0.3.0.tgz not in flight; adding
+146 verbose addTmpTarball already have metadata; skipping unpack for reflux-core@0.3.0
+147 silly cache afterAdd reflux-core@0.3.0
+148 verbose afterAdd /Users/ericnation/.npm/reflux-core/0.3.0/package/package.json not in flight; writing
+149 verbose afterAdd /Users/ericnation/.npm/reflux-core/0.3.0/package/package.json written
+150 silly install resolved [ { name: 'eventemitter3',
+150 silly install resolved     version: '1.1.1',
+150 silly install resolved     description: 'EventEmitter3 focuses on performance while maintaining a Node.js AND browser compatible interface.',
+150 silly install resolved     main: 'index.js',
+150 silly install resolved     scripts:
+150 silly install resolved      { 'test-browser': 'zuul --browser-name ${BROWSER_NAME} --browser-version ${BROWSER_VERSION} -- test.js',
+150 silly install resolved        'test-node': 'istanbul cover node_modules/.bin/_mocha --report lcovonly -- test.js',
+150 silly install resolved        coverage: 'istanbul cover ./node_modules/.bin/_mocha -- test.js',
+150 silly install resolved        sync: 'node versions.js',
+150 silly install resolved        test: 'mocha test.js' },
+150 silly install resolved     repository:
+150 silly install resolved      { type: 'git',
+150 silly install resolved        url: 'git://github.com/primus/eventemitter3.git' },
+150 silly install resolved     keywords:
+150 silly install resolved      [ 'EventEmitter',
+150 silly install resolved        'EventEmitter2',
+150 silly install resolved        'EventEmitter3',
+150 silly install resolved        'Events',
+150 silly install resolved        'addEventListener',
+150 silly install resolved        'addListener',
+150 silly install resolved        'emit',
+150 silly install resolved        'emits',
+150 silly install resolved        'emitter',
+150 silly install resolved        'event',
+150 silly install resolved        'once',
+150 silly install resolved        'pub/sub',
+150 silly install resolved        'publish',
+150 silly install resolved        'reactor',
+150 silly install resolved        'subscribe' ],
+150 silly install resolved     author: { name: 'Arnout Kazemier' },
+150 silly install resolved     license: 'MIT',
+150 silly install resolved     bugs: { url: 'https://github.com/primus/eventemitter3/issues' },
+150 silly install resolved     'pre-commit': 'sync, test',
+150 silly install resolved     devDependencies:
+150 silly install resolved      { assume: '1.2.x',
+150 silly install resolved        istanbul: '0.3.x',
+150 silly install resolved        mocha: '2.2.x',
+150 silly install resolved        'pre-commit': '1.0.x',
+150 silly install resolved        zuul: '3.0.x' },
+150 silly install resolved     gitHead: '91f571f40c918d71220747791c05ec33f3402a56',
+150 silly install resolved     homepage: 'https://github.com/primus/eventemitter3#readme',
+150 silly install resolved     _id: 'eventemitter3@1.1.1',
+150 silly install resolved     _shasum: '47786bdaa087caf7b1b75e73abc5c7d540158cd0',
+150 silly install resolved     _from: 'eventemitter3@>=1.1.1 <2.0.0',
+150 silly install resolved     _npmVersion: '2.9.1',
+150 silly install resolved     _nodeVersion: '0.12.3',
+150 silly install resolved     _npmUser: { name: '3rdeden', email: 'npm@3rd-Eden.com' },
+150 silly install resolved     maintainers: [ [Object], [Object], [Object] ],
+150 silly install resolved     dist:
+150 silly install resolved      { shasum: '47786bdaa087caf7b1b75e73abc5c7d540158cd0',
+150 silly install resolved        tarball: 'http://registry.npmjs.org/eventemitter3/-/eventemitter3-1.1.1.tgz' },
+150 silly install resolved     directories: {},
+150 silly install resolved     _resolved: 'https://registry.npmjs.org/eventemitter3/-/eventemitter3-1.1.1.tgz',
+150 silly install resolved     readme: 'ERROR: No README data found!' },
+150 silly install resolved   { name: 'reflux-core',
+150 silly install resolved     version: '0.3.0',
+150 silly install resolved     description: 'A simple library for uni-directional dataflow application architecture inspired by ReactJS Flux',
+150 silly install resolved     main: 'lib/index.js',
+150 silly install resolved     scripts:
+150 silly install resolved      { clean: 'rimraf ./lib',
+150 silly install resolved        'test:mocha': 'mocha',
+150 silly install resolved        'test:karma': 'karma start test/config/karma.conf.js',
+150 silly install resolved        'test:travis': 'karma start test/config/karma-travis.conf.js',
+150 silly install resolved        test: 'npm run test:mocha && npm run test:karma',
+150 silly install resolved        'lint:test': 'jshint test/',
+150 silly install resolved        'lint:src': 'eslint src/',
+150 silly install resolved        lint: 'npm run lint:test && npm run lint:src',
+150 silly install resolved        compile: 'npm run clean && babel src --out-dir lib && ./scripts/version',
+150 silly install resolved        build: 'npm run lint && npm run compile && npm run test',
+150 silly install resolved        benchmark: 'node test/benchmarks',
+150 silly install resolved        'watch:test': 'watch \'npm run lint:test && npm run test:mocha\' test/',
+150 silly install resolved        'watch:src': 'watch \'npm run lint:src && npm run compile && npm run test:mocha\' src/',
+150 silly install resolved        watch: 'parallelshell \'npm run watch:src\' \'npm run watch:test\'',
+150 silly install resolved        prepublish: 'npm run lint && npm run compile && npm run test:mocha',
+150 silly install resolved        precommit: 'npm run prepublish',
+150 silly install resolved        prepush: 'npm run prepublish' },
+150 silly install resolved     author: { name: 'Mikael Brassman' },
+150 silly install resolved     license: 'BSD-3-Clause',
+150 silly install resolved     repository:
+150 silly install resolved      { type: 'git',
+150 silly install resolved        url: 'git+https://github.com/reflux/reflux-core.git' },
+150 silly install resolved     bugs: { url: 'http://github.com/reflux/reflux-core/issues' },
+150 silly install resolved     keywords:
+150 silly install resolved      [ 'reflux',
+150 silly install resolved        'flux',
+150 silly install resolved        'architecture',
+150 silly install resolved        'dataflow',
+150 silly install resolved        'action',
+150 silly install resolved        'events',
+150 silly install resolved        'data' ],
+150 silly install resolved     dependencies: { eventemitter3: '^1.1.1' },
+150 silly install resolved     devDependencies:
+150 silly install resolved      { babel: '^5.8.19',
+150 silly install resolved        'babel-eslint': '^4.0.5',
+150 silly install resolved        benchmark: '^1.0.0',
+150 silly install resolved        browserify: '~10.2.3',
+150 silly install resolved        chai: 'latest',
+150 silly install resolved        'chai-as-promised': 'latest',
+150 silly install resolved        'es6-promise': '^2.3.0',
+150 silly install resolved        eslint: '^0.24.1',
+150 silly install resolved        husky: '^0.9.2',
+150 silly install resolved        jshint: 'latest',
+150 silly install resolved        karma: 'latest',
+150 silly install resolved        'karma-browserify': 'latest',
+150 silly install resolved        'karma-commonjs': 'latest',
+150 silly install resolved        'karma-mocha': 'latest',
+150 silly install resolved        'karma-phantomjs-launcher': 'latest',
+150 silly install resolved        'karma-sauce-launcher': 'latest',
+150 silly install resolved        'karma-spec-reporter': 'latest',
+150 silly install resolved        mocha: 'latest',
+150 silly install resolved        parallelshell: 'latest',
+150 silly install resolved        q: '^1.0.1',
+150 silly install resolved        replace: '^0.3.0',
+150 silly install resolved        rimraf: '^2.4.2',
+150 silly install resolved        sinon: '^1.10.3',
+150 silly install resolved        watch: 'latest' },
+150 silly install resolved     gitHead: 'de50cff5301f86d9da8c01084b95578ed3d77de8',
+150 silly install resolved     homepage: 'https://github.com/reflux/reflux-core#readme',
+150 silly install resolved     _id: 'reflux-core@0.3.0',
+150 silly install resolved     _shasum: 'c9aa78984555296237069613f9d6b11e2dbbc74c',
+150 silly install resolved     _from: 'reflux-core@>=0.3.0 <0.4.0',
+150 silly install resolved     _npmVersion: '2.14.4',
+150 silly install resolved     _nodeVersion: '4.1.2',
+150 silly install resolved     _npmUser: { name: 'spoike', email: 'mishakun+npm@gmail.com' },
+150 silly install resolved     maintainers: [ [Object] ],
+150 silly install resolved     dist:
+150 silly install resolved      { shasum: 'c9aa78984555296237069613f9d6b11e2dbbc74c',
+150 silly install resolved        tarball: 'http://registry.npmjs.org/reflux-core/-/reflux-core-0.3.0.tgz' },
+150 silly install resolved     directories: {},
+150 silly install resolved     _resolved: 'https://registry.npmjs.org/reflux-core/-/reflux-core-0.3.0.tgz' } ]
+151 info install eventemitter3@1.1.1 into /Users/ericnation/Google Drive/Web Courses/udemy-courses/reactjs/ReactCasts/imgur_reactjs/node_modules/reflux
+152 info install reflux-core@0.3.0 into /Users/ericnation/Google Drive/Web Courses/udemy-courses/reactjs/ReactCasts/imgur_reactjs/node_modules/reflux
+153 info installOne eventemitter3@1.1.1
+154 verbose installOne of eventemitter3 to /Users/ericnation/Google Drive/Web Courses/udemy-courses/reactjs/ReactCasts/imgur_reactjs/node_modules/reflux not in flight; installing
+155 info installOne reflux-core@0.3.0
+156 verbose installOne of reflux-core to /Users/ericnation/Google Drive/Web Courses/udemy-courses/reactjs/ReactCasts/imgur_reactjs/node_modules/reflux not in flight; installing
+157 verbose lock using /Users/ericnation/.npm/_locks/eventemitter3-a2bf90e62b53f977.lock for /Users/ericnation/Google Drive/Web Courses/udemy-courses/reactjs/ReactCasts/imgur_reactjs/node_modules/reflux/node_modules/eventemitter3
+158 silly install write writing eventemitter3 1.1.1 to /Users/ericnation/Google Drive/Web Courses/udemy-courses/reactjs/ReactCasts/imgur_reactjs/node_modules/reflux/node_modules/eventemitter3
+159 silly cache addNamed cb eventemitter3@1.1.1
+160 verbose unbuild node_modules/reflux/node_modules/eventemitter3
+161 verbose lock using /Users/ericnation/.npm/_locks/reflux-core-84849bfd4ad4f839.lock for /Users/ericnation/Google Drive/Web Courses/udemy-courses/reactjs/ReactCasts/imgur_reactjs/node_modules/reflux/node_modules/reflux-core
+162 silly install write writing reflux-core 0.3.0 to /Users/ericnation/Google Drive/Web Courses/udemy-courses/reactjs/ReactCasts/imgur_reactjs/node_modules/reflux/node_modules/reflux-core
+163 silly gentlyRm /Users/ericnation/Google Drive/Web Courses/udemy-courses/reactjs/ReactCasts/imgur_reactjs/node_modules/reflux/node_modules/eventemitter3 is being purged from base /Users/ericnation/Google Drive/Web Courses/udemy-courses/reactjs/ReactCasts/imgur_reactjs
+164 verbose gentlyRm don't care about contents; nuking /Users/ericnation/Google Drive/Web Courses/udemy-courses/reactjs/ReactCasts/imgur_reactjs/node_modules/reflux/node_modules/eventemitter3
+165 verbose tar unpack /Users/ericnation/.npm/eventemitter3/1.1.1/package.tgz
+166 verbose tar unpacking to /Users/ericnation/Google Drive/Web Courses/udemy-courses/reactjs/ReactCasts/imgur_reactjs/node_modules/reflux/node_modules/eventemitter3
+167 silly gentlyRm /Users/ericnation/Google Drive/Web Courses/udemy-courses/reactjs/ReactCasts/imgur_reactjs/node_modules/reflux/node_modules/eventemitter3 is being purged
+168 verbose gentlyRm don't care about contents; nuking /Users/ericnation/Google Drive/Web Courses/udemy-courses/reactjs/ReactCasts/imgur_reactjs/node_modules/reflux/node_modules/eventemitter3
+169 silly gunzTarPerm modes [ '755', '644' ]
+170 silly cache addNamed cb reflux-core@0.3.0
+171 verbose unbuild node_modules/reflux/node_modules/reflux-core
+172 silly gentlyRm /Users/ericnation/Google Drive/Web Courses/udemy-courses/reactjs/ReactCasts/imgur_reactjs/node_modules/reflux/node_modules/reflux-core is being purged from base /Users/ericnation/Google Drive/Web Courses/udemy-courses/reactjs/ReactCasts/imgur_reactjs
+173 verbose gentlyRm don't care about contents; nuking /Users/ericnation/Google Drive/Web Courses/udemy-courses/reactjs/ReactCasts/imgur_reactjs/node_modules/reflux/node_modules/reflux-core
+174 silly gunzTarPerm extractEntry package.json
+175 verbose tar unpack /Users/ericnation/.npm/reflux-core/0.3.0/package.tgz
+176 verbose tar unpacking to /Users/ericnation/Google Drive/Web Courses/udemy-courses/reactjs/ReactCasts/imgur_reactjs/node_modules/reflux/node_modules/reflux-core
+177 silly gentlyRm /Users/ericnation/Google Drive/Web Courses/udemy-courses/reactjs/ReactCasts/imgur_reactjs/node_modules/reflux/node_modules/reflux-core is being purged
+178 verbose gentlyRm don't care about contents; nuking /Users/ericnation/Google Drive/Web Courses/udemy-courses/reactjs/ReactCasts/imgur_reactjs/node_modules/reflux/node_modules/reflux-core
+179 silly gunzTarPerm modes [ '755', '644' ]
+180 silly gunzTarPerm extractEntry README.md
+181 silly gunzTarPerm extractEntry LICENSE
+182 silly gunzTarPerm extractEntry package.json
+183 silly gunzTarPerm extractEntry .npmignore
+184 silly gunzTarPerm extractEntry README.md
+185 silly gunzTarPerm extractEntry index.js
+186 silly gunzTarPerm extractEntry .jshintrc
+187 silly gunzTarPerm extractEntry .editorconfig
+188 silly gunzTarPerm extractEntry .travis.yml
+189 silly gunzTarPerm extractEntry CHANGELOG.md
+190 silly gunzTarPerm extractEntry LICENSE.md
+191 silly gunzTarPerm extractEntry .eslintrc
+192 silly gunzTarPerm extractEntry lib/ActionMethods.js
+193 info preinstall eventemitter3@1.1.1
+194 silly install resolved []
+195 verbose about to build /Users/ericnation/Google Drive/Web Courses/udemy-courses/reactjs/ReactCasts/imgur_reactjs/node_modules/reflux/node_modules/eventemitter3
+196 info build /Users/ericnation/Google Drive/Web Courses/udemy-courses/reactjs/ReactCasts/imgur_reactjs/node_modules/reflux/node_modules/eventemitter3
+197 verbose linkStuff [ false,
+197 verbose linkStuff   false,
+197 verbose linkStuff   false,
+197 verbose linkStuff   '/Users/ericnation/Google Drive/Web Courses/udemy-courses/reactjs/ReactCasts/imgur_reactjs/node_modules/reflux/node_modules' ]
+198 info linkStuff eventemitter3@1.1.1
+199 verbose linkBins eventemitter3@1.1.1
+200 verbose linkMans eventemitter3@1.1.1
+201 verbose rebuildBundles eventemitter3@1.1.1
+202 info install eventemitter3@1.1.1
+203 silly gunzTarPerm extractEntry lib/ListenerMethods.js
+204 silly gunzTarPerm extractEntry lib/PublisherMethods.js
+205 info postinstall eventemitter3@1.1.1
+206 verbose unlock done using /Users/ericnation/.npm/_locks/eventemitter3-a2bf90e62b53f977.lock for /Users/ericnation/Google Drive/Web Courses/udemy-courses/reactjs/ReactCasts/imgur_reactjs/node_modules/reflux/node_modules/eventemitter3
+207 silly gunzTarPerm extractEntry lib/StoreMethods.js
+208 silly gunzTarPerm extractEntry lib/bindMethods.js
+209 silly gunzTarPerm extractEntry lib/Keep.js
+210 silly gunzTarPerm extractEntry lib/createStore.js
+211 silly gunzTarPerm extractEntry lib/index.js
+212 silly gunzTarPerm extractEntry lib/joins.js
+213 silly gunzTarPerm extractEntry lib/mixer.js
+214 silly gunzTarPerm extractEntry lib/utils.js
+215 silly gunzTarPerm extractEntry lib/createAction.js
+216 info preinstall reflux-core@0.3.0
+217 silly install resolved []
+218 verbose about to build /Users/ericnation/Google Drive/Web Courses/udemy-courses/reactjs/ReactCasts/imgur_reactjs/node_modules/reflux/node_modules/reflux-core
+219 info build /Users/ericnation/Google Drive/Web Courses/udemy-courses/reactjs/ReactCasts/imgur_reactjs/node_modules/reflux/node_modules/reflux-core
+220 verbose linkStuff [ false,
+220 verbose linkStuff   false,
+220 verbose linkStuff   false,
+220 verbose linkStuff   '/Users/ericnation/Google Drive/Web Courses/udemy-courses/reactjs/ReactCasts/imgur_reactjs/node_modules/reflux/node_modules' ]
+221 info linkStuff reflux-core@0.3.0
+222 verbose linkBins reflux-core@0.3.0
+223 verbose linkMans reflux-core@0.3.0
+224 verbose rebuildBundles reflux-core@0.3.0
+225 info install reflux-core@0.3.0
+226 info postinstall reflux-core@0.3.0
+227 verbose unlock done using /Users/ericnation/.npm/_locks/reflux-core-84849bfd4ad4f839.lock for /Users/ericnation/Google Drive/Web Courses/udemy-courses/reactjs/ReactCasts/imgur_reactjs/node_modules/reflux/node_modules/reflux-core
+228 verbose about to build /Users/ericnation/Google Drive/Web Courses/udemy-courses/reactjs/ReactCasts/imgur_reactjs/node_modules/reflux
+229 info build /Users/ericnation/Google Drive/Web Courses/udemy-courses/reactjs/ReactCasts/imgur_reactjs/node_modules/reflux
+230 verbose linkStuff [ false,
+230 verbose linkStuff   false,
+230 verbose linkStuff   false,
+230 verbose linkStuff   '/Users/ericnation/Google Drive/Web Courses/udemy-courses/reactjs/ReactCasts/imgur_reactjs/node_modules' ]
+231 info linkStuff reflux@0.3.0
+232 verbose linkBins reflux@0.3.0
+233 verbose linkMans reflux@0.3.0
+234 verbose rebuildBundles reflux@0.3.0
+235 verbose rebuildBundles [ 'eventemitter3', 'reflux-core' ]
+236 info install reflux@0.3.0
+237 info postinstall reflux@0.3.0
+238 verbose unlock done using /Users/ericnation/.npm/_locks/reflux-14ebc88f5a299a8f.lock for /Users/ericnation/Google Drive/Web Courses/udemy-courses/reactjs/ReactCasts/imgur_reactjs/node_modules/reflux
+239 verbose stack Error: The package history does not satisfy its siblings' peerDependencies requirements!
+239 verbose stack     at /usr/local/lib/node_modules/npm/lib/install.js:125:32
+239 verbose stack     at /usr/local/lib/node_modules/npm/lib/install.js:264:7
+239 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/read-installed/read-installed.js:138:5
+239 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/read-installed/read-installed.js:251:14
+239 verbose stack     at cb (/usr/local/lib/node_modules/npm/node_modules/slide/lib/async-map.js:47:24)
+239 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/read-installed/read-installed.js:251:14
+239 verbose stack     at cb (/usr/local/lib/node_modules/npm/node_modules/slide/lib/async-map.js:47:24)
+239 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/read-installed/read-installed.js:251:14
+239 verbose stack     at cb (/usr/local/lib/node_modules/npm/node_modules/slide/lib/async-map.js:47:24)
+239 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/read-installed/read-installed.js:251:14
+240 verbose cwd /Users/ericnation/Google Drive/Web Courses/udemy-courses/reactjs/ReactCasts/imgur_reactjs
+241 error Darwin 15.3.0
+242 error argv "/usr/local/bin/node" "/usr/local/bin/npm" "install" "--save" "reflux"
+243 error node v0.12.2
+244 error npm  v2.7.4
+245 error code EPEERINVALID
+246 error peerinvalid The package history does not satisfy its siblings' peerDependencies requirements!
+246 error peerinvalid Peer react-router@1.0.3 wants history@^1.17.0
+247 verbose exit [ 1, true ]

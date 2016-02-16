@@ -13,3 +13,75 @@
 	font-weight: bold;
 	color: #fff;
 }
+
+.topic {
+	text-align: center;
+}
+
+.image-wrap {
+	float: left;
+	width: 200px;
+	height: 200px;
+}
+.image-preview {
+	background: #000;
+	display: flex;
+	height: 100%;
+	position: relative;
+	width: 100%;
+	animation: fadein .65s ease-out;
+
+	@keyframes fadein {
+		0% {
+			opacity: 0;
+		}
+
+		100% {
+			opacity: 1;
+		}
+	}
+
+	img {
+		height: auto;
+		margin: auto;
+		width: 200px;
+	}
+
+	video {
+		height: 200px;
+		width: 200px;;
+		vertical-align: middle;
+		background: #000;
+	}
+
+	.glyphicon-play {
+		color: #fff;
+		left: 50%;
+		font-size: 3em;
+		opacity: .5;
+		position: absolute;
+		top: 50%;
+		transform: translate(-50%, -50%);
+	}
+}
+
+.inset {
+	background: #fff;
+	bottom: 5px;
+	left: 0;
+	opacity: .7;
+	position: absolute;
+	text-align: center;
+	width: 100%;
+}
+
+.panel-body {
+	margin: 0 auto;
+	text-align: center;
+}
+
+.image-detail {
+	img, video {
+		max-width: 100%;
+	}
+}

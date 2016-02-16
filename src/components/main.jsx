@@ -4,18 +4,16 @@ var TopicList = require('./topic-list');
 
 module.exports = React.createClass({
 	render: function() {
-		return (
-			<span>
+		return <span>
 			<Header/>
-				{this.content()}
-			</span>
-		)
+			{this.content()}
+		</span>
 	},
 	content: function() {
 		if(this.props.children) {
 			return this.props.children
 		} else {
-			return <TopicList />
+			return <TopicList/>
 		}
 	}
 })
